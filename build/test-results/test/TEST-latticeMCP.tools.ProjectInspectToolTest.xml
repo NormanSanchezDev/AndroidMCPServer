@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="latticeMCP.tools.ProjectInspectToolTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-23T16:59:07.072Z" hostname="MacMini-3.local" time="0.036">
-  <properties/>
-  <testcase name="detects gradle project with android modules and evidence()" classname="latticeMCP.tools.ProjectInspectToolTest" time="0.028"/>
-  <testcase name="reports empty module list for non gradle directory()" classname="latticeMCP.tools.ProjectInspectToolTest" time="0.001"/>
-  <testcase name="returns invalid_project for missing path()" classname="latticeMCP.tools.ProjectInspectToolTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
