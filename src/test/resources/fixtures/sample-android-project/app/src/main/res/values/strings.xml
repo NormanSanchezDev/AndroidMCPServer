@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Corporate</string>
+    <string name="unused_title">Unused</string>
+    <color name="brand_primary">#1A73E8</color>
+    <dimen name="spacing_m">16dp</dimen>
+</resources>

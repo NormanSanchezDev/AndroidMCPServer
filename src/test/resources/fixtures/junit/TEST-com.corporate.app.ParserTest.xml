@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.corporate.app.ParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-23T15:04:12.104Z" hostname="MacMini-3.local" time="0.021">
+  <properties/>
+  <testcase name="parses valid payload()" classname="com.corporate.app.ParserTest" time="0.018"/>
+  <testcase name="rejects malformed json()" classname="com.corporate.app.ParserTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

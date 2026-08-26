@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="latticeMCP.tools.ManifestInspectToolTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-08-23T17:04:45.212Z" hostname="MacMini-3.local" time="0.031">
+  <properties/>
+  <testcase name="returns not_found when manifest is missing()" classname="latticeMCP.tools.ManifestInspectToolTest" time="0.005"/>
+  <testcase name="parses library manifest without permissions()" classname="latticeMCP.tools.ManifestInspectToolTest" time="0.02"/>
+  <testcase name="parses permissions application class and components()" classname="latticeMCP.tools.ManifestInspectToolTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

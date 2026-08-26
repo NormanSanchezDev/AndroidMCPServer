@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.corporate.data.RepositoryTest" tests="3" skipped="1" failures="1" errors="0" timestamp="2026-08-23T15:04:12.301Z" hostname="MacMini-3.local" time="0.047">
+  <properties/>
+  <testcase name="loads cached entity()" classname="com.corporate.data.RepositoryTest" time="0.009"/>
+  <testcase name="propagates network failure()" classname="com.corporate.data.RepositoryTest" time="0.021">
+    <failure message="expected: &lt;IOException&gt; but was: &lt;NullPointerException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;IOException&gt; but was: &lt;NullPointerException&gt;
+	at com.corporate.data.RepositoryTest.propagates network failure(RepositoryTest.kt:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+</failure>
+  </testcase>
+  <testcase name="refreshes stale cache()" classname="com.corporate.data.RepositoryTest" time="0.001">
+    <skipped message="flaky in CI" type="org.junit.AssumptionViolatedException">org.junit.AssumptionViolatedException: flaky in CI</skipped>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
