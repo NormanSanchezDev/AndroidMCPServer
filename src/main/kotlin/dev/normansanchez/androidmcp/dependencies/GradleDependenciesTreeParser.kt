@@ -41,7 +41,7 @@ object GradleDependenciesTreeParser {
             if (!line.startsWith("+") && !line.startsWith("\\") && !line.startsWith("|")) {
                 // Possible new configuration header like "releaseRuntimeClasspath - ..."
                 val headerMatch = configurationHeaderRegex.matchEntire(line)
-                if (headerMatch != null && headerMatch.groupValues[1] != null) {
+                if (headerMatch != null) {
                     flush()
                     current = ConfigurationDependencies(
                         configuration = headerMatch.groupValues[1],

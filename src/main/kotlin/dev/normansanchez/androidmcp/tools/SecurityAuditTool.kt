@@ -60,6 +60,8 @@ object SecurityAuditTool {
         }
     }
 
+    private val exportableTagRegex = Regex("""<(activity|service|receiver|provider)\b""")
+
     private fun checkManifest(root: Path): List<SecurityIssue> {
         val issues = mutableListOf<SecurityIssue>()
 
@@ -71,8 +73,18 @@ object SecurityAuditTool {
                     val fileStr = root.relativize(file).toString()
 
                     for ((index, line) in lines.withIndex()) {
-                        if (line.contains("""android:exported="true"""") && !line.contains("intent-filter")) {
-                            issues.add(SecurityIssue("warning", "exported", "Component exported without intent-filter", fileStr, index + 1))
+                        if (line.contains("""android:exported="true"""")) {
+                            // intent-filter is a child element, so it lives on lines AFTER the
+                            // opening tag, not on this line. Scan the enclosing element's block
+                            // instead of just this line, or every exported component is flagged.
+                            val tagStart = (index downTo 0).firstOrNull { exportableTagRegex.containsMatchIn(lines[it]) } ?: index
+                            val tagEnd = (tagStart until lines.size).firstOrNull {
+                                lines[it].contains("/>") || lines[it].trimStart().startsWith("</")
+                            } ?: (lines.size - 1)
+                            val block = lines.subList(tagStart, (tagEnd + 1).coerceAtMost(lines.size)).joinToString("\n")
+                            if (!block.contains("intent-filter")) {
+                                issues.add(SecurityIssue("warning", "exported", "Component exported without intent-filter", fileStr, index + 1))
+                            }
                         }
                         if (line.contains("""android:allowBackup="true"""")) {
                             issues.add(SecurityIssue("info", "backup", "allowBackup is enabled", fileStr, index + 1))

@@ -86,10 +86,7 @@ object SymbolReferencesTool {
             put("symbol", symbolName)
             put("scannedFileCount", files.size)
             put("declarationCount", declarations.size)
-            put(
-                "referenceCount",
-                references.size.coerceAtMost(maxResults)
-            )
+            put("referenceCount", references.size)
 
             put(
                 "declarations",
