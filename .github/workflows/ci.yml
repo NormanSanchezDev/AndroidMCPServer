@@ -49,3 +49,69 @@ jobs:
           path: build/libs/*.jar
           if-no-files-found: error
           retention-days: 7
+
+      - name: Get version from build.gradle.kts
+        id: version
+        run: |
+          VERSION=$(grep 'version =' build.gradle.kts | head -1 | sed 's/.*"\(.*\)".*/\1/')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare npm package
+        run: |
+          mkdir -p jars
+          cp build/libs/*-all.jar jars/
+          npm pkg set version="${{ steps.version.outputs.version }}"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Validate npm package
+        run: |
+          set -euo pipefail
+
+          # package.json must be valid JSON
+          node -e "JSON.parse(require('fs').readFileSync('package.json','utf8'))"
+
+          # the shadow jar must be present where the launcher expects it
+          test -n "$(ls jars/*-all.jar 2>/dev/null)" || { echo "::error::shadow jar missing from jars/"; exit 1; }
+
+          # the launcher must be able to locate the jar
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            const jarDir = path.join('jars');
+            const jar = fs.readdirSync(jarDir).find(f => f.endsWith('-all.jar'));
+            if (!jar) { console.error('launcher could not resolve jar in jars/'); process.exit(1); }
+            console.log('launcher would resolve jar:', jar);
+          "
+
+          # confirm the tarball only contains what package.json 'files' whitelists
+          npm pack --dry-run --json > /tmp/pack.json
+          node -e "
+            const pack = JSON.parse(require('fs').readFileSync('/tmp/pack.json','utf8'))[0];
+            const paths = pack.files.map(f => f.path);
+            console.log('tarball contents:', paths);
+            if (!paths.some(p => p.startsWith('jars/') && p.endsWith('.jar'))) {
+              console.error('jar missing from npm pack output'); process.exit(1);
+            }
+            if (!paths.includes('bin/android-corporate-mcp.js')) {
+              console.error('launcher missing from npm pack output'); process.exit(1);
+            }
+          "
+
+      - name: Ensure version is not already published
+        run: |
+          PKG_NAME=$(node -p "require('./package.json').name")
+          PKG_VERSION=$(node -p "require('./package.json').version")
+          if npm view "$PKG_NAME@$PKG_VERSION" version >/dev/null 2>&1; then
+            echo "::error::$PKG_NAME@$PKG_VERSION is already published on npm. Bump the 'version' in build.gradle.kts before merging to release."
+            exit 1
+          fi
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
