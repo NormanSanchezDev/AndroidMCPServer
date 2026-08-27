@@ -60,9 +60,9 @@
     "semantic_hash": "44fa60ee4352ff25b5c88305f60c000a"
   },
   "bin/android-corporate-mcp.js": {
-    "mtime": 1787822381.1897426,
-    "ast_hash": "be414c06ffdafb535e4be118ed3f034d",
-    "semantic_hash": "be414c06ffdafb535e4be118ed3f034d"
+    "mtime": 1787826009.6570797,
+    "ast_hash": "f9f04612b774f1232dd0ae9fff98b2b1",
+    "semantic_hash": ""
   },
   "bin/postinstall.js": {
     "mtime": 1787822381.1898754,
@@ -510,8 +510,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1787822947.5329483,
-    "ast_hash": "3ac126b00756d9a70afb32b7a67cfa63",
+    "mtime": 1787826095.455799,
+    "ast_hash": "520b82ef09124508282ccbe7e7321811",
     "semantic_hash": ""
   },
   ".github/workflows/release.yml": {
@@ -540,13 +540,13 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787822381.189598,
-    "ast_hash": "fffbb0f737de181fcd49c086054fcd31",
+    "mtime": 1787827237.3891416,
+    "ast_hash": "96f47cb45bdb44efdc67a49b362586d4",
     "semantic_hash": ""
   },
   "docs/MULTI_CLIENT.md": {
-    "mtime": 1787822381.4311743,
-    "ast_hash": "4a7bcd078a57f9cb9638b91e207191db",
+    "mtime": 1787827202.5510118,
+    "ast_hash": "c02dc14e825eafb1798f5e7519a54f84",
     "semantic_hash": ""
   },
   "src/test/resources/fixtures/gradle-deps/dependencies-root.txt": {
@@ -592,6 +592,56 @@
   "wiki/Troubleshooting.md": {
     "mtime": 1787822385.0110905,
     "ast_hash": "7c1eac336f36d97395d93f655f742f47",
+    "semantic_hash": ""
+  },
+  "docs/architecture.md": {
+    "mtime": 1787826453.0889916,
+    "ast_hash": "2a88a4d57740dc07f4d302fa00719d16",
+    "semantic_hash": ""
+  },
+  "docs/compatibility.md": {
+    "mtime": 1787826680.7585316,
+    "ast_hash": "3c15d69de23491b026710e79b7d47605",
+    "semantic_hash": ""
+  },
+  "docs/configuration.md": {
+    "mtime": 1787826702.9453206,
+    "ast_hash": "60ef673740ad04aeae6e122c8e21d20e",
+    "semantic_hash": ""
+  },
+  "docs/contributing.md": {
+    "mtime": 1787827115.7096004,
+    "ast_hash": "d58fad556714850bbec4aecff2b8f0dd",
+    "semantic_hash": ""
+  },
+  "docs/development.md": {
+    "mtime": 1787827084.4129686,
+    "ast_hash": "bc6760c0fb0914f604a5c4a027939a9b",
+    "semantic_hash": ""
+  },
+  "docs/getting-started.md": {
+    "mtime": 1787826973.959809,
+    "ast_hash": "d5457ae1fc14a4aa111b62e33b23a8e5",
+    "semantic_hash": ""
+  },
+  "docs/limitations.md": {
+    "mtime": 1787826797.6981626,
+    "ast_hash": "0f3c2a414fc80bb49d012a56feb256c2",
+    "semantic_hash": ""
+  },
+  "docs/security.md": {
+    "mtime": 1787826757.7284021,
+    "ast_hash": "8747761e7252733bc9c271c33485d2b4",
+    "semantic_hash": ""
+  },
+  "docs/tools.md": {
+    "mtime": 1787826973.967936,
+    "ast_hash": "cf9d3e9fc279b94a1777755a4c45437b",
+    "semantic_hash": ""
+  },
+  "docs/troubleshooting.md": {
+    "mtime": 1787827185.317446,
+    "ast_hash": "c833b8829500913c404b42c1275d94bf",
     "semantic_hash": ""
   }
 }
