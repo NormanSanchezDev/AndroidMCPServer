@@ -4,15 +4,1567 @@
   "graph": {},
   "nodes": [
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "The problem",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "readme_the_problem",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "the problem"
+    },
+    {
+      "label": "Philosophy",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "readme_philosophy",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "philosophy"
+    },
+    {
+      "label": "Quick start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "readme_quick_start",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "quick start"
+    },
+    {
+      "label": "What it can do",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "readme_what_it_can_do",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "what it can do"
+    },
+    {
+      "label": "Compatibility",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "readme_compatibility",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "compatibility"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "readme_architecture",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Security & local-first",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "readme_security_local_first",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "security & local-first"
+    },
+    {
+      "label": "Documentation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "readme_documentation",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "documentation"
+    },
+    {
+      "label": "Contributing",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "readme_contributing",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "contributing"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 95,
+      "community_name": "README.md",
+      "norm_label": "license"
+    },
+    {
+      "label": "android-corporate-mcp.js",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "android-corporate-mcp.js"
+    },
+    {
+      "label": "{ spawnSync, spawn }",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_spawnsync_spawn",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "{ spawnsync, spawn }"
+    },
+    {
+      "label": "path",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_path",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "path"
+    },
+    {
+      "label": "fs",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_fs",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "fs"
+    },
+    {
+      "label": "fail()",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_fail",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "fail()"
+    },
+    {
+      "label": "javaCheck",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_javacheck",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "javacheck"
+    },
+    {
+      "label": "jarDir",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_jardir",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "jardir"
+    },
+    {
+      "label": "buildDir",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_builddir",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "builddir"
+    },
+    {
+      "label": "jarPath",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_jarpath",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "jarpath"
+    },
+    {
+      "label": "child",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_child",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "child"
+    },
+    {
+      "label": "forwardedSignals",
+      "file_type": "code",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "bin_android_corporate_mcp_forwardedsignals",
+      "community": 19,
+      "community_name": "android-corporate-mcp.js",
+      "norm_label": "forwardedsignals"
+    },
+    {
+      "label": "MULTI_CLIENT.md",
+      "file_type": "document",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_multi_client",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "multi_client.md"
+    },
+    {
+      "label": "Multi-Client Setup",
+      "file_type": "document",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_multi_client_multi_client_setup",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "multi-client setup"
+    },
+    {
+      "label": "architecture.md",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "architecture.md"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_architecture_architecture",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "architecture"
+    },
+    {
+      "label": "The boundary",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_architecture_the_boundary",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "the boundary"
+    },
+    {
+      "label": "Process model",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_architecture_process_model",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "process model"
+    },
+    {
+      "label": "Lifecycle and stdio handshake",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_architecture_lifecycle_and_stdio_handshake",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "lifecycle and stdio handshake"
+    },
+    {
+      "label": "Tool discovery and invocation",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_architecture_tool_discovery_and_invocation",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "tool discovery and invocation"
+    },
+    {
+      "label": "Execution model for process-backed tools",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_architecture_execution_model_for_process_backed_tools",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "execution model for process-backed tools"
+    },
+    {
+      "label": "Error propagation",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_architecture_error_propagation",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "error propagation"
+    },
+    {
+      "label": "How it works: one request, end to end",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_architecture_how_it_works_one_request_end_to_end",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "how it works: one request, end to end"
+    },
+    {
+      "label": "Repository access",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_architecture_repository_access",
+      "community": 96,
+      "community_name": "Architecture",
+      "norm_label": "repository access"
+    },
+    {
+      "label": "compatibility.md",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_compatibility",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "compatibility.md"
+    },
+    {
+      "label": "Compatibility",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_compatibility_compatibility",
+      "community": 100,
+      "community_name": "Compatibility",
+      "norm_label": "compatibility"
+    },
+    {
+      "label": "Status legend",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_compatibility_status_legend",
+      "community": 100,
+      "community_name": "Compatibility",
+      "norm_label": "status legend"
+    },
+    {
+      "label": "MCP clients",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_compatibility_mcp_clients",
+      "community": 100,
+      "community_name": "Compatibility",
+      "norm_label": "mcp clients"
+    },
+    {
+      "label": "Distribution channels",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_compatibility_distribution_channels",
+      "community": 100,
+      "community_name": "Compatibility",
+      "norm_label": "distribution channels"
+    },
+    {
+      "label": "Platforms",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_compatibility_platforms",
+      "community": 100,
+      "community_name": "Compatibility",
+      "norm_label": "platforms"
+    },
+    {
+      "label": "Runtime requirements",
+      "file_type": "document",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_compatibility_runtime_requirements",
+      "community": 100,
+      "community_name": "Compatibility",
+      "norm_label": "runtime requirements"
+    },
+    {
+      "label": "configuration.md",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_configuration",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "configuration.md"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_configuration_configuration",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "configuration"
+    },
+    {
+      "label": "Claude Code",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_configuration_claude_code",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "claude code"
+    },
+    {
+      "label": "Claude Desktop",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_configuration_claude_desktop",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "claude desktop"
+    },
+    {
+      "label": "OpenAI Codex CLI",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_configuration_openai_codex_cli",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "openai codex cli"
+    },
+    {
+      "label": "GitHub Copilot (VS Code)",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_configuration_github_copilot_vs_code",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "github copilot (vs code)"
+    },
+    {
+      "label": "Cursor",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_configuration_cursor",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "cursor"
+    },
+    {
+      "label": "Verifying a configuration",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "docs_configuration_verifying_a_configuration",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "verifying a configuration"
+    },
+    {
+      "label": "No environment-variable configuration",
+      "file_type": "document",
+      "source_file": "docs/configuration.md",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "docs_configuration_no_environment_variable_configuration",
+      "community": 97,
+      "community_name": "Configuration",
+      "norm_label": "no environment-variable configuration"
+    },
+    {
+      "label": "contributing.md",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_contributing",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "contributing.md"
+    },
+    {
+      "label": "Contributing",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_contributing_contributing",
+      "community": 101,
+      "community_name": "Contributing",
+      "norm_label": "contributing"
+    },
+    {
+      "label": "Branching model",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_contributing_branching_model",
+      "community": 101,
+      "community_name": "Contributing",
+      "norm_label": "branching model"
+    },
+    {
+      "label": "Making a change",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "docs_contributing_making_a_change",
+      "community": 101,
+      "community_name": "Contributing",
+      "norm_label": "making a change"
+    },
+    {
+      "label": "Pull request expectations",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_contributing_pull_request_expectations",
+      "community": 101,
+      "community_name": "Contributing",
+      "norm_label": "pull request expectations"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_contributing_license",
+      "community": 101,
+      "community_name": "Contributing",
+      "norm_label": "license"
+    },
+    {
+      "label": "Reporting issues",
+      "file_type": "document",
+      "source_file": "docs/contributing.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_contributing_reporting_issues",
+      "community": 101,
+      "community_name": "Contributing",
+      "norm_label": "reporting issues"
+    },
+    {
+      "label": "development.md",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_development",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "development.md"
+    },
+    {
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_development_development",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "development"
+    },
+    {
+      "label": "Clone and build",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_development_clone_and_build",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "clone and build"
+    },
+    {
+      "label": "Run locally",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_development_run_locally",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "run locally"
+    },
+    {
+      "label": "Tests",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_development_tests",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "tests"
+    },
+    {
+      "label": "Project structure",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_development_project_structure",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Adding a new MCP tool",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "docs_development_adding_a_new_mcp_tool",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "adding a new mcp tool"
+    },
+    {
+      "label": "Coding conventions observed in this codebase",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "docs_development_coding_conventions_observed_in_this_codebase",
+      "community": 99,
+      "community_name": "Development",
+      "norm_label": "coding conventions observed in this codebase"
+    },
+    {
+      "label": "getting-started.md",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_getting_started",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "getting-started.md"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_getting_started_getting_started",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_getting_started_prerequisites",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "1. Install",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_getting_started_1_install",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "1. install"
+    },
+    {
+      "label": "2. Configure your MCP client",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_getting_started_2_configure_your_mcp_client",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "2. configure your mcp client"
+    },
+    {
+      "label": "3. Open an Android repository",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_getting_started_3_open_an_android_repository",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "3. open an android repository"
+    },
+    {
+      "label": "4. Verify the connection",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_getting_started_4_verify_the_connection",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "4. verify the connection"
+    },
+    {
+      "label": "5. Call your first tool",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "docs_getting_started_5_call_your_first_tool",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "5. call your first tool"
+    },
+    {
+      "label": "What's next",
+      "file_type": "document",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "docs_getting_started_what_s_next",
+      "community": 98,
+      "community_name": "Getting Started",
+      "norm_label": "what's next"
+    },
+    {
+      "label": "limitations.md",
+      "file_type": "document",
+      "source_file": "docs/limitations.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_limitations",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "limitations.md"
+    },
+    {
+      "label": "Scope & Limitations",
+      "file_type": "document",
+      "source_file": "docs/limitations.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_limitations_scope_limitations",
+      "community": 102,
+      "community_name": "Scope & Limitations",
+      "norm_label": "scope & limitations"
+    },
+    {
+      "label": "In scope",
+      "file_type": "document",
+      "source_file": "docs/limitations.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_limitations_in_scope",
+      "community": 102,
+      "community_name": "Scope & Limitations",
+      "norm_label": "in scope"
+    },
+    {
+      "label": "Out of scope",
+      "file_type": "document",
+      "source_file": "docs/limitations.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_limitations_out_of_scope",
+      "community": 102,
+      "community_name": "Scope & Limitations",
+      "norm_label": "out of scope"
+    },
+    {
+      "label": "Known limitations by design",
+      "file_type": "document",
+      "source_file": "docs/limitations.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_limitations_known_limitations_by_design",
+      "community": 102,
+      "community_name": "Scope & Limitations",
+      "norm_label": "known limitations by design"
+    },
+    {
+      "label": "Environment limitations",
+      "file_type": "document",
+      "source_file": "docs/limitations.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "docs_limitations_environment_limitations",
+      "community": 102,
+      "community_name": "Scope & Limitations",
+      "norm_label": "environment limitations"
+    },
+    {
+      "label": "security.md",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_security",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "security.md"
+    },
+    {
+      "label": "Security & Privacy",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_security_security_privacy",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "security & privacy"
+    },
+    {
+      "label": "Trust boundary",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_security_trust_boundary",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "trust boundary"
+    },
+    {
+      "label": "Network access",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_security_network_access",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "network access"
+    },
+    {
+      "label": "What the server reads",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_security_what_the_server_reads",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "what the server reads"
+    },
+    {
+      "label": "What the server processes but does not persist",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "docs_security_what_the_server_processes_but_does_not_persist",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "what the server processes but does not persist"
+    },
+    {
+      "label": "What never leaves the machine",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_security_what_never_leaves_the_machine",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "what never leaves the machine"
+    },
+    {
+      "label": "Command execution and the one tool that matters most",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "docs_security_command_execution_and_the_one_tool_that_matters_most",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "command execution and the one tool that matters most"
+    },
+    {
+      "label": "Credentials and secrets",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_security_credentials_and_secrets",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "credentials and secrets"
+    },
+    {
+      "label": "npm distribution",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_security_npm_distribution",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "npm distribution"
+    },
+    {
+      "label": "Repository permissions in practice",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_security_repository_permissions_in_practice",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "repository permissions in practice"
+    },
+    {
+      "label": "What this document does not claim",
+      "file_type": "document",
+      "source_file": "docs/security.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "docs_security_what_this_document_does_not_claim",
+      "community": 94,
+      "community_name": "Security & Privacy",
+      "norm_label": "what this document does not claim"
+    },
+    {
+      "label": "tools.md",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tools",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "tools.md"
+    },
+    {
+      "label": "Tools Reference",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_tools_tools_reference",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "tools reference"
+    },
+    {
+      "label": "Side-effect legend",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_tools_side_effect_legend",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "side-effect legend"
+    },
+    {
+      "label": "Project & Kotlin",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_tools_project_kotlin",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "project & kotlin"
+    },
+    {
+      "label": "project.inspect",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "docs_tools_project_inspect",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "project.inspect"
+    },
+    {
+      "label": "manifest.inspect",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "docs_tools_manifest_inspect",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "manifest.inspect"
+    },
+    {
+      "label": "entry_points.find",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "docs_tools_entry_points_find",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "entry_points.find"
+    },
+    {
+      "label": "symbol.find",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "docs_tools_symbol_find",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "symbol.find"
+    },
+    {
+      "label": "symbol.references",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "docs_tools_symbol_references",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "symbol.references"
+    },
+    {
+      "label": "module.graph",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L140",
+      "_origin": "ast",
+      "id": "docs_tools_module_graph",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "module.graph"
+    },
+    {
+      "label": "resources.inspect",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "docs_tools_resources_inspect",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "resources.inspect"
+    },
+    {
+      "label": "Gradle Execution",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_execution",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle execution"
+    },
+    {
+      "label": "gradle.tasks",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L184",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_tasks",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle.tasks"
+    },
+    {
+      "label": "gradle.run",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L206",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_run",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle.run"
+    },
+    {
+      "label": "tests.run",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L231",
+      "_origin": "ast",
+      "id": "docs_tools_tests_run",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "tests.run"
+    },
+    {
+      "label": "lint.run",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L255",
+      "_origin": "ast",
+      "id": "docs_tools_lint_run",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "lint.run"
+    },
+    {
+      "label": "dependencies.inspect",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L279",
+      "_origin": "ast",
+      "id": "docs_tools_dependencies_inspect",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "dependencies.inspect"
+    },
+    {
+      "label": "Gradle Intelligence",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L302",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_intelligence",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle intelligence"
+    },
+    {
+      "label": "gradle.config",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L304",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_config",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle.config"
+    },
+    {
+      "label": "gradle.versionCatalog",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L325",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_versioncatalog",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle.versioncatalog"
+    },
+    {
+      "label": "gradle.conventionPlugins",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L345",
+      "_origin": "ast",
+      "id": "docs_tools_gradle_conventionplugins",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "gradle.conventionplugins"
+    },
+    {
+      "label": "Architecture & Symbols",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L365",
+      "_origin": "ast",
+      "id": "docs_tools_architecture_symbols",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "architecture & symbols"
+    },
+    {
+      "label": "architecture.detect",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "docs_tools_architecture_detect",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "architecture.detect"
+    },
+    {
+      "label": "tests.discover",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L387",
+      "_origin": "ast",
+      "id": "docs_tools_tests_discover",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "tests.discover"
+    },
+    {
+      "label": "symbol.hierarchy",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L408",
+      "_origin": "ast",
+      "id": "docs_tools_symbol_hierarchy",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "symbol.hierarchy"
+    },
+    {
+      "label": "Build Validation",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L429",
+      "_origin": "ast",
+      "id": "docs_tools_build_validation",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "build validation"
+    },
+    {
+      "label": "build.validate",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L431",
+      "_origin": "ast",
+      "id": "docs_tools_build_validate",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "build.validate"
+    },
+    {
+      "label": "staticAnalysis.run",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L453",
+      "_origin": "ast",
+      "id": "docs_tools_staticanalysis_run",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "staticanalysis.run"
+    },
+    {
+      "label": "Android Deep Inspection",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L476",
+      "_origin": "ast",
+      "id": "docs_tools_android_deep_inspection",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "android deep inspection"
+    },
+    {
+      "label": "navigation.graph",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L478",
+      "_origin": "ast",
+      "id": "docs_tools_navigation_graph",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "navigation.graph"
+    },
+    {
+      "label": "resource.references",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L498",
+      "_origin": "ast",
+      "id": "docs_tools_resource_references",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "resource.references"
+    },
+    {
+      "label": "manifest.merge",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L519",
+      "_origin": "ast",
+      "id": "docs_tools_manifest_merge",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "manifest.merge"
+    },
+    {
+      "label": "Security & Compliance",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L539",
+      "_origin": "ast",
+      "id": "docs_tools_security_compliance",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "security & compliance"
+    },
+    {
+      "label": "proguard.inspect",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L541",
+      "_origin": "ast",
+      "id": "docs_tools_proguard_inspect",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "proguard.inspect"
+    },
+    {
+      "label": "security.audit",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L561",
+      "_origin": "ast",
+      "id": "docs_tools_security_audit",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "security.audit"
+    },
+    {
+      "label": "Planned / Not Yet Available",
+      "file_type": "document",
+      "source_file": "docs/tools.md",
+      "source_location": "L581",
+      "_origin": "ast",
+      "id": "docs_tools_planned_not_yet_available",
+      "community": 14,
+      "community_name": "Tools Reference",
+      "norm_label": "planned / not yet available"
+    },
+    {
+      "label": "troubleshooting.md",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_troubleshooting",
+      "community": 43,
+      "community_name": "tools.md",
+      "norm_label": "troubleshooting.md"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_troubleshooting",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "Java missing or wrong version",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_java_missing_or_wrong_version",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "java missing or wrong version"
+    },
+    {
+      "label": "Server doesn't start",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_server_doesn_t_start",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "server doesn't start"
+    },
+    {
+      "label": "MCP client can't connect",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_mcp_client_can_t_connect",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "mcp client can't connect"
+    },
+    {
+      "label": "stdio polluted (garbled/invalid JSON-RPC from the client's point of view)",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_stdio_polluted_garbled_invalid_json_rpc_from_the_client_s_point_of_view",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "stdio polluted (garbled/invalid json-rpc from the client's point of view)"
+    },
+    {
+      "label": "Android SDK unavailable",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_android_sdk_unavailable",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "android sdk unavailable"
+    },
+    {
+      "label": "Gradle failure",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_gradle_failure",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "gradle failure"
+    },
+    {
+      "label": "Repository not recognized",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_repository_not_recognized",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "repository not recognized"
+    },
+    {
+      "label": "Tool returns no evidence",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_tool_returns_no_evidence",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "tool returns no evidence"
+    },
+    {
+      "label": "Permission errors",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_permission_errors",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "permission errors"
+    },
+    {
+      "label": "Launcher can't locate the JAR",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_launcher_can_t_locate_the_jar",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "launcher can't locate the jar"
+    },
+    {
+      "label": "Docker build fails to find the JAR",
+      "file_type": "document",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "docs_troubleshooting_docker_build_fails_to_find_the_jar",
+      "community": 47,
+      "community_name": "Troubleshooting",
+      "norm_label": "docker build fails to find the jar"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude",
       "community": 93,
       "community_name": "CLAUDE.md",
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude"
     },
     {
       "label": "graphify",
@@ -20,10 +1572,10 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_graphify",
       "community": 93,
       "community_name": "CLAUDE.md",
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "claude_graphify"
     },
     {
       "label": "build.gradle.kts",
@@ -31,10 +1583,10 @@
       "source_file": "build.gradle.kts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "build_gradle",
       "community": 55,
       "community_name": "build.gradle.kts",
-      "norm_label": "build.gradle.kts"
+      "norm_label": "build.gradle.kts",
+      "id": "build_gradle"
     },
     {
       "label": "GradleDependenciesTreeParser.kt",
@@ -42,10 +1594,10 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": "gradledependenciestreeparser.kt"
+      "norm_label": "gradledependenciestreeparser.kt",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser"
     },
     {
       "label": "DependencyNode",
@@ -55,10 +1607,10 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": "dependencynode"
+      "norm_label": "dependencynode",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
     },
     {
       "label": "ConfigurationDependencies",
@@ -68,10 +1620,10 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": "configurationdependencies"
+      "norm_label": "configurationdependencies",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies"
     },
     {
       "label": "GradleDependenciesTreeParser",
@@ -81,10 +1633,10 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": "gradledependenciestreeparser"
+      "norm_label": "gradledependenciestreeparser",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser"
     },
     {
       "label": ".parse()",
@@ -93,10 +1645,10 @@
       "source_location": "L24",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": ".parse()"
+      "norm_label": ".parse()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse"
     },
     {
       "label": ".parseNode()",
@@ -105,10 +1657,10 @@
       "source_location": "L65",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": ".parsenode()"
+      "norm_label": ".parsenode()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode"
     },
     {
       "label": ".simpleNode()",
@@ -117,10 +1669,10 @@
       "source_location": "L134",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
       "community": 25,
       "community_name": "GradleDependenciesTreeParser",
-      "norm_label": ".simplenode()"
+      "norm_label": ".simplenode()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode"
     },
     {
       "label": "SecurityAuditTool.kt",
@@ -128,10 +1680,10 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": "securityaudittool.kt"
+      "norm_label": "securityaudittool.kt",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool"
     },
     {
       "label": "SecurityAuditTool",
@@ -141,10 +1693,10 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": "securityaudittool"
+      "norm_label": "securityaudittool",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool"
     },
     {
       "label": "SecurityIssue",
@@ -154,10 +1706,10 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": "securityissue"
+      "norm_label": "securityissue",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
     },
     {
       "label": ".execute()",
@@ -166,10 +1718,10 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": ".execute()"
+      "norm_label": ".execute()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute"
     },
     {
       "label": "kotlinx",
@@ -177,10 +1729,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": "kotlinx"
+      "norm_label": "kotlinx",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx"
     },
     {
       "label": ".checkManifest()",
@@ -189,10 +1741,10 @@
       "source_location": "L65",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": ".checkmanifest()"
+      "norm_label": ".checkmanifest()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest"
     },
     {
       "label": ".checkGradleProperties()",
@@ -201,10 +1753,10 @@
       "source_location": "L102",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": ".checkgradleproperties()"
+      "norm_label": ".checkgradleproperties()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties"
     },
     {
       "label": ".checkHardcodedSecrets()",
@@ -213,10 +1765,10 @@
       "source_location": "L130",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
       "community": 23,
       "community_name": "SecurityAuditTool",
-      "norm_label": ".checkhardcodedsecrets()"
+      "norm_label": ".checkhardcodedsecrets()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets"
     },
     {
       "label": "SymbolReferencesTool.kt",
@@ -224,10 +1776,10 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
       "community": 3,
       "community_name": "KotlinSourceScanner",
-      "norm_label": "symbolreferencestool.kt"
+      "norm_label": "symbolreferencestool.kt",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool"
     },
     {
       "label": "SymbolReferencesTool",
@@ -237,10 +1789,10 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
       "community": 3,
       "community_name": "KotlinSourceScanner",
-      "norm_label": "symbolreferencestool"
+      "norm_label": "symbolreferencestool",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool"
     },
     {
       "label": ".execute()",
@@ -249,10 +1801,10 @@
       "source_location": "L14",
       "_callable": true,
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
       "community": 3,
       "community_name": "KotlinSourceScanner",
-      "norm_label": ".execute()"
+      "norm_label": ".execute()",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute"
     },
     {
       "label": "kotlinx",
@@ -260,10 +1812,10 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx",
       "community": 3,
       "community_name": "KotlinSourceScanner",
-      "norm_label": "kotlinx"
+      "norm_label": "kotlinx",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx"
     },
     {
       "label": "graphify.js",
@@ -1277,105 +2829,6 @@
       "norm_label": "sample-android-project/settings.gradle.kts",
       "community_name": "sample-android-project/settings.gradle.kts",
       "id": "src_test_resources_fixtures_sample_android_project_settings_gradle"
-    },
-    {
-      "label": "android-corporate-mcp.js",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "android-corporate-mcp.js",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp"
-    },
-    {
-      "label": "{ spawn }",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L3",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "{ spawn }",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_spawn"
-    },
-    {
-      "label": "path",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "path",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_path"
-    },
-    {
-      "label": "fs",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L5",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "fs",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_fs"
-    },
-    {
-      "label": "jarDir",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "jardir",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_jardir"
-    },
-    {
-      "label": "buildDir",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "builddir",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_builddir"
-    },
-    {
-      "label": "jarFile",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L20",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "jarfile",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_jarfile"
-    },
-    {
-      "label": "jarPath",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L27",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "jarpath",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_jarpath"
-    },
-    {
-      "label": "java",
-      "file_type": "code",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L29",
-      "_origin": "ast",
-      "community": 19,
-      "norm_label": "java",
-      "community_name": "android-corporate-mcp.js",
-      "id": "bin_android_corporate_mcp_java"
     },
     {
       "label": "postinstall.js",
@@ -3239,9 +4692,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/symbol/HierarchyBuilder.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "hierarchybuilder.kt",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder"
     },
     {
@@ -3252,9 +4705,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "hierarchyentry",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchyentry"
     },
     {
@@ -3265,9 +4718,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "hierarchybuilder",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder"
     },
     {
@@ -3277,9 +4730,9 @@
       "source_location": "L17",
       "_callable": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": ".build()",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_build"
     },
     {
@@ -3290,9 +4743,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "kttreevisitorvoid",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_build_object_kttreevisitorvoid_l21"
     },
     {
@@ -3301,9 +4754,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "kttreevisitorvoid",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_kt_kttreevisitorvoid"
     },
     {
@@ -3313,9 +4766,9 @@
       "source_location": "L22",
       "_callable": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": ".visitclass()",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_build_object_kttreevisitorvoid_l21_visitclass"
     },
     {
@@ -3324,9 +4777,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "ktclass",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_kt_ktclass"
     },
     {
@@ -3336,9 +4789,9 @@
       "source_location": "L50",
       "_callable": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": ".buildhierarchytree()",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_buildhierarchytree"
     },
     {
@@ -3349,9 +4802,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "hierarchynode",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchynode"
     },
     {
@@ -3860,9 +5313,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/ConventionPluginsTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 17,
+      "community": 6,
       "norm_label": "conventionpluginstool.kt",
-      "community_name": "ConventionPluginScanner",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstool"
     },
     {
@@ -3873,9 +5326,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 17,
+      "community": 6,
       "norm_label": "conventionpluginstool",
-      "community_name": "ConventionPluginScanner",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstool_conventionpluginstool"
     },
     {
@@ -3885,9 +5338,9 @@
       "source_location": "L13",
       "_callable": true,
       "_origin": "ast",
-      "community": 17,
+      "community": 6,
       "norm_label": ".execute()",
-      "community_name": "ConventionPluginScanner",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstool_conventionpluginstool_execute"
     },
     {
@@ -3896,9 +5349,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 17,
+      "community": 6,
       "norm_label": "kotlinx",
-      "community_name": "ConventionPluginScanner",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstool_kt_kotlinx"
     },
     {
@@ -5105,9 +6558,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolHierarchyTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "symbolhierarchytool.kt",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool"
     },
     {
@@ -5118,9 +6571,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "symbolhierarchytool",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool"
     },
     {
@@ -5130,9 +6583,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": ".execute()",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool_execute"
     },
     {
@@ -5141,9 +6594,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": "kotlinx",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_kt_kotlinx"
     },
     {
@@ -5153,9 +6606,9 @@
       "source_location": "L52",
       "_callable": true,
       "_origin": "ast",
-      "community": 14,
+      "community": 3,
       "norm_label": ".serializenode()",
-      "community_name": "HierarchyBuilder.kt",
+      "community_name": "KotlinSourceScanner",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool_serializenode"
     },
     {
@@ -5461,9 +6914,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/fixtures/FixtureProjects.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 28,
+      "community": 42,
       "norm_label": "androidmcp/fixtures/fixtureprojects.kt",
-      "community_name": "FixtureProjects",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_fixtures_fixtureprojects"
     },
     {
@@ -5474,9 +6927,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 28,
+      "community": 42,
       "norm_label": "fixtureprojects",
-      "community_name": "FixtureProjects",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_fixtures_fixtureprojects_fixtureprojects"
     },
     {
@@ -5486,7 +6939,7 @@
       "source_location": "L9",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 42,
       "norm_label": ".sampleandroidproject()",
       "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_fixtures_fixtureprojects_fixtureprojects_sampleandroidproject"
@@ -5498,9 +6951,9 @@
       "source_location": "L27",
       "_callable": true,
       "_origin": "ast",
-      "community": 28,
+      "community": 42,
       "norm_label": ".resourcedirectory()",
-      "community_name": "FixtureProjects",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_fixtures_fixtureprojects_fixtureprojects_resourcedirectory"
     },
     {
@@ -5869,9 +7322,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/symbol/KotlinPsiEngineTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 47,
+      "community": 9,
       "norm_label": "androidmcp/symbol/kotlinpsienginetest.kt",
-      "community_name": "KotlinPsiEngineTest",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsienginetest"
     },
     {
@@ -5882,9 +7335,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 47,
+      "community": 9,
       "norm_label": "kotlinpsienginetest",
-      "community_name": "KotlinPsiEngineTest",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsienginetest_kotlinpsienginetest"
     },
     {
@@ -5894,9 +7347,9 @@
       "source_location": "L9",
       "_callable": true,
       "_origin": "ast",
-      "community": 47,
+      "community": 9,
       "norm_label": ".`parses kotlin source and extracts declarations`()",
-      "community_name": "KotlinPsiEngineTest",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsienginetest_kotlinpsienginetest_parses_kotlin_source_and_extracts_declarations"
     },
     {
@@ -5991,7 +7444,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "conventionpluginstooltest.kt",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstooltest"
     },
     {
@@ -6004,7 +7457,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "conventionpluginstooltest",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstooltest_conventionpluginstooltest"
     },
     {
@@ -6016,7 +7469,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".`finds convention plugins`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstooltest_conventionpluginstooltest_finds_convention_plugins"
     },
     {
@@ -6028,7 +7481,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".asserttrue()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstooltest_conventionpluginstooltest_asserttrue"
     },
     {
@@ -6037,9 +7490,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/DependenciesInspectToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 106,
       "norm_label": "dependenciesinspecttooltest.kt",
-      "community_name": "JsonArray",
+      "community_name": "DependenciesInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttooltest"
     },
     {
@@ -6050,9 +7503,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 106,
       "norm_label": "dependenciesinspecttooltest",
-      "community_name": "JsonArray",
+      "community_name": "DependenciesInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttooltest_dependenciesinspecttooltest"
     },
     {
@@ -6062,9 +7515,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 106,
       "norm_label": ".`parses dependency tree from fixture project`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": "DependenciesInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttooltest_dependenciesinspecttooltest_parses_dependency_tree_from_fixture_project"
     },
     {
@@ -6074,9 +7527,9 @@
       "source_location": "L31",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 106,
       "norm_label": ".`returns invalid_project for bad path`()",
-      "community_name": "JsonArray",
+      "community_name": "DependenciesInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttooltest_dependenciesinspecttooltest_returns_invalid_project_for_bad_path"
     },
     {
@@ -6112,7 +7565,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".`finds launcher activity deep links and exported components`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtooltest_entrypointsfindtooltest_finds_launcher_activity_deep_links_and_exported_components"
     },
     {
@@ -6313,9 +7766,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/LintRunToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 7,
       "norm_label": "androidmcp/tools/lintruntooltest.kt",
-      "community_name": "JsonArray",
+      "community_name": ".create",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_lintruntooltest"
     },
     {
@@ -6326,9 +7779,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 7,
       "norm_label": "lintruntooltest",
-      "community_name": "JsonArray",
+      "community_name": ".create",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_lintruntooltest_lintruntooltest"
     },
     {
@@ -6338,9 +7791,9 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 7,
       "norm_label": ".`aggregates lint report by severity with issue details`()",
-      "community_name": "JsonArray",
+      "community_name": ".create",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_lintruntooltest_lintruntooltest_aggregates_lint_report_by_severity_with_issue_details"
     },
     {
@@ -6350,9 +7803,9 @@
       "source_location": "L43",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 7,
       "norm_label": ".`returns not_available without report and trigger disabled`()",
-      "community_name": "JsonArray",
+      "community_name": ".create",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_lintruntooltest_lintruntooltest_returns_not_available_without_report_and_trigger_disabled"
     },
     {
@@ -6362,9 +7815,9 @@
       "source_location": "L58",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 7,
       "norm_label": ".copyresource()",
-      "community_name": "JsonArray",
+      "community_name": ".create",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_lintruntooltest_lintruntooltest_copyresource"
     },
     {
@@ -6386,9 +7839,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 103,
       "norm_label": "manifestinspecttooltest",
-      "community_name": "JsonArray",
+      "community_name": "ManifestInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttooltest_manifestinspecttooltest"
     },
     {
@@ -6398,9 +7851,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 103,
       "norm_label": ".fixtureroot()",
-      "community_name": "JsonArray",
+      "community_name": "ManifestInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttooltest_manifestinspecttooltest_fixtureroot"
     },
     {
@@ -6410,9 +7863,9 @@
       "source_location": "L20",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 103,
       "norm_label": ".`parses permissions application class and components`()",
-      "community_name": "JsonArray",
+      "community_name": "ManifestInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttooltest_manifestinspecttooltest_parses_permissions_application_class_and_components"
     },
     {
@@ -6422,9 +7875,9 @@
       "source_location": "L63",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 103,
       "norm_label": ".`returns not_found when manifest is missing`()",
-      "community_name": "JsonArray",
+      "community_name": "ManifestInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttooltest_manifestinspecttooltest_returns_not_found_when_manifest_is_missing"
     },
     {
@@ -6434,9 +7887,9 @@
       "source_location": "L72",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 103,
       "norm_label": ".`parses library manifest without permissions`()",
-      "community_name": "JsonArray",
+      "community_name": "ManifestInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttooltest_manifestinspecttooltest_parses_library_manifest_without_permissions"
     },
     {
@@ -6518,9 +7971,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 1,
       "norm_label": ".`builds module graph from fixture project`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": "JsonArray",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_modulegraphtooltest_modulegraphtooltest_builds_module_graph_from_fixture_project"
     },
     {
@@ -6577,9 +8030,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/ProguardInspectToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 9,
       "norm_label": "proguardinspecttooltest.kt",
-      "community_name": "JsonArray",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttooltest"
     },
     {
@@ -6592,7 +8045,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "proguardinspecttooltest",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttooltest_proguardinspecttooltest"
     },
     {
@@ -6604,7 +8057,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".`finds proguard rules in project`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttooltest_proguardinspecttooltest_finds_proguard_rules_in_project"
     },
     {
@@ -6616,7 +8069,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".`returns not_available for project without proguard files`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttooltest_proguardinspecttooltest_returns_not_available_for_project_without_proguard_files"
     },
     {
@@ -6625,9 +8078,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/ProjectInspectToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 104,
       "norm_label": "androidmcp/tools/projectinspecttooltest.kt",
-      "community_name": "JsonArray",
+      "community_name": "ProjectInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_projectinspecttooltest"
     },
     {
@@ -6638,9 +8091,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 104,
       "norm_label": "projectinspecttooltest",
-      "community_name": "JsonArray",
+      "community_name": "ProjectInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_projectinspecttooltest_projectinspecttooltest"
     },
     {
@@ -6650,9 +8103,9 @@
       "source_location": "L17",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 104,
       "norm_label": ".`detects gradle project with android modules and evidence`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": "ProjectInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_projectinspecttooltest_projectinspecttooltest_detects_gradle_project_with_android_modules_and_evidence"
     },
     {
@@ -6662,9 +8115,9 @@
       "source_location": "L52",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 104,
       "norm_label": ".`returns invalid_project for missing path`()",
-      "community_name": "JsonArray",
+      "community_name": "ProjectInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_projectinspecttooltest_projectinspecttooltest_returns_invalid_project_for_missing_path"
     },
     {
@@ -6674,9 +8127,9 @@
       "source_location": "L60",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 104,
       "norm_label": ".`reports empty module list for non gradle directory`()",
-      "community_name": "JsonArray",
+      "community_name": "ProjectInspectToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_projectinspecttooltest_projectinspecttooltest_reports_empty_module_list_for_non_gradle_directory"
     },
     {
@@ -6748,7 +8201,7 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": ".`enumerates resource folders and value names`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": ".assertTrue",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttooltest_resourcesinspecttooltest_enumerates_resource_folders_and_value_names"
     },
     {
@@ -6805,9 +8258,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/StaticAnalysisToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 107,
       "norm_label": "staticanalysistooltest.kt",
-      "community_name": "JsonArray",
+      "community_name": "StaticAnalysisToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistooltest"
     },
     {
@@ -6818,9 +8271,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 107,
       "norm_label": "staticanalysistooltest",
-      "community_name": "JsonArray",
+      "community_name": "StaticAnalysisToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistooltest_staticanalysistooltest"
     },
     {
@@ -6830,9 +8283,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 107,
       "norm_label": ".`returns not_available when no tools found`()",
-      "community_name": ".sampleAndroidProject",
+      "community_name": "StaticAnalysisToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistooltest_staticanalysistooltest_returns_not_available_when_no_tools_found"
     },
     {
@@ -6842,9 +8295,9 @@
       "source_location": "L30",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 107,
       "norm_label": ".`returns invalid_project for bad path`()",
-      "community_name": "JsonArray",
+      "community_name": "StaticAnalysisToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistooltest_staticanalysistooltest_returns_invalid_project_for_bad_path"
     },
     {
@@ -6866,7 +8319,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 42,
       "norm_label": "symbolfindtooltest",
       "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtooltest_symbolfindtooltest"
@@ -6878,7 +8331,7 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 42,
       "norm_label": ".`finds class declaration by name in fixture sources`()",
       "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtooltest_symbolfindtooltest_finds_class_declaration_by_name_in_fixture_sources"
@@ -6890,7 +8343,7 @@
       "source_location": "L49",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 42,
       "norm_label": ".`finds constructor and member properties with partial match`()",
       "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtooltest_symbolfindtooltest_finds_constructor_and_member_properties_with_partial_match"
@@ -6902,7 +8355,7 @@
       "source_location": "L68",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 42,
       "norm_label": ".`filters by kind`()",
       "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtooltest_symbolfindtooltest_filters_by_kind"
@@ -6914,7 +8367,7 @@
       "source_location": "L88",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
+      "community": 42,
       "norm_label": ".`returns zero matches without inventing results`()",
       "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtooltest_symbolfindtooltest_returns_zero_matches_without_inventing_results"
@@ -6927,7 +8380,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "symbolhierarchytooltest.kt",
-      "community_name": "FixtureProjects",
+      "community_name": "SymbolHierarchyToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytooltest"
     },
     {
@@ -6940,7 +8393,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": "symbolhierarchytooltest",
-      "community_name": "FixtureProjects",
+      "community_name": "SymbolHierarchyToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytooltest_symbolhierarchytooltest"
     },
     {
@@ -6952,7 +8405,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": ".`builds hierarchy for userrepository`()",
-      "community_name": "FixtureProjects",
+      "community_name": "SymbolHierarchyToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytooltest_symbolhierarchytooltest_builds_hierarchy_for_userrepository"
     },
     {
@@ -6964,7 +8417,7 @@
       "_origin": "ast",
       "community": 28,
       "norm_label": ".`returns not_found for missing class`()",
-      "community_name": "FixtureProjects",
+      "community_name": "SymbolHierarchyToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytooltest_symbolhierarchytooltest_returns_not_found_for_missing_class"
     },
     {
@@ -7035,7 +8488,7 @@
       "_origin": "ast",
       "community": 42,
       "norm_label": "testsdiscovertooltest.kt",
-      "community_name": "TestsDiscoverToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertooltest"
     },
     {
@@ -7048,7 +8501,7 @@
       "_origin": "ast",
       "community": 42,
       "norm_label": "testsdiscovertooltest",
-      "community_name": "TestsDiscoverToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertooltest_testsdiscovertooltest"
     },
     {
@@ -7060,7 +8513,7 @@
       "_origin": "ast",
       "community": 42,
       "norm_label": ".`finds test for mainactivity`()",
-      "community_name": "TestsDiscoverToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertooltest_testsdiscovertooltest_finds_test_for_mainactivity"
     },
     {
@@ -7072,7 +8525,7 @@
       "_origin": "ast",
       "community": 42,
       "norm_label": ".`rejects invalid class name`()",
-      "community_name": "TestsDiscoverToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertooltest_testsdiscovertooltest_rejects_invalid_class_name"
     },
     {
@@ -7081,9 +8534,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/TestsRunToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 105,
       "norm_label": "androidmcp/tools/testsruntooltest.kt",
-      "community_name": "JsonArray",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest"
     },
     {
@@ -7094,9 +8547,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 105,
       "norm_label": "testsruntooltest",
-      "community_name": "JsonArray",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest"
     },
     {
@@ -7106,9 +8559,9 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 105,
       "norm_label": ".`aggregates junit reports from build test-results`()",
-      "community_name": "JsonArray",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest_aggregates_junit_reports_from_build_test_results"
     },
     {
@@ -7118,9 +8571,9 @@
       "source_location": "L48",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 105,
       "norm_label": ".`returns not_available when no reports exist`()",
-      "community_name": "JsonArray",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest_returns_not_available_when_no_reports_exist"
     },
     {
@@ -7130,9 +8583,9 @@
       "source_location": "L63",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 105,
       "norm_label": ".copyresource()",
-      "community_name": "JsonArray",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest_copyresource"
     },
     {
@@ -7141,9 +8594,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/VersionCatalogToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 43,
+      "community": 42,
       "norm_label": "versioncatalogtooltest.kt",
-      "community_name": "VersionCatalogToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_versioncatalogtooltest"
     },
     {
@@ -7154,9 +8607,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 43,
+      "community": 42,
       "norm_label": "versioncatalogtooltest",
-      "community_name": "VersionCatalogToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_versioncatalogtooltest_versioncatalogtooltest"
     },
     {
@@ -7166,9 +8619,9 @@
       "source_location": "L11",
       "_callable": true,
       "_origin": "ast",
-      "community": 43,
+      "community": 42,
       "norm_label": ".`parses version catalog`()",
-      "community_name": "VersionCatalogToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_versioncatalogtooltest_versioncatalogtooltest_parses_version_catalog"
     },
     {
@@ -7178,9 +8631,9 @@
       "source_location": "L28",
       "_callable": true,
       "_origin": "ast",
-      "community": 43,
+      "community": 42,
       "norm_label": ".`returns not_available when no catalog`()",
-      "community_name": "VersionCatalogToolTest",
+      "community_name": ".sampleAndroidProject",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_versioncatalogtooltest_versioncatalogtooltest_returns_not_available_when_no_catalog"
     },
     {
@@ -7539,15 +8992,1896 @@
   ],
   "links": [
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "docs_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_philosophy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_security_local_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_the_problem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_what_it_can_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_builddir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_child",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_fail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_forwardedsignals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_fs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_jardir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_jarpath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_javacheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bin/android-corporate-mcp.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "bin_android_corporate_mcp",
+      "target": "bin_android_corporate_mcp_spawnsync_spawn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_multi_client",
+      "target": "docs_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_multi_client",
+      "target": "docs_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_multi_client",
+      "target": "docs_multi_client_multi_client_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_multi_client",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MULTI_CLIENT.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_multi_client",
+      "target": "docs_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture",
+      "target": "docs_architecture_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture",
+      "target": "docs_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development",
+      "target": "docs_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started",
+      "target": "docs_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_error_propagation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_execution_model_for_process_backed_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_how_it_works_one_request_end_to_end",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_lifecycle_and_stdio_handshake",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_process_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_repository_access",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_the_boundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_architecture_architecture",
+      "target": "docs_architecture_tool_discovery_and_invocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility",
+      "target": "docs_compatibility_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility",
+      "target": "docs_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility",
+      "target": "docs_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing",
+      "target": "docs_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started",
+      "target": "docs_compatibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility_compatibility",
+      "target": "docs_compatibility_distribution_channels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility_compatibility",
+      "target": "docs_compatibility_mcp_clients",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility_compatibility",
+      "target": "docs_compatibility_platforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility_compatibility",
+      "target": "docs_compatibility_runtime_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/compatibility.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_compatibility_compatibility",
+      "target": "docs_compatibility_status_legend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration",
+      "target": "docs_configuration_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration",
+      "target": "docs_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development",
+      "target": "docs_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting",
+      "target": "docs_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_claude_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_claude_desktop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_cursor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_github_copilot_vs_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_no_environment_variable_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_openai_codex_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/configuration.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_configuration_configuration",
+      "target": "docs_configuration_verifying_a_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing",
+      "target": "docs_contributing_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing",
+      "target": "docs_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing",
+      "target": "docs_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing_contributing",
+      "target": "docs_contributing_branching_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing_contributing",
+      "target": "docs_contributing_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing_contributing",
+      "target": "docs_contributing_making_a_change",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing_contributing",
+      "target": "docs_contributing_pull_request_expectations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/contributing.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_contributing_contributing",
+      "target": "docs_contributing_reporting_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development",
+      "target": "docs_development_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development",
+      "target": "docs_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development_development",
+      "target": "docs_development_adding_a_new_mcp_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development_development",
+      "target": "docs_development_clone_and_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development_development",
+      "target": "docs_development_coding_conventions_observed_in_this_codebase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development_development",
+      "target": "docs_development_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development_development",
+      "target": "docs_development_run_locally",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_development_development",
+      "target": "docs_development_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started",
+      "target": "docs_getting_started_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started",
+      "target": "docs_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_1_install",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_2_configure_your_mcp_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_3_open_an_android_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_4_verify_the_connection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_5_call_your_first_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/getting-started.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_getting_started_getting_started",
+      "target": "docs_getting_started_what_s_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations",
+      "target": "docs_limitations_scope_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting",
+      "target": "docs_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations_scope_limitations",
+      "target": "docs_limitations_environment_limitations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations_scope_limitations",
+      "target": "docs_limitations_in_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations_scope_limitations",
+      "target": "docs_limitations_known_limitations_by_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/limitations.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_limitations_scope_limitations",
+      "target": "docs_limitations_out_of_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security",
+      "target": "docs_security_security_privacy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting",
+      "target": "docs_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_command_execution_and_the_one_tool_that_matters_most",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_credentials_and_secrets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_network_access",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_npm_distribution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_repository_permissions_in_practice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_trust_boundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_what_never_leaves_the_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_what_the_server_processes_but_does_not_persist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_what_the_server_reads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/security.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_security_security_privacy",
+      "target": "docs_security_what_this_document_does_not_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools",
+      "target": "docs_tools_tools_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting",
+      "target": "docs_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L476",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_android_deep_inspection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L365",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_architecture_symbols",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L429",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_build_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_gradle_execution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L302",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_gradle_intelligence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L581",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_planned_not_yet_available",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_project_kotlin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L539",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_security_compliance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_tools_reference",
+      "target": "docs_tools_side_effect_legend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_entry_points_find",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_manifest_inspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_module_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_project_inspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L160",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_resources_inspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_symbol_find",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_project_kotlin",
+      "target": "docs_tools_symbol_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L279",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_execution",
+      "target": "docs_tools_dependencies_inspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_execution",
+      "target": "docs_tools_gradle_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L184",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_execution",
+      "target": "docs_tools_gradle_tasks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L255",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_execution",
+      "target": "docs_tools_lint_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L231",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_execution",
+      "target": "docs_tools_tests_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L304",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_intelligence",
+      "target": "docs_tools_gradle_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L345",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_intelligence",
+      "target": "docs_tools_gradle_conventionplugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L325",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_gradle_intelligence",
+      "target": "docs_tools_gradle_versioncatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L367",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_architecture_symbols",
+      "target": "docs_tools_architecture_detect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L408",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_architecture_symbols",
+      "target": "docs_tools_symbol_hierarchy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L387",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_architecture_symbols",
+      "target": "docs_tools_tests_discover",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L431",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_build_validation",
+      "target": "docs_tools_build_validate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L453",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_build_validation",
+      "target": "docs_tools_staticanalysis_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L519",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_android_deep_inspection",
+      "target": "docs_tools_manifest_merge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L478",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_android_deep_inspection",
+      "target": "docs_tools_navigation_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L498",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_android_deep_inspection",
+      "target": "docs_tools_resource_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L541",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_security_compliance",
+      "target": "docs_tools_proguard_inspect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/tools.md",
+      "source_location": "L561",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_tools_security_compliance",
+      "target": "docs_tools_security_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting",
+      "target": "docs_troubleshooting_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_android_sdk_unavailable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_docker_build_fails_to_find_the_jar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_gradle_failure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_java_missing_or_wrong_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_launcher_can_t_locate_the_jar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_mcp_client_can_t_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_permission_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_repository_not_recognized",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_server_doesn_t_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_stdio_polluted_garbled_invalid_json_rpc_from_the_client_s_point_of_view",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/troubleshooting.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_troubleshooting_troubleshooting",
+      "target": "docs_troubleshooting_tool_returns_no_evidence",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_graphify",
-      "confidence_score": 1.0
+      "target": "claude_graphify"
     },
     {
       "relation": "contains",
@@ -7556,9 +10890,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies"
     },
     {
       "relation": "contains",
@@ -7567,9 +10901,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
     },
     {
       "relation": "contains",
@@ -7578,9 +10912,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser"
     },
     {
       "relation": "references",
@@ -7590,9 +10924,9 @@
       "source_location": "L65",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
     },
     {
       "relation": "calls",
@@ -7602,9 +10936,9 @@
       "source_location": "L139",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
     },
     {
       "relation": "references",
@@ -7614,9 +10948,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies"
     },
     {
       "relation": "method",
@@ -7625,9 +10959,9 @@
       "source_location": "L24",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse"
     },
     {
       "relation": "method",
@@ -7636,9 +10970,9 @@
       "source_location": "L65",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode"
     },
     {
       "relation": "method",
@@ -7647,9 +10981,9 @@
       "source_location": "L134",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode"
     },
     {
       "relation": "imports",
@@ -7674,9 +11008,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode"
     },
     {
       "relation": "calls",
@@ -7686,9 +11020,9 @@
       "source_location": "L125",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode"
     },
     {
       "relation": "contains",
@@ -7697,9 +11031,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool"
     },
     {
       "relation": "imports",
@@ -7723,9 +11057,9 @@
       "source_location": "L102",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties"
     },
     {
       "relation": "method",
@@ -7734,9 +11068,9 @@
       "source_location": "L130",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets"
     },
     {
       "relation": "method",
@@ -7745,9 +11079,9 @@
       "source_location": "L65",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest"
     },
     {
       "relation": "method",
@@ -7756,9 +11090,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute"
     },
     {
       "relation": "contains",
@@ -7767,9 +11101,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
     },
     {
       "relation": "references",
@@ -7779,9 +11113,9 @@
       "source_location": "L102",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
     },
     {
       "relation": "references",
@@ -7791,9 +11125,9 @@
       "source_location": "L130",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
     },
     {
       "relation": "references",
@@ -7803,9 +11137,9 @@
       "source_location": "L65",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
     },
     {
       "relation": "references",
@@ -7815,9 +11149,9 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx"
     },
     {
       "relation": "calls",
@@ -7827,9 +11161,9 @@
       "source_location": "L34",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties"
     },
     {
       "relation": "calls",
@@ -7839,9 +11173,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets"
     },
     {
       "relation": "calls",
@@ -7851,9 +11185,9 @@
       "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest"
     },
     {
       "relation": "imports",
@@ -7866,9 +11200,9 @@
         "target_fqn": "dev.normansanchez.androidmcp.symbol.KotlinPsiEngine"
       },
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine"
     },
     {
       "relation": "imports",
@@ -7881,20 +11215,9 @@
         "target_fqn": "dev.normansanchez.androidmcp.symbol.KotlinSourceScanner"
       },
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner"
     },
     {
       "relation": "imports",
@@ -7907,9 +11230,20 @@
         "target_fqn": "dev.normansanchez.androidmcp.symbol.SymbolExtractor"
       },
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool"
     },
     {
       "relation": "imports",
@@ -7933,9 +11267,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute"
     },
     {
       "relation": "references",
@@ -7945,9 +11279,9 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx",
-      "confidence_score": 1.0
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx"
     },
     {
       "relation": "contains",
@@ -9125,94 +12459,6 @@
       "confidence_score": 1.0,
       "source": "src_test_resources_fixtures_sample_android_project_app_src_main_java_com_corporate_data_userrepository_userrepository_warmup",
       "target": "src_test_resources_fixtures_sample_android_project_app_src_main_java_com_corporate_data_userrepository_userrepository_currentuser"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_builddir"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_fs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_jardir"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_jarfile"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L27",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_jarpath"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_java"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_path"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "bin/android-corporate-mcp.js",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "bin_android_corporate_mcp",
-      "target": "bin_android_corporate_mcp_spawn"
     },
     {
       "relation": "contains",
@@ -17965,5 +21211,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "94fc50867cf2838e92e423827c0d2121bfe6d4ad"
+  "built_at_commit": "0f7fa3b552b0e90524b203ea6e714dace62a811c"
 }
