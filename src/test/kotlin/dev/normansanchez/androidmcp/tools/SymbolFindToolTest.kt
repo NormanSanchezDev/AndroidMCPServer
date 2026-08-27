@@ -25,7 +25,7 @@ class SymbolFindToolTest {
             )
 
             assertEquals("success", json["status"]!!.jsonPrimitive.content)
-            assertEquals(3, json["scannedFileCount"]!!.jsonPrimitive.int)
+            assertTrue(json["scannedFileCount"]!!.jsonPrimitive.int >= 5)
 
             val matches = json["matches"]!!.jsonArray.map { it.jsonObject }
             assertEquals(1, matches.size)

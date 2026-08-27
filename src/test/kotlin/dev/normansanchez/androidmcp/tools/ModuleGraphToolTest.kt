@@ -8,6 +8,7 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 class ModuleGraphToolTest {
 
@@ -23,10 +24,12 @@ class ModuleGraphToolTest {
             assertEquals(3, json["moduleCount"]!!.jsonPrimitive.int)
 
             val edges = json["edges"]!!.jsonArray.map { it.jsonObject }
-            assertEquals(1, edges.size)
-            assertEquals("app", edges[0]["from"]!!.jsonPrimitive.content)
-            assertEquals("core-data", edges[0]["to"]!!.jsonPrimitive.content)
-            assertEquals("implementation", edges[0]["configuration"]!!.jsonPrimitive.content)
+            assertEquals(3, edges.size)
+
+            val edgePairs = edges.map { it["from"]!!.jsonPrimitive.content to it["to"]!!.jsonPrimitive.content }.toSet()
+            assertTrue("app" to "core-data" in edgePairs)
+            assertTrue("app" to "feature-login" in edgePairs)
+            assertTrue("feature-login" to "core-data" in edgePairs)
         } finally {
             temp.toFile().deleteRecursively()
         }

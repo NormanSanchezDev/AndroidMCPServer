@@ -37,6 +37,19 @@ import dev.normansanchez.androidmcp.tools.ResourcesInspectTool
 import dev.normansanchez.androidmcp.tools.SymbolFindTool
 import dev.normansanchez.androidmcp.tools.SymbolReferencesTool
 import dev.normansanchez.androidmcp.tools.TestsRunTool
+import dev.normansanchez.androidmcp.tools.GradleConfigTool
+import dev.normansanchez.androidmcp.tools.VersionCatalogTool
+import dev.normansanchez.androidmcp.tools.ConventionPluginsTool
+import dev.normansanchez.androidmcp.tools.ArchitectureDetectTool
+import dev.normansanchez.androidmcp.tools.TestsDiscoverTool
+import dev.normansanchez.androidmcp.tools.SymbolHierarchyTool
+import dev.normansanchez.androidmcp.tools.BuildValidateTool
+import dev.normansanchez.androidmcp.tools.StaticAnalysisTool
+import dev.normansanchez.androidmcp.tools.NavigationGraphTool
+import dev.normansanchez.androidmcp.tools.ResourceReferencesTool
+import dev.normansanchez.androidmcp.tools.SecurityAuditTool
+import dev.normansanchez.androidmcp.tools.ManifestMergeTool
+import dev.normansanchez.androidmcp.tools.ProguardInspectTool
 import java.io.FileDescriptor
 import java.io.FileOutputStream
 
@@ -334,6 +347,185 @@ fun main(): Unit = runBlocking {
             argString(arguments, "module") ?: "app",
             argBool(arguments, "includeNames", true)
         )
+    }
+
+    // ── Phase 1: Gradle Intelligence ─────────────────────────────────────
+
+    mcpServer.register(
+        name = "gradle.config",
+        description = "Inspects Gradle configuration: applied plugins, SDK versions, Compose status, build types, product flavors.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "module" to optStr("Module path relative to root, default 'app'")
+        )
+    ) { arguments ->
+        GradleConfigTool.execute(
+            argString(arguments, "projectRoot").orEmpty(),
+            argString(arguments, "module")
+        )
+    }
+
+    mcpServer.register(
+        name = "gradle.versionCatalog",
+        description = "Parses gradle/libs.versions.toml to expose declared dependencies, versions, and aliases.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        VersionCatalogTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    mcpServer.register(
+        name = "gradle.conventionPlugins",
+        description = "Discovers convention plugins in build-logic/ or buildSrc/ and maps which modules apply them.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        ConventionPluginsTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    // ── Phase 2: Architecture Discovery ──────────────────────────────────
+
+    mcpServer.register(
+        name = "architecture.detect",
+        description = "Detects DI framework, Compose usage, ViewModel patterns, and reactive stream types from source code.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        ArchitectureDetectTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    mcpServer.register(
+        name = "tests.discover",
+        description = "Finds test files related to a given production class by naming convention.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "className" to optStr("Production class name to find tests for")
+        ),
+        required = listOf("className")
+    ) { arguments ->
+        TestsDiscoverTool.execute(
+            argString(arguments, "projectRoot").orEmpty(),
+            argString(arguments, "className").orEmpty()
+        )
+    }
+
+    // ── Phase 3: Semantic Symbol Analysis ─────────────────────────────────
+
+    mcpServer.register(
+        name = "symbol.hierarchy",
+        description = "Shows class/interface hierarchy: supertypes and subtypes across the codebase.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "className" to optStr("Class or interface name")
+        ),
+        required = listOf("className")
+    ) { arguments ->
+        SymbolHierarchyTool.execute(
+            argString(arguments, "projectRoot").orEmpty(),
+            argString(arguments, "className").orEmpty()
+        )
+    }
+
+    // ── Phase 4: Build Validation ────────────────────────────────────────
+
+    mcpServer.register(
+        name = "build.validate",
+        description = "Compiles a specific module and returns structured results with warnings and errors.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "module" to optStr("Module to compile (default 'app')"),
+            "timeoutSeconds" to intSchema("Execution timeout")
+        )
+    ) { arguments ->
+        BuildValidateTool.execute(
+            projectRoot = argString(arguments, "projectRoot").orEmpty(),
+            module = argString(arguments, "module"),
+            timeoutSeconds = argInt(arguments, "timeoutSeconds")?.toLong() ?: 600L
+        )
+    }
+
+    mcpServer.register(
+        name = "staticAnalysis.run",
+        description = "Executes configured static analysis tools (detekt, ktlint, kover) and aggregates results.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "module" to optStr("Optional module scope"),
+            "tools" to listSchema("Tools to run: detekt, ktlint, kover"),
+            "timeoutSeconds" to intSchema("Execution timeout")
+        )
+    ) { arguments ->
+        StaticAnalysisTool.execute(
+            projectRoot = argString(arguments, "projectRoot").orEmpty(),
+            module = argString(arguments, "module"),
+            tools = argList(arguments, "tools").ifEmpty { null },
+            timeoutSeconds = argInt(arguments, "timeoutSeconds")?.toLong() ?: 600L
+        )
+    }
+
+    // ── Phase 5: Android Deep Inspection ─────────────────────────────────
+
+    mcpServer.register(
+        name = "navigation.graph",
+        description = "Inspects NavHost destinations from XML navigation graphs and Compose Navigation routes.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        NavigationGraphTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    mcpServer.register(
+        name = "resource.references",
+        description = "Given a resource name (e.g. string.app_name), finds where it is referenced in code and XML.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "resourceName" to optStr("Resource identifier (e.g. string.app_name)")
+        ),
+        required = listOf("resourceName")
+    ) { arguments ->
+        ResourceReferencesTool.execute(
+            argString(arguments, "projectRoot").orEmpty(),
+            argString(arguments, "resourceName").orEmpty()
+        )
+    }
+
+    // ── Phase 5: Android Deep Inspection (cont.) ────────────────────────
+
+    mcpServer.register(
+        name = "manifest.merge",
+        description = "Detects merge conflicts across module manifests by comparing component attributes.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        ManifestMergeTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    // ── Phase 6: Security & Compliance (cont.) ──────────────────────────
+
+    mcpServer.register(
+        name = "proguard.inspect",
+        description = "Inspects ProGuard/R8 configuration: rules, keep annotations, minification and resource shrinking status.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        ProguardInspectTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    // ── Phase 6: Security & Compliance ───────────────────────────────────
+
+    mcpServer.register(
+        name = "security.audit",
+        description = "Detects common security issues: exported components, cleartext traffic, hardcoded secrets, backup settings.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root")
+        )
+    ) { arguments ->
+        SecurityAuditTool.execute(argString(arguments, "projectRoot").orEmpty())
     }
 
     val transport = StdioServerTransport(

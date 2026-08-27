@@ -21,14 +21,14 @@ class ResourcesInspectToolTest {
             val json = ResourcesInspectTool.execute(project.absolutePathString(), "app")
 
             assertEquals("success", json["status"]!!.jsonPrimitive.content)
-            assertEquals(3, json["folderCount"]!!.jsonPrimitive.int)
+            assertEquals(4, json["folderCount"]!!.jsonPrimitive.int)
 
             val folders = json["folders"]!!.jsonArray.map { it.jsonObject }
             val drawable = folders.first { it["name"]!!.jsonPrimitive.content == "drawable-xxhdpi" }
             assertEquals("xxhdpi", drawable["qualifier"]!!.jsonPrimitive.content)
             assertEquals(1, drawable["fileCount"]!!.jsonPrimitive.int)
 
-            assertEquals(4, json["fileCount"]!!.jsonPrimitive.int)
+            assertEquals(5, json["fileCount"]!!.jsonPrimitive.int)
 
             val valueItems = json["valueItems"]!!.jsonArray.map { it.jsonObject }
             val strings = valueItems.first { it["tag"]!!.jsonPrimitive.content == "string" }

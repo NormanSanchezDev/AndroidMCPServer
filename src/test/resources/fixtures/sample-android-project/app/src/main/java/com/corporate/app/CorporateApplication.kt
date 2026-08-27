@@ -1,16 +1,7 @@
 package com.corporate.app
 
 import android.app.Application
-import com.corporate.data.UserRepository
+import dagger.hilt.android.HiltAndroidApp
 
-class CorporateApplication : Application() {
-
-    val userRepository: UserRepository by lazy {
-        UserRepository()
-    }
-
-    override fun onCreate() {
-        super.onCreate()
-        userRepository.warmUp()
-    }
-}
+@HiltAndroidApp
+class CorporateApplication : Application()

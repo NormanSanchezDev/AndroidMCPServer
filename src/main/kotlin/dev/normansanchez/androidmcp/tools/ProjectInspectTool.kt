@@ -141,7 +141,8 @@ object ProjectInspectTool {
     ): Boolean {
 
         return content.contains("id(\"com.android.application\")") ||
-                content.contains("id 'com.android.application'")
+                content.contains("id 'com.android.application'") ||
+                content.contains("alias(libs.plugins.android.application)")
     }
 
     private fun containsLibraryPlugin(
@@ -149,7 +150,8 @@ object ProjectInspectTool {
     ): Boolean {
 
         return content.contains("id(\"com.android.library\")") ||
-                content.contains("id 'com.android.library'")
+                content.contains("id 'com.android.library'") ||
+                content.contains("alias(libs.plugins.android.library)")
     }
 
     private fun buildEvidence(

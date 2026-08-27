@@ -17,7 +17,12 @@ data class SymbolEntry(
     val containerName: String?,
     val offset: Int,
     val line: Int,
-    val nameOffset: Int
+    val nameOffset: Int,
+    val supertypes: List<String> = emptyList(),
+    val annotations: List<String> = emptyList(),
+    val constructorParams: List<String> = emptyList(),
+    val visibility: String? = null,
+    val typeReference: String? = null
 )
 
 object SymbolExtractor {
@@ -152,6 +157,39 @@ object SymbolExtractor {
         val offset = declaration.textRange.startOffset
         val nameOffset = declaration.nameIdentifier?.textRange?.startOffset ?: offset
 
+        val supertypes = when (declaration) {
+            is KtClass -> declaration.superTypeListEntries.mapNotNull { it.typeReference?.text?.substringBefore("<")?.trim() }
+            else -> emptyList()
+        }
+
+        val annotations = declaration.annotationEntries.mapNotNull { entry ->
+            entry.shortName?.asString()
+        }
+
+        val constructorParams = when (declaration) {
+            is KtClass -> declaration.primaryConstructorParameters.mapNotNull { param ->
+                val paramName = param.name ?: return@mapNotNull null
+                val paramType = param.typeReference?.text ?: "Any"
+                "$paramName: $paramType"
+            }
+            else -> emptyList()
+        }
+
+        val modifierText = declaration.modifierList?.text ?: ""
+        val visibility = when {
+            modifierText.contains("public") -> "public"
+            modifierText.contains("private") -> "private"
+            modifierText.contains("protected") -> "protected"
+            modifierText.contains("internal") -> "internal"
+            else -> null
+        }
+
+        val typeReference = when (declaration) {
+            is KtProperty -> declaration.typeReference?.text
+            is KtNamedFunction -> declaration.typeReference?.text
+            else -> null
+        }
+
         return SymbolEntry(
             kind = kind,
             name = name,
@@ -159,7 +197,12 @@ object SymbolExtractor {
             containerName = containerName,
             offset = offset,
             line = KotlinPsiEngine.lineOf(sourceText, offset),
-            nameOffset = nameOffset
+            nameOffset = nameOffset,
+            supertypes = supertypes,
+            annotations = annotations,
+            constructorParams = constructorParams,
+            visibility = visibility,
+            typeReference = typeReference
         )
     }
 }

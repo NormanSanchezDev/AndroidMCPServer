@@ -7,20 +7,20 @@ Gradle intelligence, architecture discovery, and build-tooling integration.
 
 ### What works today
 
-| Tool | Status | Notes |
-|------|--------|-------|
-| `project.inspect` | Working | Module discovery, plugin detection |
-| `manifest.inspect` | Working | Full XML parsing, components, permissions |
-| `entry_points.find` | Working | Launcher, deep links, exported |
-| `symbol.find` | Working | PSI-based declaration search |
-| `symbol.references` | Working | Identifier-level occurrence search |
-| `gradle.tasks` | Working | Real `gradlew tasks --all` output |
-| `gradle.run` | Working | Allow-listed task execution |
-| `tests.run` | Working | JUnit XML aggregation + optional trigger |
-| `lint.run` | Working | Lint XML aggregation + optional trigger |
-| `dependencies.inspect` | Working | Dependency tree parsing |
-| `module.graph` | Working | Settings/build file static graph |
-| `resources.inspect` | Working | res/ folder enumeration + value names |
+| Tool                   | Status  | Notes                                     |
+|------------------------|---------|-------------------------------------------|
+| `project.inspect`      | Working | Module discovery, plugin detection        |
+| `manifest.inspect`     | Working | Full XML parsing, components, permissions |
+| `entry_points.find`    | Working | Launcher, deep links, exported            |
+| `symbol.find`          | Working | PSI-based declaration search              |
+| `symbol.references`    | Working | Identifier-level occurrence search        |
+| `gradle.tasks`         | Working | Real `gradlew tasks --all` output         |
+| `gradle.run`           | Working | Allow-listed task execution               |
+| `tests.run`            | Working | JUnit XML aggregation + optional trigger  |
+| `lint.run`             | Working | Lint XML aggregation + optional trigger   |
+| `dependencies.inspect` | Working | Dependency tree parsing                   |
+| `module.graph`         | Working | Settings/build file static graph          |
+| `resources.inspect`    | Working | res/ folder enumeration + value names     |
 
 ---
 
@@ -341,25 +341,25 @@ src/main/kotlin/dev/normansanchez/androidmcp/
 
 ## Execution Order
 
-| Phase | Effort | Dependency | Estimated Time |
-|-------|--------|------------|----------------|
-| 1.1 Gradle Config | Medium | None | 2-3 hours |
-| 1.2 Version Catalog | Low | None | 1-2 hours |
-| 1.3 Convention Plugins | Medium | None | 2-3 hours |
-| 2.1 Architecture Detect | Medium | Phase 3.1 | 3-4 hours |
-| 2.2 Tests Discover | Low | None | 1-2 hours |
-| 3.1 Symbol Enhancement | Medium | None | 3-4 hours |
-| 3.2 Symbol Hierarchy | Medium | Phase 3.1 | 2-3 hours |
-| 4.1 Build Validate | Low | None | 1-2 hours |
-| 4.2 Static Analysis | Medium | None | 3-4 hours |
-| 5.1 Manifest Merge | Low | None | 2-3 hours |
-| 5.2 Navigation Graph | Medium | None | 3-4 hours |
-| 5.3 Resource References | Low | None | 1-2 hours |
-| 6.1 Security Audit | Low | None | 2-3 hours |
-| 6.2 ProGuard Inspect | Low | None | 1-2 hours |
-| 7.1 Docker | Low | All phases | 2-3 hours |
-| 7.2 CI/CD | Low | 7.1 | 2-3 hours |
-| 7.3 Multi-client docs | Low | 7.1 | 1-2 hours |
+| Phase                   | Effort | Dependency | Estimated Time |
+|-------------------------|--------|------------|----------------|
+| 1.1 Gradle Config       | Medium | None       | 2-3 hours      |
+| 1.2 Version Catalog     | Low    | None       | 1-2 hours      |
+| 1.3 Convention Plugins  | Medium | None       | 2-3 hours      |
+| 2.1 Architecture Detect | Medium | Phase 3.1  | 3-4 hours      |
+| 2.2 Tests Discover      | Low    | None       | 1-2 hours      |
+| 3.1 Symbol Enhancement  | Medium | None       | 3-4 hours      |
+| 3.2 Symbol Hierarchy    | Medium | Phase 3.1  | 2-3 hours      |
+| 4.1 Build Validate      | Low    | None       | 1-2 hours      |
+| 4.2 Static Analysis     | Medium | None       | 3-4 hours      |
+| 5.1 Manifest Merge      | Low    | None       | 2-3 hours      |
+| 5.2 Navigation Graph    | Medium | None       | 3-4 hours      |
+| 5.3 Resource References | Low    | None       | 1-2 hours      |
+| 6.1 Security Audit      | Low    | None       | 2-3 hours      |
+| 6.2 ProGuard Inspect    | Low    | None       | 1-2 hours      |
+| 7.1 Docker              | Low    | All phases | 2-3 hours      |
+| 7.2 CI/CD               | Low    | 7.1        | 2-3 hours      |
+| 7.3 Multi-client docs   | Low    | 7.1        | 1-2 hours      |
 
 ---
 
