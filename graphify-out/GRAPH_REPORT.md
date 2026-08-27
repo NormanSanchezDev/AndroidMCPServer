@@ -1,153 +1,291 @@
-# Graph Report - /Users/normansanchez/AI/projects/concept-test/AndroidCorporateMCP  (2026-08-26)
+# Graph Report - AndroidCorporateMCP  (2026-08-27)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 114 files · ~39,540 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 343 nodes · 476 edges · 31 communities (25 shown, 6 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 1 edges (avg confidence: 0.8)
+- 638 nodes · 876 edges · 94 communities (43 shown, 51 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
+## Graph Freshness
+- Built from commit: `94fc5086`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
 ## Community Hubs (Navigation)
-- .sampleAndroidProject
 - GradleCommandValidator
-- KotlinPsiEngine
-- .create
-- SymbolExtractor.kt
-- server/Main.kt
-- permission
+- JsonArray
 - bash
+- KotlinSourceScanner
+- package.json
+- androidmcp/symbol/SymbolExtractor.kt
+- server/Main.kt
+- .create
+- GradlePropertiesParser
+- .sampleAndroidProject
 - ModuleGraphParser
 - ProjectInspectTool
-- UserRepository
-- LintRunTool
+- ManifestMergeTool
+- VersionCatalogParser
+- HierarchyBuilder.kt
+- androidmcp/symbol/KotlinPsiEngine.kt
+- MainActivity.kt
+- ConventionPluginScanner
+- ArchitectureDetectTool.kt
+- android-corporate-mcp.js
 - EntryPointsFindTool
-- TestsRunTool
+- ProguardInspectTool
 - ManifestInspectTool
+- SecurityAuditTool
+- TestsRunTool
 - GradleDependenciesTreeParser
-- ResourcesInspectTool
+- ResourceReferencesTool
+- GradleTasksParser
+- FixtureProjects
+- LoginViewModel.kt
+- postinstall.js
 - GradleTasksParserTest
 - JunitXmlParserTest
 - GradleDependenciesTreeParserTest
+- GradleConfigToolTest
+- SymbolReferencesToolTest
+- UserRepository
 - gradlew
+- DetektParser.kt
+- KtlintParser.kt
+- VersionCatalogParserTest
 - LintXmlParserTest
+- TestsDiscoverToolTest
+- VersionCatalogToolTest
+- Navigation.kt
+- Application
 - graphify.js
 - KotlinPsiEngineTest
+- ArchitectureDetectToolTest
+- NavigationGraphToolTest
+- ResourceReferencesToolTest
+- .`runs audit on sample project`
+- MainActivityTest
+- AppCompatActivity
+- KtClass
+- latticeMCP
+- org
+- KtFile
+- KtTreeVisitorVoid
+- KtFile
+- KtTreeVisitorVoid
+- org
+- kotlinx
+- Element
+- kotlinx
+- kotlinx
+- kotlinx
+- kotlinx
+- Element
+- JsonObject
+- kotlinx
+- JsonObject
+- kotlinx
+- kotlinx
+- kotlinx
+- kotlinx
+- JsonObject
+- java
+- java
+- androidmcp/tools/TestsRunTool.kt
+- GradleWrapperLocator
+- androidmcp/lint/LintXmlParser.kt
+- BuildValidateTool
+- LintRunTool
+- ProcessExecutor
+- StaticAnalysisTool.kt
+- CLAUDE.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `bash` - 17 edges
-2. `permission` - 12 edges
-3. `main()` - 10 edges
-4. `ProjectInspectTool` - 8 edges
-5. `GradleCommandValidator` - 8 edges
-6. `ProcessExecutor` - 8 edges
-7. `KtTreeVisitorVoid` - 8 edges
-8. `UserRepository` - 8 edges
-9. `KotlinPsiEngine` - 7 edges
-10. `EntryPointsFindTool` - 7 edges
+2. `GradlePropertiesParser` - 15 edges
+3. `permission` - 12 edges
+4. `GradleCommandValidator` - 10 edges
+5. `ProcessExecutor` - 10 edges
+6. `main()` - 10 edges
+7. `KotlinSourceScanner` - 9 edges
+8. `ManifestMergeTool` - 9 edges
+9. `ProjectInspectTool` - 9 edges
+10. `keywords` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `CorporateApplication` --references--> `UserRepository`  [EXTRACTED]
-  src/test/resources/fixtures/sample-android-project/app/src/main/java/com/corporate/app/CorporateApplication.kt → src/test/resources/fixtures/sample-android-project/app/src/main/java/com/corporate/data/UserRepository.kt
-- `MainActivity` --references--> `UserRepository`  [EXTRACTED]
-  src/test/resources/fixtures/sample-android-project/app/src/main/java/com/corporate/app/MainActivity.kt → src/test/resources/fixtures/sample-android-project/app/src/main/java/com/corporate/data/UserRepository.kt
+- None detected - all connections are within the same source files.
 
 ## Import Cycles
 - None detected.
 
-## Communities (31 total, 6 thin omitted)
+## Communities (94 total, 51 thin omitted)
 
-### Community 0 - ".sampleAndroidProject"
+### Community 0 - "GradleCommandValidator"
+Cohesion: 0.22
+Nodes (3): GradleCommandValidator, GradleRunTool, kotlinx
+
+### Community 1 - "JsonArray"
 Cohesion: 0.06
-Nodes (11): JsonArray, FixtureProjects, java, LintRunToolTest, ManifestInspectToolTest, ModuleGraphToolTest, ProjectInspectToolTest, SymbolFindToolTest (+3 more)
+Nodes (10): JsonArray, BuildValidateToolTest, DependenciesInspectToolTest, LintRunToolTest, ManifestInspectToolTest, ManifestMergeToolTest, ModuleGraphToolTest, ProjectInspectToolTest (+2 more)
 
-### Community 1 - "GradleCommandValidator"
-Cohesion: 0.07
-Nodes (16): GradleCommandValidator, GradleTaskEntry, GradleTasksParser, GradleWrapperLocator, JunitTestCase, JunitTestSuite, JunitXmlParser, org (+8 more)
+### Community 2 - "bash"
+Cohesion: 0.06
+Nodes (34): git add*, git clean*, git commit*, git diff*, git log*, git push*, git reset --hard*, git show* (+26 more)
 
-### Community 2 - "KotlinPsiEngine"
+### Community 3 - "KotlinSourceScanner"
 Cohesion: 0.10
-Nodes (13): KotlinCoreEnvironment, PsiElement, PsiErrorElement, KotlinPsiEngine, KtTreeVisitorVoid, KtFile, KtTreeVisitorVoid, KotlinSourceScanner (+5 more)
+Nodes (14): ComposeNavDetector, ComposeRoute, NavAction, NavArgument, NavDestination, NavGraph, NavXmlParser, KotlinSourceScanner (+6 more)
 
-### Community 3 - ".create"
-Cohesion: 0.09
+### Community 4 - "package.json"
+Cohesion: 0.07
+Nodes (26): author, bin, android-corporate-mcp, description, engines, node, files, keywords (+18 more)
+
+### Community 5 - "androidmcp/symbol/SymbolExtractor.kt"
+Cohesion: 0.13
+Nodes (14): KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, KtClass, KtFile, KtTreeVisitorVoid (+6 more)
+
+### Community 6 - "server/Main.kt"
+Cohesion: 0.16
+Nodes (20): CallToolRequest, CallToolResult, JsonElement, argBool(), argInt(), argList(), args(), argString() (+12 more)
+
+### Community 7 - ".create"
+Cohesion: 0.10
 Nodes (5): GradleFixtureProject, EntryPointsFindToolTest, GradleRunToolIntegrationTest, GradleTasksToolIntegrationTest, ResourcesInspectToolTest
 
-### Community 4 - "SymbolExtractor.kt"
-Cohesion: 0.17
-Nodes (12): KtClass, KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, KtFile, KtTreeVisitorVoid (+4 more)
+### Community 8 - "GradlePropertiesParser"
+Cohesion: 0.18
+Nodes (4): GradleConfig, GradlePropertiesParser, GradleConfigTool, kotlinx
 
-### Community 5 - "server/Main.kt"
-Cohesion: 0.25
-Nodes (17): CallToolRequest, CallToolResult, JsonElement, argBool(), argInt(), argList(), args(), argString() (+9 more)
+### Community 9 - ".sampleAndroidProject"
+Cohesion: 0.20
+Nodes (3): ConventionPluginsToolTest, ProguardInspectToolTest, SymbolFindToolTest
 
-### Community 6 - "permission"
-Cohesion: 0.11
-Nodes (17): compaction, auto, prune, model, permission, doom_loop, edit, external_directory (+9 more)
-
-### Community 7 - "bash"
-Cohesion: 0.12
-Nodes (17): git add*, git clean*, git commit*, git diff*, git log*, git push*, git reset --hard*, git show* (+9 more)
-
-### Community 8 - "ModuleGraphParser"
+### Community 10 - "ModuleGraphParser"
 Cohesion: 0.14
 Nodes (6): ModuleEdge, ModuleGraph, ModuleGraphParser, kotlinx, ModuleGraphTool, ModuleGraphParserTest
 
-### Community 9 - "ProjectInspectTool"
+### Community 11 - "ProjectInspectTool"
 Cohesion: 0.18
 Nodes (7): AndroidModuleEvidence, AndroidModuleType, APPLICATION, LIBRARY, UNKNOWN, JsonObject, ProjectInspectTool
 
-### Community 10 - "UserRepository"
-Cohesion: 0.23
-Nodes (7): AppCompatActivity, Application, Bundle, CorporateApplication, MainActivity, User, UserRepository
+### Community 12 - "ManifestMergeTool"
+Cohesion: 0.18
+Nodes (6): Element, kotlinx, ManifestMergeTool, MergeConflict, kotlinx, ResourcesInspectTool
 
-### Community 11 - "LintRunTool"
+### Community 13 - "VersionCatalogParser"
 Cohesion: 0.23
-Nodes (5): LintIssue, LintReport, LintXmlParser, kotlinx, LintRunTool
+Nodes (7): CatalogLibrary, CatalogPlugin, CatalogVersion, VersionCatalog, VersionCatalogParser, kotlinx, VersionCatalogTool
 
-### Community 12 - "EntryPointsFindTool"
+### Community 14 - "HierarchyBuilder.kt"
+Cohesion: 0.23
+Nodes (8): HierarchyBuilder, KtTreeVisitorVoid, HierarchyEntry, HierarchyNode, KtClass, KtTreeVisitorVoid, kotlinx, SymbolHierarchyTool
+
+### Community 15 - "androidmcp/symbol/KotlinPsiEngine.kt"
+Cohesion: 0.23
+Nodes (7): KotlinCoreEnvironment, PsiElement, PsiErrorElement, KotlinPsiEngine, KtTreeVisitorVoid, KtFile, KtTreeVisitorVoid
+
+### Community 16 - "MainActivity.kt"
+Cohesion: 0.29
+Nodes (9): Bundle, ComponentActivity, StateFlow, ViewModel, LoginUiState, MainActivity, MainViewModel, User (+1 more)
+
+### Community 17 - "ConventionPluginScanner"
+Cohesion: 0.27
+Nodes (4): ConventionPlugin, ConventionPluginScanner, ConventionPluginsTool, kotlinx
+
+### Community 18 - "ArchitectureDetectTool.kt"
+Cohesion: 0.33
+Nodes (6): ArchitectureEvidence, ArchitectureResult, PatternDetector, SourceFile, ArchitectureDetectTool, kotlinx
+
+### Community 19 - "android-corporate-mcp.js"
+Cohesion: 0.22
+Nodes (8): buildDir, fs, jarDir, jarFile, jarPath, java, path, { spawn }
+
+### Community 20 - "EntryPointsFindTool"
 Cohesion: 0.50
 Nodes (3): EntryPointsFindTool, Element, kotlinx
 
-### Community 13 - "TestsRunTool"
-Cohesion: 0.46
-Nodes (3): latticeMCP, kotlinx, TestsRunTool
+### Community 21 - "ProguardInspectTool"
+Cohesion: 0.39
+Nodes (4): kotlinx, ProguardFile, ProguardInspectTool, ProguardRule
 
-### Community 14 - "ManifestInspectTool"
+### Community 22 - "ManifestInspectTool"
 Cohesion: 0.50
 Nodes (3): Element, JsonObject, ManifestInspectTool
 
-### Community 15 - "GradleDependenciesTreeParser"
+### Community 23 - "SecurityAuditTool"
+Cohesion: 0.46
+Nodes (3): kotlinx, SecurityAuditTool, SecurityIssue
+
+### Community 24 - "TestsRunTool"
+Cohesion: 0.46
+Nodes (3): dev, kotlinx, TestsRunTool
+
+### Community 25 - "GradleDependenciesTreeParser"
 Cohesion: 0.52
 Nodes (3): ConfigurationDependencies, DependencyNode, GradleDependenciesTreeParser
 
-### Community 16 - "ResourcesInspectTool"
-Cohesion: 0.40
-Nodes (3): Element, kotlinx, ResourcesInspectTool
+### Community 26 - "ResourceReferencesTool"
+Cohesion: 0.48
+Nodes (3): kotlinx, Ref, ResourceReferencesTool
 
-### Community 20 - "gradlew"
+### Community 27 - "GradleTasksParser"
+Cohesion: 0.25
+Nodes (4): GradleTaskEntry, GradleTasksParser, GradleTasksTool, kotlinx
+
+### Community 29 - "LoginViewModel.kt"
+Cohesion: 0.43
+Nodes (5): StateFlow, ViewModel, LoginRepository, LoginState, LoginViewModel
+
+### Community 30 - "postinstall.js"
+Cohesion: 0.33
+Nodes (5): { execSync }, fs, jarDir, jarFiles, path
+
+### Community 37 - "gradlew"
 Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
 
+### Community 44 - "Navigation.kt"
+Cohesion: 0.83
+Nodes (3): AppNavHost(), HomeScreen(), LoginScreen()
+
+### Community 86 - "androidmcp/tools/TestsRunTool.kt"
+Cohesion: 0.36
+Nodes (4): JunitTestCase, JunitTestSuite, JunitXmlParser, org
+
+### Community 87 - "GradleWrapperLocator"
+Cohesion: 0.29
+Nodes (3): GradleWrapperLocator, DependenciesInspectTool, kotlinx
+
+### Community 88 - "androidmcp/lint/LintXmlParser.kt"
+Cohesion: 0.47
+Nodes (3): LintIssue, LintReport, LintXmlParser
+
+### Community 92 - "StaticAnalysisTool.kt"
+Cohesion: 0.50
+Nodes (3): kotlinx, StaticAnalysisTool, ToolResult
+
 ## Knowledge Gaps
-- **35 isolated node(s):** `APPLICATION`, `LIBRARY`, `UNKNOWN`, `$schema`, `model` (+30 more)
+- **71 isolated node(s):** `graphify`, `$schema`, `model`, `small_model`, `auto` (+66 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **51 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ModuleGraphTool` connect `ModuleGraphParser` to `server/Main.kt`?**
-  _High betweenness centrality (0.053) - this node is a cross-community bridge._
-- **Why does `TestsRunTool` connect `TestsRunTool` to `GradleCommandValidator`, `server/Main.kt`?**
-  _High betweenness centrality (0.050) - this node is a cross-community bridge._
-- **Why does `LintRunTool` connect `LintRunTool` to `server/Main.kt`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
-- **What connects `APPLICATION`, `LIBRARY`, `UNKNOWN` to the rest of the system?**
-  _35 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `.sampleAndroidProject` be split into smaller, more focused modules?**
-  _Cohesion score 0.06312292358803986 - nodes in this community are weakly interconnected._
-- **Should `GradleCommandValidator` be split into smaller, more focused modules?**
-  _Cohesion score 0.07057057057057058 - nodes in this community are weakly interconnected._
-- **Should `KotlinPsiEngine` be split into smaller, more focused modules?**
-  _Cohesion score 0.09686609686609686 - nodes in this community are weakly interconnected._
+- **Why does `SymbolReferencesTool` connect `KotlinSourceScanner` to `server/Main.kt`?**
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
+- **Why does `GradleConfigTool` connect `GradlePropertiesParser` to `server/Main.kt`?**
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
+- **Why does `TestsRunTool` connect `TestsRunTool` to `androidmcp/tools/TestsRunTool.kt`, `server/Main.kt`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **What connects `graphify`, `$schema`, `model` to the rest of the system?**
+  _71 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `JsonArray` be split into smaller, more focused modules?**
+  _Cohesion score 0.05641025641025641 - nodes in this community are weakly interconnected._
+- **Should `bash` be split into smaller, more focused modules?**
+  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
+- **Should `KotlinSourceScanner` be split into smaller, more focused modules?**
+  _Cohesion score 0.09788359788359788 - nodes in this community are weakly interconnected._
