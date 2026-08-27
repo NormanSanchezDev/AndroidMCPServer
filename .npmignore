@@ -1,0 +1,5 @@
+# Presence of this file stops npm from falling back to .gitignore when
+# packing, which would otherwise silently exclude jars/ (gitignored, but
+# whitelisted via package.json "files" for the published tarball).
+# The "files" field in package.json is the actual whitelist; nothing here
+# needs to duplicate it.
