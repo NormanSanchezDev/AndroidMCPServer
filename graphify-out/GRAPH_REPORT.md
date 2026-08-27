@@ -1,15 +1,16 @@
-# Graph Report - .  (2026-08-27)
+# Graph Report - AndroidCorporateMCP  (2026-08-27)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 114 files · ~39,540 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 636 nodes · 875 edges · 86 communities (39 shown, 47 thin omitted)
+- 638 nodes · 876 edges · 94 communities (43 shown, 51 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 27 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `583a9283`
+- Built from commit: `94fc5086`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,7 +42,7 @@
 - TestsRunTool
 - GradleDependenciesTreeParser
 - ResourceReferencesTool
-- TestsDiscoverTool
+- GradleTasksParser
 - FixtureProjects
 - LoginViewModel.kt
 - postinstall.js
@@ -93,6 +94,14 @@
 - JsonObject
 - java
 - java
+- androidmcp/tools/TestsRunTool.kt
+- GradleWrapperLocator
+- androidmcp/lint/LintXmlParser.kt
+- BuildValidateTool
+- LintRunTool
+- ProcessExecutor
+- StaticAnalysisTool.kt
+- CLAUDE.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `bash` - 17 edges
@@ -112,11 +121,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (86 total, 47 thin omitted)
+## Communities (94 total, 51 thin omitted)
 
 ### Community 0 - "GradleCommandValidator"
-Cohesion: 0.05
-Nodes (24): GradleCommandValidator, GradleTaskEntry, GradleTasksParser, GradleWrapperLocator, JunitTestCase, JunitTestSuite, JunitXmlParser, org (+16 more)
+Cohesion: 0.22
+Nodes (3): GradleCommandValidator, GradleRunTool, kotlinx
 
 ### Community 1 - "JsonArray"
 Cohesion: 0.06
@@ -139,8 +148,8 @@ Cohesion: 0.13
 Nodes (14): KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, KtClass, KtFile, KtTreeVisitorVoid (+6 more)
 
 ### Community 6 - "server/Main.kt"
-Cohesion: 0.18
-Nodes (19): CallToolRequest, CallToolResult, JsonElement, argBool(), argInt(), argList(), args(), argString() (+11 more)
+Cohesion: 0.16
+Nodes (20): CallToolRequest, CallToolResult, JsonElement, argBool(), argInt(), argList(), args(), argString() (+12 more)
 
 ### Community 7 - ".create"
 Cohesion: 0.10
@@ -222,9 +231,9 @@ Nodes (3): ConfigurationDependencies, DependencyNode, GradleDependenciesTreePars
 Cohesion: 0.48
 Nodes (3): kotlinx, Ref, ResourceReferencesTool
 
-### Community 27 - "TestsDiscoverTool"
-Cohesion: 0.38
-Nodes (3): kotlinx, TestMatch, TestsDiscoverTool
+### Community 27 - "GradleTasksParser"
+Cohesion: 0.25
+Nodes (4): GradleTaskEntry, GradleTasksParser, GradleTasksTool, kotlinx
 
 ### Community 29 - "LoginViewModel.kt"
 Cohesion: 0.43
@@ -242,25 +251,41 @@ Nodes (3): gradlew script, die(), warn()
 Cohesion: 0.83
 Nodes (3): AppNavHost(), HomeScreen(), LoginScreen()
 
+### Community 86 - "androidmcp/tools/TestsRunTool.kt"
+Cohesion: 0.36
+Nodes (4): JunitTestCase, JunitTestSuite, JunitXmlParser, org
+
+### Community 87 - "GradleWrapperLocator"
+Cohesion: 0.29
+Nodes (3): GradleWrapperLocator, DependenciesInspectTool, kotlinx
+
+### Community 88 - "androidmcp/lint/LintXmlParser.kt"
+Cohesion: 0.47
+Nodes (3): LintIssue, LintReport, LintXmlParser
+
+### Community 92 - "StaticAnalysisTool.kt"
+Cohesion: 0.50
+Nodes (3): kotlinx, StaticAnalysisTool, ToolResult
+
 ## Knowledge Gaps
-- **70 isolated node(s):** `$schema`, `model`, `small_model`, `auto`, `prune` (+65 more)
+- **71 isolated node(s):** `graphify`, `$schema`, `model`, `small_model`, `auto` (+66 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **47 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **51 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `SymbolReferencesTool` connect `KotlinSourceScanner` to `server/Main.kt`?**
-  _High betweenness centrality (0.061) - this node is a cross-community bridge._
+  _High betweenness centrality (0.060) - this node is a cross-community bridge._
 - **Why does `GradleConfigTool` connect `GradlePropertiesParser` to `server/Main.kt`?**
   _High betweenness centrality (0.042) - this node is a cross-community bridge._
-- **Why does `TestsRunTool` connect `TestsRunTool` to `GradleCommandValidator`, `server/Main.kt`?**
+- **Why does `TestsRunTool` connect `TestsRunTool` to `androidmcp/tools/TestsRunTool.kt`, `server/Main.kt`?**
   _High betweenness centrality (0.035) - this node is a cross-community bridge._
-- **What connects `$schema`, `model`, `small_model` to the rest of the system?**
-  _70 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `GradleCommandValidator` be split into smaller, more focused modules?**
-  _Cohesion score 0.05117845117845118 - nodes in this community are weakly interconnected._
+- **What connects `graphify`, `$schema`, `model` to the rest of the system?**
+  _71 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `JsonArray` be split into smaller, more focused modules?**
   _Cohesion score 0.05641025641025641 - nodes in this community are weakly interconnected._
 - **Should `bash` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
+- **Should `KotlinSourceScanner` be split into smaller, more focused modules?**
+  _Cohesion score 0.09788359788359788 - nodes in this community are weakly interconnected._

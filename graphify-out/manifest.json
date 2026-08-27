@@ -503,5 +503,95 @@
     "mtime": 1787822381.4476764,
     "ast_hash": "f37c3ebd7815a86410a08d3d786bfd72",
     "semantic_hash": "f37c3ebd7815a86410a08d3d786bfd72"
+  },
+  ".ai/mcp/mcp.json": {
+    "mtime": 1787822381.181292,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci.yml": {
+    "mtime": 1787822947.5329483,
+    "ast_hash": "3ac126b00756d9a70afb32b7a67cfa63",
+    "semantic_hash": ""
+  },
+  ".github/workflows/release.yml": {
+    "mtime": 1787822381.1815002,
+    "ast_hash": "10932d6b8c8b87bf2c7a6e36598a4767",
+    "semantic_hash": ""
+  },
+  ".serena/project.yml": {
+    "mtime": 1787822381.1891556,
+    "ast_hash": "3f8549e8ddb4c9cbcb21b758be389266",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1787822381.189172,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1787823463.8008509,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "IMPLEMENTATION_PLAN.md": {
+    "mtime": 1787822381.189407,
+    "ast_hash": "45a56115a85e25790e17ac0f2df1914b",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1787822381.189598,
+    "ast_hash": "fffbb0f737de181fcd49c086054fcd31",
+    "semantic_hash": ""
+  },
+  "docs/MULTI_CLIENT.md": {
+    "mtime": 1787822381.4311743,
+    "ast_hash": "4a7bcd078a57f9cb9638b91e207191db",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/gradle-deps/dependencies-root.txt": {
+    "mtime": 1787822381.4454274,
+    "ast_hash": "c43fc0aedd421234a922d0e700eabaad",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/gradle/tasks-all-root.txt": {
+    "mtime": 1787822381.4456613,
+    "ast_hash": "d0bda4caa1bd5e62428c4e9b59d9c765",
+    "semantic_hash": ""
+  },
+  "wiki/Configuration.md": {
+    "mtime": 1787822385.041139,
+    "ast_hash": "20772e631509f5abee84f948bf94cc5a",
+    "semantic_hash": ""
+  },
+  "wiki/Contributing.md": {
+    "mtime": 1787822385.016674,
+    "ast_hash": "29b7e69d73f5a2d8e4bbfbf9c5798aec",
+    "semantic_hash": ""
+  },
+  "wiki/Examples.md": {
+    "mtime": 1787822385.0458233,
+    "ast_hash": "5f359a9e48da983908b108513239814b",
+    "semantic_hash": ""
+  },
+  "wiki/Home.md": {
+    "mtime": 1787822385.0259717,
+    "ast_hash": "7fe8d6f24d94b411053657271e620a5b",
+    "semantic_hash": ""
+  },
+  "wiki/Installation.md": {
+    "mtime": 1787822385.0342577,
+    "ast_hash": "14b4530a38ceeef0f8c9d9bf0e6a06b1",
+    "semantic_hash": ""
+  },
+  "wiki/Tools-Reference.md": {
+    "mtime": 1787822385.0038009,
+    "ast_hash": "e9b7c4e671640d71e1106de7b28125bc",
+    "semantic_hash": ""
+  },
+  "wiki/Troubleshooting.md": {
+    "mtime": 1787822385.0110905,
+    "ast_hash": "7c1eac336f36d97395d93f655f742f47",
+    "semantic_hash": ""
   }
 }

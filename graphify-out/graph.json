@@ -4,6 +4,268 @@
   "graph": {},
   "nodes": [
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude",
+      "community": 93,
+      "community_name": "CLAUDE.md",
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 93,
+      "community_name": "CLAUDE.md",
+      "norm_label": "graphify"
+    },
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "build.gradle.kts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "build_gradle",
+      "community": 55,
+      "community_name": "build.gradle.kts",
+      "norm_label": "build.gradle.kts"
+    },
+    {
+      "label": "GradleDependenciesTreeParser.kt",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": "gradledependenciestreeparser.kt"
+    },
+    {
+      "label": "DependencyNode",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": "dependencynode"
+    },
+    {
+      "label": "ConfigurationDependencies",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": "configurationdependencies"
+    },
+    {
+      "label": "GradleDependenciesTreeParser",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": "gradledependenciestreeparser"
+    },
+    {
+      "label": ".parse()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L24",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": ".parse()"
+    },
+    {
+      "label": ".parseNode()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L65",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": ".parsenode()"
+    },
+    {
+      "label": ".simpleNode()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L134",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
+      "community": 25,
+      "community_name": "GradleDependenciesTreeParser",
+      "norm_label": ".simplenode()"
+    },
+    {
+      "label": "SecurityAuditTool.kt",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": "securityaudittool.kt"
+    },
+    {
+      "label": "SecurityAuditTool",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": "securityaudittool"
+    },
+    {
+      "label": "SecurityIssue",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": "securityissue"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "kotlinx",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": "kotlinx"
+    },
+    {
+      "label": ".checkManifest()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L65",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": ".checkmanifest()"
+    },
+    {
+      "label": ".checkGradleProperties()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L102",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": ".checkgradleproperties()"
+    },
+    {
+      "label": ".checkHardcodedSecrets()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L130",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
+      "community": 23,
+      "community_name": "SecurityAuditTool",
+      "norm_label": ".checkhardcodedsecrets()"
+    },
+    {
+      "label": "SymbolReferencesTool.kt",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
+      "community": 3,
+      "community_name": "KotlinSourceScanner",
+      "norm_label": "symbolreferencestool.kt"
+    },
+    {
+      "label": "SymbolReferencesTool",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
+      "community": 3,
+      "community_name": "KotlinSourceScanner",
+      "norm_label": "symbolreferencestool"
+    },
+    {
+      "label": ".execute()",
+      "file_type": "code",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
+      "community": 3,
+      "community_name": "KotlinSourceScanner",
+      "norm_label": ".execute()"
+    },
+    {
+      "label": "kotlinx",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx",
+      "community": 3,
+      "community_name": "KotlinSourceScanner",
+      "norm_label": "kotlinx"
+    },
+    {
       "label": "graphify.js",
       "file_type": "code",
       "source_file": ".opencode/plugins/graphify.js",
@@ -1932,9 +2194,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/gradle/GradleTasksParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "androidmcp/gradle/gradletasksparser.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser"
     },
     {
@@ -1945,9 +2207,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "gradletaskentry",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser_gradletaskentry"
     },
     {
@@ -1958,9 +2220,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "gradletasksparser",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser_gradletasksparser"
     },
     {
@@ -1970,9 +2232,9 @@
       "source_location": "L14",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": ".parse()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser_gradletasksparser_parse"
     },
     {
@@ -1981,9 +2243,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/gradle/GradleWrapperLocator.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "androidmcp/gradle/gradlewrapperlocator.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradlewrapperlocator"
     },
     {
@@ -1994,9 +2256,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "gradlewrapperlocator",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradlewrapperlocator_gradlewrapperlocator"
     },
     {
@@ -2006,9 +2268,9 @@
       "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": ".findwrapper()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradlewrapperlocator_gradlewrapperlocator_findwrapper"
     },
     {
@@ -2251,9 +2513,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/junit/JunitXmlParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "androidmcp/junit/junitxmlparser.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser"
     },
     {
@@ -2264,9 +2526,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "junittestcase",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junittestcase"
     },
     {
@@ -2277,9 +2539,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "junittestsuite",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junittestsuite"
     },
     {
@@ -2290,9 +2552,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "junitxmlparser",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junitxmlparser"
     },
     {
@@ -2302,9 +2564,9 @@
       "source_location": "L25",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": ".parse()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junitxmlparser_parse"
     },
     {
@@ -2314,9 +2576,9 @@
       "source_location": "L69",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": ".firstchildtext()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junitxmlparser_firstchildtext"
     },
     {
@@ -2325,9 +2587,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "org",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_kt_org"
     },
     {
@@ -2336,9 +2598,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/lint/LintXmlParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "androidmcp/lint/lintxmlparser.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser"
     },
     {
@@ -2349,9 +2611,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "lintissue",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintissue"
     },
     {
@@ -2362,9 +2624,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "lintreport",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintreport"
     },
     {
@@ -2374,9 +2636,9 @@
       "source_location": "L18",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": ".countbyseverity()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintreport_countbyseverity"
     },
     {
@@ -2387,9 +2649,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "lintxmlparser",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintxmlparser"
     },
     {
@@ -2399,9 +2661,9 @@
       "source_location": "L24",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": ".parse()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintxmlparser_parse"
     },
     {
@@ -2640,9 +2902,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/process/ProcessExecutor.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": "androidmcp/process/processexecutor.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor"
     },
     {
@@ -2653,9 +2915,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": "processresult",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processresult"
     },
     {
@@ -2666,9 +2928,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": "processexecutor",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processexecutor"
     },
     {
@@ -2678,9 +2940,9 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processexecutor_execute"
     },
     {
@@ -2690,9 +2952,9 @@
       "source_location": "L76",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": ".truncate()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processexecutor_truncate"
     },
     {
@@ -3527,9 +3789,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/BuildValidateTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": "buildvalidatetool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool"
     },
     {
@@ -3540,9 +3802,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": "buildvalidatetool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool"
     },
     {
@@ -3552,9 +3814,9 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool_execute"
     },
     {
@@ -3563,9 +3825,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_kt_kotlinx"
     },
     {
@@ -3575,9 +3837,9 @@
       "source_location": "L95",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": ".extractwarnings()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool_extractwarnings"
     },
     {
@@ -3587,9 +3849,9 @@
       "source_location": "L102",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": ".extracterrors()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool_extracterrors"
     },
     {
@@ -3645,9 +3907,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/DependenciesInspectTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "androidmcp/tools/dependenciesinspecttool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool"
     },
     {
@@ -3658,9 +3920,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "dependenciesinspecttool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool_dependenciesinspecttool"
     },
     {
@@ -3670,9 +3932,9 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool_dependenciesinspecttool_execute"
     },
     {
@@ -3681,9 +3943,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool_kt_kotlinx"
     },
     {
@@ -3892,9 +4154,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/GradleTasksTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "androidmcp/tools/gradletaskstool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool"
     },
     {
@@ -3905,9 +4167,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "gradletaskstool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool_gradletaskstool"
     },
     {
@@ -3917,9 +4179,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool_gradletaskstool_execute"
     },
     {
@@ -3928,9 +4190,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool_kt_kotlinx"
     },
     {
@@ -3939,9 +4201,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/LintRunTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "androidmcp/tools/lintruntool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool"
     },
     {
@@ -3952,9 +4214,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": "lintruntool",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool"
     },
     {
@@ -3964,9 +4226,9 @@
       "source_location": "L20",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".execute()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_execute"
     },
     {
@@ -3975,9 +4237,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": "kotlinx",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_kt_kotlinx"
     },
     {
@@ -3987,9 +4249,9 @@
       "source_location": "L135",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".latestlintreport()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_latestlintreport"
     },
     {
@@ -3999,9 +4261,9 @@
       "source_location": "L155",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".rungradlelint()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_rungradlelint"
     },
     {
@@ -4011,9 +4273,9 @@
       "source_location": "L192",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".defaulttaskfor()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_defaulttaskfor"
     },
     {
@@ -4731,25 +4993,14 @@
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool_resourcesinspecttool_collectvaluenames"
     },
     {
-      "label": "kotlinx",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": "kotlinx",
-      "community_name": "SecurityAuditTool",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx"
-    },
-    {
       "label": "StaticAnalysisTool.kt",
       "file_type": "code",
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/StaticAnalysisTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "staticanalysistool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool"
     },
     {
@@ -4760,9 +5011,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "staticanalysistool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_staticanalysistool"
     },
     {
@@ -4772,9 +5023,9 @@
       "source_location": "L19",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_staticanalysistool_execute"
     },
     {
@@ -4783,9 +5034,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_kt_kotlinx"
     },
     {
@@ -4796,9 +5047,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "toolresult",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_toolresult"
     },
     {
@@ -4908,25 +5159,14 @@
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool_serializenode"
     },
     {
-      "label": "kotlinx",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "kotlinx",
-      "community_name": "KotlinSourceScanner",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx"
-    },
-    {
       "label": "TestsDiscoverTool.kt",
       "file_type": "code",
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/TestsDiscoverTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "testsdiscovertool.kt",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool"
     },
     {
@@ -4937,9 +5177,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "testsdiscovertool",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool"
     },
     {
@@ -4949,9 +5189,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": ".execute()",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool_execute"
     },
     {
@@ -4960,9 +5200,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "kotlinx",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_kt_kotlinx"
     },
     {
@@ -4972,9 +5212,9 @@
       "source_location": "L72",
       "_callable": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": ".findtestfiles()",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool_findtestfiles"
     },
     {
@@ -4984,9 +5224,9 @@
       "source_location": "L92",
       "_callable": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": ".isvalididentifier()",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool_isvalididentifier"
     },
     {
@@ -4997,9 +5237,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "testmatch",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testmatch"
     },
     {
@@ -5008,9 +5248,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/TestsRunTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "androidmcp/tools/testsruntool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsruntool"
     },
     {
@@ -7295,227 +7535,420 @@
       "norm_label": ".login()",
       "community_name": "LoginViewModel.kt",
       "id": "src_test_resources_fixtures_sample_android_project_feature_login_src_main_java_com_corporate_feature_login_loginviewmodel_loginrepository_login"
-    },
-    {
-      "label": "build.gradle.kts",
-      "file_type": "code",
-      "source_file": "build.gradle.kts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 55,
-      "norm_label": "build.gradle.kts",
-      "community_name": "build.gradle.kts",
-      "id": "build_gradle"
-    },
-    {
-      "label": "GradleDependenciesTreeParser.kt",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": "gradledependenciestreeparser.kt",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": "DependencyNode",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L3",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": "dependencynode",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": "ConfigurationDependencies",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L13",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": "configurationdependencies",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": "GradleDependenciesTreeParser",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L19",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": "gradledependenciestreeparser",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": ".parse()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L24",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": ".parse()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": ".parseNode()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L65",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": ".parsenode()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": ".simpleNode()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L134",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "norm_label": ".simplenode()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
-      "community_name": "GradleDependenciesTreeParser"
-    },
-    {
-      "label": "SecurityAuditTool.kt",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": "securityaudittool.kt",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": "SecurityAuditTool",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L11",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": "securityaudittool",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": "SecurityIssue",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L13",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": "securityissue",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": ".execute()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L21",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": ".execute()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": ".checkManifest()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L65",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": ".checkmanifest()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": ".checkGradleProperties()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L102",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": ".checkgradleproperties()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": ".checkHardcodedSecrets()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L130",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 23,
-      "norm_label": ".checkhardcodedsecrets()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
-      "community_name": "SecurityAuditTool"
-    },
-    {
-      "label": "SymbolReferencesTool.kt",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "symbolreferencestool.kt",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "community_name": "KotlinSourceScanner"
-    },
-    {
-      "label": "SymbolReferencesTool",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L12",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": "symbolreferencestool",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
-      "community_name": "KotlinSourceScanner"
-    },
-    {
-      "label": ".execute()",
-      "file_type": "code",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L14",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "norm_label": ".execute()",
-      "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
-      "community_name": "KotlinSourceScanner"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/DependenciesInspectTool.kt",
+      "source_location": "L7",
+      "weight": 1.0,
+      "metadata": {
+        "target_fqn": "dev.normansanchez.androidmcp.dependencies.GradleDependenciesTreeParser"
+      },
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/server/Main.kt",
+      "source_location": "L50",
+      "weight": 1.0,
+      "metadata": {
+        "target_fqn": "dev.normansanchez.androidmcp.tools.SecurityAuditTool"
+      },
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_server_main",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L8",
+      "weight": 1.0,
+      "metadata": {
+        "target_fqn": "dev.normansanchez.androidmcp.symbol.KotlinPsiEngine"
+      },
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L9",
+      "weight": 1.0,
+      "metadata": {
+        "target_fqn": "dev.normansanchez.androidmcp.symbol.KotlinSourceScanner"
+      },
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L10",
+      "weight": 1.0,
+      "metadata": {
+        "target_fqn": "dev.normansanchez.androidmcp.symbol.SymbolExtractor"
+      },
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/server/Main.kt",
+      "source_location": "L38",
+      "weight": 1.0,
+      "metadata": {
+        "target_fqn": "dev.normansanchez.androidmcp.tools.SymbolReferencesTool"
+      },
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_server_main",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
+      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -11695,21 +12128,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/server/Main.kt",
-      "source_location": "L50",
-      "weight": 1.0,
-      "metadata": {
-        "target_fqn": "dev.normansanchez.androidmcp.tools.SecurityAuditTool"
-      },
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_server_main",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/server/Main.kt",
       "source_location": "L47",
       "weight": 1.0,
       "metadata": {
@@ -11749,21 +12167,6 @@
       "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_server_main",
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/server/Main.kt",
-      "source_location": "L38",
-      "weight": 1.0,
-      "metadata": {
-        "target_fqn": "dev.normansanchez.androidmcp.tools.SymbolReferencesTool"
-      },
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_server_main",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool"
     },
     {
       "relation": "imports",
@@ -12390,21 +12793,6 @@
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kt_kttreevisitorvoid"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L8",
-      "weight": 1.0,
-      "metadata": {
-        "target_fqn": "dev.normansanchez.androidmcp.symbol.KotlinPsiEngine"
-      },
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine"
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/symbol/KotlinPsiEngine.kt",
@@ -12526,21 +12914,6 @@
       "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner",
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner_scannedkotlinfile"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L9",
-      "weight": 1.0,
-      "metadata": {
-        "target_fqn": "dev.normansanchez.androidmcp.symbol.KotlinSourceScanner"
-      },
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner"
     },
     {
       "relation": "references",
@@ -12725,21 +13098,6 @@
       "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor",
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L10",
-      "weight": 1.0,
-      "metadata": {
-        "target_fqn": "dev.normansanchez.androidmcp.symbol.SymbolExtractor"
-      },
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor"
     },
     {
       "relation": "references",
@@ -13145,21 +13503,6 @@
       "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstool_conventionpluginstool_execute",
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_conventionpluginstool_kt_kotlinx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/DependenciesInspectTool.kt",
-      "source_location": "L7",
-      "weight": 1.0,
-      "metadata": {
-        "target_fqn": "dev.normansanchez.androidmcp.dependencies.GradleDependenciesTreeParser"
-      },
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser"
     },
     {
       "relation": "contains",
@@ -14598,18 +14941,6 @@
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool_resourcesinspecttool_collectvaluenames"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L21",
-      "weight": 1.0,
-      "context": "return_type",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/StaticAnalysisTool.kt",
@@ -14768,18 +15099,6 @@
       "confidence_score": 1.0,
       "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool_serializenode",
       "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_kt_kotlinx"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L14",
-      "weight": 1.0,
-      "context": "return_type",
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx"
     },
     {
       "relation": "contains",
@@ -17643,294 +17962,8 @@
       "confidence_score": 1.0,
       "source": "src_test_resources_fixtures_sample_android_project_feature_login_src_main_java_com_corporate_feature_login_loginviewmodel_loginrepository",
       "target": "src_test_resources_fixtures_sample_android_project_feature_login_src_main_java_com_corporate_feature_login_loginviewmodel_loginrepository_login"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser"
-    },
-    {
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L139",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_dependencynode"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L24",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_configurationdependencies"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L24",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L134",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L57",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parse",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/dependencies/GradleDependenciesTreeParser.kt",
-      "source_location": "L125",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_parsenode",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_dependencies_gradledependenciestreeparser_gradledependenciestreeparser_simplenode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L11",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L102",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L130",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L21",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L102",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L130",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L65",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L34",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L35",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
-      "source_location": "L33",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolReferencesTool.kt",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool",
-      "target": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "583a9283cfc3e9e320926735c8cace5fb11a07f5"
+  "built_at_commit": "94fc50867cf2838e92e423827c0d2121bfe6d4ad"
 }
