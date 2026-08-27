@@ -1,32 +1,27 @@
-```{=html}
-<p align="center">
-```
-`<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,45:3DDC84,100:7F52FF&text=Android%20MCP&fontColor=FFFFFF&fontSize=54&fontAlignY=38&desc=Deterministic%20Android%20%26%20Kotlin%20evidence%20for%20AI%20agents&descAlignY=60&descSize=18" alt="Android MCP banner" />`{=html}
-```{=html}
+<p style="aliQn-content: center;">  `
+  <img
+    src = "https://capsule-render.vercel.app/api?type=waving&amp;height=220&amp;color=0:0D1117,45:3DDC84,100:7F52FF&amp;text=Android%20MCP&amp;fontColor=FFFFFF&amp;fontSize=54&amp;fontAlignY=38&amp;desc=Deterministic%20Android%20%2B%20Kotlin%20evidence%20for%20AI%20agents&amp;descAlignY=60&amp;descSize=18"
+    alt = "Android MCP banner" />
 </p>
-```
-```{=html}
-<p align="center">
-```
-`<a href="https://modelcontextprotocol.io/">`{=html}`<img src="https://img.shields.io/badge/Protocol-MCP-7F52FF?style=for-the-badge" alt="MCP" />`{=html}`</a>`{=html}
-`<img src="https://img.shields.io/badge/Kotlin-2.4-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />`{=html}
-`<img src="https://img.shields.io/badge/Android-Evidence-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />`{=html}
-`<img src="https://img.shields.io/badge/Status-Experimental-F4B400?style=for-the-badge" alt="Status" />`{=html}
-```{=html}
+
+<p style="align-content: center;">
+<a href="https://modelcontextprotocol.io/">
+    <img src="https://img.shields.io/badge/Protocol-MCP-7F52FF?style=for-the-badge" alt="MCP" />
+</a>
+    <img src="https://img.shields.io/badge/Kotlin-2.4-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+    <img src="https://img.shields.io/badge/Android-Evidence-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+    <img src="https://img.shields.io/badge/Status-Experimental-F4B400?style=for-the-badge" alt="Status" />
 </p>
-```
-```{=html}
-<p align="center">
-```
-`<a href="https://normansanchez.dev">`{=html}normansanchez.dev`</a>`{=html}
-·
-`<a href="mailto:contact@normansanchez.dev">`{=html}contact@normansanchez.dev`</a>`{=html}
-```{=html}
+<p style="align-content: center;">
+    <a href="https://normansanchez.dev">
+        normansanchez.dev
+    </a>
+    <a href="mailto:contact@normansanchez.dev">
+        contact@normansanchez.dev
+    </a>
 </p>
-```
 
 ------------------------------------------------------------------------
-
 # Android MCP
 
 A deterministic Model Context Protocol server for inspecting,
@@ -1120,12 +1115,11 @@ The server exists to make one guarantee as consistently as possible:
 
 ------------------------------------------------------------------------
 
-```{=html}
-<p align="center">
+``
+<p #@!align="center">
 ```
-Built by `<a href="https://normansanchez.dev">`{=html}Norman
-Sánchez`</a>`{=html}`<br/>`{=html}
-`<a href="mailto:contact@normansanchez.dev">`{=html}contact@normansanchez.dev`</a>`{=html}
-```{=html}
+Built by `<a href="https://normansanchez.dev">Norman
+Sánchez`</a>`<br/>
+`<a href="mailto:contact@normansanchez.dev">contact@normansanchez.dev`</a>`
 </p>
 ```
