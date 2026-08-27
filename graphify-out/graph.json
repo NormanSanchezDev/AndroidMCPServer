@@ -2209,9 +2209,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/gradle/GradleTasksParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "androidmcp/gradle/gradletasksparser.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser"
     },
     {
@@ -2222,9 +2222,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "gradletaskentry",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser_gradletaskentry"
     },
     {
@@ -2235,9 +2235,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "gradletasksparser",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser_gradletasksparser"
     },
     {
@@ -2247,9 +2247,9 @@
       "source_location": "L14",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": ".parse()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradletasksparser_gradletasksparser_parse"
     },
     {
@@ -2258,9 +2258,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/gradle/GradleWrapperLocator.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "androidmcp/gradle/gradlewrapperlocator.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradlewrapperlocator"
     },
     {
@@ -2271,9 +2271,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "gradlewrapperlocator",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradlewrapperlocator_gradlewrapperlocator"
     },
     {
@@ -2283,9 +2283,9 @@
       "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": ".findwrapper()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_gradle_gradlewrapperlocator_gradlewrapperlocator_findwrapper"
     },
     {
@@ -2528,9 +2528,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/junit/JunitXmlParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "androidmcp/junit/junitxmlparser.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser"
     },
     {
@@ -2541,9 +2541,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "junittestcase",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junittestcase"
     },
     {
@@ -2554,9 +2554,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "junittestsuite",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junittestsuite"
     },
     {
@@ -2567,9 +2567,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "junitxmlparser",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junitxmlparser"
     },
     {
@@ -2579,9 +2579,9 @@
       "source_location": "L25",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": ".parse()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junitxmlparser_parse"
     },
     {
@@ -2591,9 +2591,9 @@
       "source_location": "L69",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": ".firstchildtext()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_junitxmlparser_firstchildtext"
     },
     {
@@ -2602,9 +2602,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "org",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_junit_junitxmlparser_kt_org"
     },
     {
@@ -2613,9 +2613,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/lint/LintXmlParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "androidmcp/lint/lintxmlparser.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser"
     },
     {
@@ -2626,9 +2626,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "lintissue",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintissue"
     },
     {
@@ -2639,9 +2639,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "lintreport",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintreport"
     },
     {
@@ -2651,9 +2651,9 @@
       "source_location": "L18",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": ".countbyseverity()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintreport_countbyseverity"
     },
     {
@@ -2664,9 +2664,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": "lintxmlparser",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintxmlparser"
     },
     {
@@ -2676,9 +2676,9 @@
       "source_location": "L24",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 88,
       "norm_label": ".parse()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/lint/LintXmlParser.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintxmlparser_parse"
     },
     {
@@ -2917,9 +2917,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/process/ProcessExecutor.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": "androidmcp/process/processexecutor.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor"
     },
     {
@@ -2930,9 +2930,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": "processresult",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processresult"
     },
     {
@@ -2943,9 +2943,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": "processexecutor",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processexecutor"
     },
     {
@@ -2955,9 +2955,9 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processexecutor_execute"
     },
     {
@@ -2967,9 +2967,9 @@
       "source_location": "L76",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 91,
       "norm_label": ".truncate()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "ProcessExecutor",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_process_processexecutor_processexecutor_truncate"
     },
     {
@@ -3811,9 +3811,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/BuildValidateTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": "buildvalidatetool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool"
     },
     {
@@ -3824,9 +3824,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": "buildvalidatetool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool"
     },
     {
@@ -3836,9 +3836,9 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool_execute"
     },
     {
@@ -3849,9 +3849,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_kt_kotlinx"
     },
     {
@@ -3862,9 +3862,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": ".extractwarnings()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool_extractwarnings"
     },
     {
@@ -3874,9 +3874,9 @@
       "source_location": "L102",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 89,
       "norm_label": ".extracterrors()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool_buildvalidatetool_extracterrors"
     },
     {
@@ -3933,9 +3933,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/DependenciesInspectTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "androidmcp/tools/dependenciesinspecttool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool"
     },
     {
@@ -3946,9 +3946,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "dependenciesinspecttool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool_dependenciesinspecttool"
     },
     {
@@ -3958,9 +3958,9 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool_dependenciesinspecttool_execute"
     },
     {
@@ -3969,9 +3969,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_dependenciesinspecttool_kt_kotlinx"
     },
     {
@@ -4181,9 +4181,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/GradleTasksTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "androidmcp/tools/gradletaskstool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool"
     },
     {
@@ -4194,9 +4194,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "gradletaskstool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool_gradletaskstool"
     },
     {
@@ -4206,9 +4206,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool_gradletaskstool_execute"
     },
     {
@@ -4217,9 +4217,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 27,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleTasksParser",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradletaskstool_kt_kotlinx"
     },
     {
@@ -4228,9 +4228,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/LintRunTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 87,
       "norm_label": "androidmcp/tools/lintruntool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "GradleWrapperLocator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool"
     },
     {
@@ -4241,9 +4241,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": "lintruntool",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool"
     },
     {
@@ -4253,9 +4253,9 @@
       "source_location": "L20",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".execute()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_execute"
     },
     {
@@ -4264,9 +4264,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": "kotlinx",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_kt_kotlinx"
     },
     {
@@ -4276,9 +4276,9 @@
       "source_location": "L135",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".latestlintreport()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_latestlintreport"
     },
     {
@@ -4288,9 +4288,9 @@
       "source_location": "L155",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".rungradlelint()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_rungradlelint"
     },
     {
@@ -4300,9 +4300,9 @@
       "source_location": "L192",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 90,
       "norm_label": ".defaulttaskfor()",
-      "community_name": "server/Main.kt",
+      "community_name": "LintRunTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_defaulttaskfor"
     },
     {
@@ -5025,9 +5025,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/StaticAnalysisTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "staticanalysistool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool"
     },
     {
@@ -5038,9 +5038,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "staticanalysistool",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_staticanalysistool"
     },
     {
@@ -5050,9 +5050,9 @@
       "source_location": "L19",
       "_callable": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": ".execute()",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_staticanalysistool_execute"
     },
     {
@@ -5061,9 +5061,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "kotlinx",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_kt_kotlinx"
     },
     {
@@ -5074,9 +5074,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
+      "community": 92,
       "norm_label": "toolresult",
-      "community_name": "GradleCommandValidator",
+      "community_name": "StaticAnalysisTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_staticanalysistool_toolresult"
     },
     {
@@ -5191,9 +5191,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/TestsDiscoverTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "testsdiscovertool.kt",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool"
     },
     {
@@ -5204,9 +5204,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "testsdiscovertool",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool"
     },
     {
@@ -5216,9 +5216,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": ".execute()",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool_execute"
     },
     {
@@ -5227,9 +5227,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "kotlinx",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_kt_kotlinx"
     },
     {
@@ -5239,9 +5239,9 @@
       "source_location": "L72",
       "_callable": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": ".findtestfiles()",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool_findtestfiles"
     },
     {
@@ -5251,9 +5251,9 @@
       "source_location": "L92",
       "_callable": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": ".isvalididentifier()",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testsdiscovertool_isvalididentifier"
     },
     {
@@ -5264,9 +5264,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 27,
+      "community": 6,
       "norm_label": "testmatch",
-      "community_name": "TestsDiscoverTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsdiscovertool_testmatch"
     },
     {
@@ -5275,9 +5275,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/TestsRunTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 86,
       "norm_label": "androidmcp/tools/testsruntool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "androidmcp/tools/TestsRunTool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_testsruntool"
     },
     {
