@@ -7,6 +7,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y e
 ## [Unreleased]
 
 ### Cambiado
+- **Bump de versión 0.1.0 → 0.1.1**: el CI bloqueaba el merge a `release` porque `android-corporate-mcp@0.1.0` ya estaba publicado en npm (`package.json` y `build.gradle.kts` sincronizados).
 - **`graphify-out/` ya no se versiona en Git**: era la causa raíz de los conflictos recurrentes en cada PR — el driver de merge local (`merge=graphify`/`merge=ours`) resolvía bien en la máquina donde se configuró, pero GitHub calcula la mergeabilidad de un PR en su propio servidor y no tiene acceso a esa configuración local, así que seguía marcando conflicto de todas formas. Se destrackeó (`git rm --cached`), se ignora por completo en `.gitignore`, y se eliminó `.gitattributes` (ya sin propósito). El grafo se sigue generando y manteniendo igual de local: `graphify update .` una vez tras clonar, y los hooks `post-checkout`/`post-commit`/`post-merge` ya existentes lo resincronizan solos. Ningún PR volverá a mostrar conflicto por esta carpeta.
 
 ### Corregido
