@@ -7,6 +7,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y e
 ## [Unreleased]
 
 ### Corregido
+- **PR de release (#8) bloqueado por conflictos y build roto en `release`**: la rama `release` nunca había recibido el fix de `shadowJar` ni la restauración del fixture de tests, y además divergía de `develop` en los archivos de `graphify-out/`, bloqueando el merge en GitHub. Se hizo merge local de `origin/release` en `develop` (los merge drivers de graphify resolvieron esos archivos automáticamente) y se corrigió manualmente el daño colateral que ese merge introdujo en `CLAUDE.md` (perdió el bloque de instrucciones RTK) y en el fixture `ambiguous-entry-app/settings.gradle.kts` (quedó vacío) — ambos por reintroducir contenido antiguo de `release` que databa de antes de esas correcciones.
 - **Build de CI roto por advertencia de Shadow/Gradle 9**: el plugin `com.gradleup.shadow` marcaba `KotlinModuleMetadataTransformer` con `DuplicatesStrategy.EXCLUDE`, arriesgando que se descartaran silenciosamente metadatos de módulos Kotlin duplicados. Se fijó `duplicatesStrategy = DuplicatesStrategy.INCLUDE` en la tarea `shadowJar`.
 - **2 tests fallando en CI** (`AmbiguousNavigationTest`, `EntryPointDetectorTest`): el fixture `ambiguous-entry-app` había perdido su `settings.gradle.kts` en un rebase previo, causando que el escáner de proyecto Android retornara `null` (NPE) y que no se detectaran los 3 entry points esperados. Restaurado.
 
