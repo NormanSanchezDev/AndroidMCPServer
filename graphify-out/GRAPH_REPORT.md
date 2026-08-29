@@ -1,7 +1,7 @@
 # Graph Report - AndroidCorporateMCP  (2026-08-29)
 
 ## Corpus Check
-- 178 files · ~64,721 words
+- 178 files · ~64,824 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `87d5b383`
+- Built from commit: `b5d634b5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,22 +20,22 @@
 - bash
 - .parse
 - package.json
-- HierarchyBuilder.kt
+- SymbolExtractor.kt
 - server/Main.kt
 - .create
 - EntryPointDetector
 - .assertTrue
 - Tools Reference
 - Installation Guide
-- TestsRunToolTest
+- ProjectInspectTool
 - VersionCatalogParser
 - Usage Examples
-- SymbolExtractor.kt
+- HierarchyBuilder.kt
 - SessionViewModel
 - ConventionPluginScanner
 - .detect
 - android-corporate-mcp.js
-- ProjectInspectTool
+- EntryPointsFindTool
 - Android Corporate MCP — Implementation Plan
 - Troubleshooting Guide
 - CartFragment.kt
@@ -77,7 +77,7 @@
 - Development
 - Compatibility
 - Contributing
-- SelectorKind
+- org
 - kotlinx
 - BuildValidateTool
 - kotlinx
@@ -92,7 +92,7 @@
 - kotlinx
 - DetectAndroidFlowTool.kt
 - JunitXmlParser
-- EntryPointsFindTool
+- java
 - TestsRunTool
 - Android Corporate MCP
 - SummaryFragment.kt
@@ -107,15 +107,17 @@
 - ComposeNavParser
 - ManifestInspectToolTest
 - ManifestMergeToolTest
-- StaticAnalysisTool.kt
+- SelectorKind
 - Herramientas de referencia obligatorias para este proyecto
 - tools.md
 - Scope & Limitations
 - .namesForFile
 - .destinationNodeId
-- LintRunToolTest
+- TestsRunToolTest
 - ProjectPathsTest
 - CheckoutActivity.kt
+- LintRunToolTest
+- StaticAnalysisTool.kt
 - SelectorExtractionTest
 - Adding a New Tool
 - DependenciesInspectToolTest
@@ -130,7 +132,6 @@
 - KtTreeVisitorVoid
 - KtFile
 - KtTreeVisitorVoid
-- org
 - Element
 - kotlinx
 - kotlinx
@@ -141,7 +142,6 @@
 - kotlinx
 - kotlinx
 - JsonObject
-- java
 - java
 
 ## God Nodes (most connected - your core abstractions)
@@ -193,9 +193,9 @@ Nodes (5): NavAction, NavArgument, NavDestination, NavGraph, NavXmlParser
 Cohesion: 0.07
 Nodes (26): author, bin, android-corporate-mcp, description, engines, node, files, keywords (+18 more)
 
-### Community 5 - "HierarchyBuilder.kt"
-Cohesion: 0.23
-Nodes (8): HierarchyBuilder, KtTreeVisitorVoid, HierarchyEntry, HierarchyNode, KtClass, KtTreeVisitorVoid, kotlinx, SymbolHierarchyTool
+### Community 5 - "SymbolExtractor.kt"
+Cohesion: 0.05
+Nodes (31): KotlinCoreEnvironment, KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, PsiElement, PsiErrorElement (+23 more)
 
 ### Community 6 - "server/Main.kt"
 Cohesion: 0.06
@@ -221,6 +221,10 @@ Nodes (36): Android Resources, `architecture.detect`, Architecture & Navigation,
 Cohesion: 0.15
 Nodes (13): Check the JAR version, Connect a client, Installation Guide, Installing JDK 22, Method 1: npx (Recommended), Method 2: Global npm Install, Method 3: Direct JAR Download, Method 4: Docker (+5 more)
 
+### Community 12 - "ProjectInspectTool"
+Cohesion: 0.11
+Nodes (11): AndroidModuleEvidence, AndroidModuleType, APPLICATION, LIBRARY, UNKNOWN, JsonObject, ProjectInspectTool, kotlinx (+3 more)
+
 ### Community 13 - "VersionCatalogParser"
 Cohesion: 0.23
 Nodes (7): CatalogLibrary, CatalogPlugin, CatalogVersion, VersionCatalog, VersionCatalogParser, kotlinx, VersionCatalogTool
@@ -229,9 +233,9 @@ Nodes (7): CatalogLibrary, CatalogPlugin, CatalogVersion, VersionCatalog, Versio
 Cohesion: 0.06
 Nodes (34): Architecture Analysis, Build & Testing, Check for merge conflicts, Check Gradle configuration, Check ProGuard rules, Check resource usage, Code Navigation, Common Workflows (+26 more)
 
-### Community 15 - "SymbolExtractor.kt"
-Cohesion: 0.05
-Nodes (31): KotlinCoreEnvironment, KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, PsiElement, PsiErrorElement (+23 more)
+### Community 15 - "HierarchyBuilder.kt"
+Cohesion: 0.23
+Nodes (8): HierarchyBuilder, KtTreeVisitorVoid, HierarchyEntry, HierarchyNode, KtClass, KtTreeVisitorVoid, kotlinx, SymbolHierarchyTool
 
 ### Community 16 - "SessionViewModel"
 Cohesion: 0.12
@@ -249,9 +253,9 @@ Nodes (13): AndroidFlowIr, DeclaredActivity, FlowAmbiguity, FlowGraphBuilder, Fl
 Cohesion: 0.14
 Nodes (12): buildDir, child, forwardedSignals, fs, jarDir, jarFile, jarPath, java (+4 more)
 
-### Community 20 - "ProjectInspectTool"
+### Community 20 - "EntryPointsFindTool"
 Cohesion: 0.11
-Nodes (11): AndroidModuleEvidence, AndroidModuleType, APPLICATION, LIBRARY, UNKNOWN, JsonObject, ProjectInspectTool, kotlinx (+3 more)
+Nodes (12): LintIssue, LintReport, LintXmlParser, EntryPointsFindTool, Element, kotlinx, kotlinx, LintRunTool (+4 more)
 
 ### Community 21 - "Android Corporate MCP — Implementation Plan"
 Cohesion: 0.06
@@ -373,10 +377,6 @@ Nodes (6): Compatibility, Distribution channels, MCP clients, Platforms, Runtime
 Cohesion: 0.33
 Nodes (6): Branching model, Contributing, License, Making a change, Pull request expectations, Reporting issues
 
-### Community 64 - "SelectorKind"
-Cohesion: 0.40
-Nodes (5): SelectorKind, CONTENT_DESCRIPTION, RESOURCE_ID, TEST_TAG, TEXT
-
 ### Community 68 - "gradlew"
 Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
@@ -408,10 +408,6 @@ Nodes (4): AndroidFlowIr, DetectAndroidFlowTool, JsonObject, kotlinx
 ### Community 79 - "JunitXmlParser"
 Cohesion: 0.43
 Nodes (4): JunitTestCase, JunitTestSuite, JunitXmlParser, org
-
-### Community 80 - "EntryPointsFindTool"
-Cohesion: 0.11
-Nodes (12): LintIssue, LintReport, LintXmlParser, EntryPointsFindTool, Element, kotlinx, kotlinx, LintRunTool (+4 more)
 
 ### Community 81 - "TestsRunTool"
 Cohesion: 0.46
@@ -453,9 +449,9 @@ Nodes (10): Architecture, Compatibility, Contributing, Documentation, License, P
 Cohesion: 0.38
 Nodes (3): ComposeNavCall, ComposeNavParser, ComposeRoute
 
-### Community 100 - "StaticAnalysisTool.kt"
-Cohesion: 0.50
-Nodes (3): kotlinx, StaticAnalysisTool, ToolResult
+### Community 99 - "SelectorKind"
+Cohesion: 0.40
+Nodes (5): SelectorKind, CONTENT_DESCRIPTION, RESOURCE_ID, TEST_TAG, TEXT
 
 ### Community 101 - "Herramientas de referencia obligatorias para este proyecto"
 Cohesion: 0.40
@@ -469,19 +465,23 @@ Nodes (5): Environment limitations, In scope, Known limitations by design, Out o
 Cohesion: 0.60
 Nodes (3): CheckoutActivity, AppCompatActivity, Bundle
 
-### Community 110 - "Adding a New Tool"
+### Community 110 - "StaticAnalysisTool.kt"
+Cohesion: 0.50
+Nodes (3): kotlinx, StaticAnalysisTool, ToolResult
+
+### Community 118 - "Adding a New Tool"
 Cohesion: 0.40
 Nodes (5): 1. Create the tool class, 2. Register in the server, 3. Create a test, 4. Use the fixture project for testing, Adding a New Tool
 
-### Community 118 - "Getting Started"
+### Community 120 - "Getting Started"
 Cohesion: 0.50
 Nodes (4): Build, Fork and clone, Getting Started, Prerequisites
 
-### Community 119 - "Quick Start"
+### Community 121 - "Quick Start"
 Cohesion: 0.50
 Nodes (4): Configuration, Installation, Quick Start, Usage
 
-### Community 120 - "Development Setup"
+### Community 122 - "Development Setup"
 Cohesion: 0.67
 Nodes (3): Development Setup, IDE, Running tests
 

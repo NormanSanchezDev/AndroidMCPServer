@@ -525,13 +525,13 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1788040042.905632,
-    "ast_hash": "5616eeae081be9d7e507b7d51f0386cf",
+    "mtime": 1788041951.3490455,
+    "ast_hash": "f77873da7a5359300a5881d2128e1948",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1788040052.823732,
-    "ast_hash": "df1b9b09a949a525db5130699c20f110",
+    "mtime": 1788041916.3486307,
+    "ast_hash": "953ea3fd41afd96e0030b4843693107a",
     "semantic_hash": ""
   },
   "IMPLEMENTATION_PLAN.md": {
@@ -740,8 +740,8 @@
     "semantic_hash": ""
   },
   "src/test/resources/fixtures/ambiguous-entry-app/settings.gradle.kts": {
-    "mtime": 1788037064.806232,
-    "ast_hash": "9038eb623cd823ea7b14ce5930807f02",
+    "mtime": 1788041895.3430784,
+    "ast_hash": "5ddc17f8374687219f159ac5a4f412ac",
     "semantic_hash": ""
   },
   "src/test/resources/fixtures/compose-app/app/build.gradle.kts": {
