@@ -8,6 +8,8 @@ Regla fija: **antes de crear cualquier commit, actualizar la sección `[Unreleas
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
 
+`graphify-out/` is **not versioned** (see `.gitignore`) — it's fully regenerable from source and used to cause spurious merge conflicts on every PR (GitHub's server-side merge check can't see local merge drivers). On a fresh clone, run `graphify update .` once to build it; the existing `post-checkout`/`post-commit`/`post-merge` hooks keep it in sync automatically after that.
+
 Rules:
 - For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
 - If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.

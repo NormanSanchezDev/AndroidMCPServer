@@ -23,12 +23,11 @@ out/
 .claude/
 .agents/
 
-### graphify (track curated output, ignore derived/local churn) ###
-graphify-out/cache/
-graphify-out/.graphify_analysis.json
-graphify-out/.graphify_root
-graphify-out/.graphify_python
-graphify-out/20[0-9][0-9]-[0-9][0-9]-[0-9][0-9]/
+### graphify (fully regenerable via `graphify update .`; never versioned —
+### binary/JSON churns every rebuild and made every PR touching code show
+### spurious conflicts on graphify-out/*, since GitHub's server-side merge
+### check can't see the local merge drivers this repo used to rely on) ###
+graphify-out/
 
 ### Eclipse ###
 .apt_generated
