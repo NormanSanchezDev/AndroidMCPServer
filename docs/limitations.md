@@ -2,7 +2,7 @@
 
 ## In scope
 
-What `AndroidCorporateMCP` actually does, based on its 25 registered tools:
+What `AndroidCorporateMCP` actually does, based on its 26 registered tools:
 
 - Discovers Gradle/Android project structure, modules, and plugin types (`project.inspect`, `module.graph`).
 - Parses Android manifests, resources, navigation graphs, and ProGuard/R8 config structurally (`manifest.inspect`, `entry_points.find`, `resources.inspect`, `navigation.graph`, `manifest.merge`, `proguard.inspect`).
@@ -19,7 +19,7 @@ Verified against the actual implementation, not asserted from marketing intuitio
 - **Not an LLM.** There is no model, no embeddings, no generation anywhere in this codebase. Every tool is deterministic parsing or subprocess execution.
 - **Does not replace the coding agent.** The server has no tool that writes or edits source files. Nothing in `src/main/kotlin/dev/normansanchez/androidmcp/tools/` calls `Files.write` or equivalent on a project file — every tool either reads, or executes a Gradle task that Gradle itself may write outputs for (build artifacts, reports), not source edits.
 - **Does not store repositories.** Confirmed in [security.md](security.md) — no database, no cache, no persisted copy of anything read. Every response is computed fresh per call.
-- **Does not send code to external services.** Confirmed in [security.md](security.md) — no outbound network call exists in any of the 25 tools.
+- **Does not send code to external services.** Confirmed in [security.md](security.md) — no outbound network call exists in any of the 26 tools.
 - **Does not decide architecture.** `architecture.detect` reports what patterns it found (DI framework, Compose usage, etc.) with evidence; it does not recommend an architecture or flag one as wrong.
 - **Does not invent evidence.** Every non-`"success"` status (`not_available`, `not_found`, `invalid_project`, etc.) is a distinct, deterministic signal for *why* no evidence was returned, rather than a fabricated result. See [architecture.md#error-propagation](architecture.md#error-propagation).
 

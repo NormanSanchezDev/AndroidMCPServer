@@ -9,6 +9,7 @@ import dev.normansanchez.androidmcp.gradle.GradleCommandValidator
 import dev.normansanchez.androidmcp.gradle.GradleWrapperLocator
 import dev.normansanchez.androidmcp.lint.LintXmlParser
 import dev.normansanchez.androidmcp.process.ProcessExecutor
+import dev.normansanchez.androidmcp.util.resolveModuleOrNull
 import java.nio.file.Files
 import java.nio.file.Path
 import kotlin.io.path.name
@@ -35,7 +36,11 @@ object LintRunTool {
 
         var moduleRoot = root
         if (!module.isNullOrBlank()) {
-            moduleRoot = root.resolve(module.removePrefix(":"))
+            moduleRoot = root.resolveModuleOrNull(module)
+                ?: return buildJsonObject {
+                    put("status", "invalid_module")
+                    put("module", module)
+                }
             if (!Files.isDirectory(moduleRoot)) {
                 return buildJsonObject {
                     put("status", "invalid_module")

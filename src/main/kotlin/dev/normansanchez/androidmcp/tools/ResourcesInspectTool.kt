@@ -1,5 +1,6 @@
 package dev.normansanchez.androidmcp.tools
 
+import dev.normansanchez.androidmcp.util.resolveModuleOrNull
 import java.nio.file.Files
 import java.nio.file.Path
 import javax.xml.parsers.DocumentBuilderFactory
@@ -40,7 +41,13 @@ object ResourcesInspectTool {
             }
         }
 
-        val resDir = root.resolve(module.removePrefix(":")).resolve("src/main/res")
+        val moduleDir = root.resolveModuleOrNull(module)
+            ?: return buildJsonObject {
+                put("status", "invalid_module")
+                put("projectRoot", root.toString())
+                put("module", module)
+            }
+        val resDir = moduleDir.resolve("src/main/res")
 
         if (!Files.isDirectory(resDir)) {
             return buildJsonObject {

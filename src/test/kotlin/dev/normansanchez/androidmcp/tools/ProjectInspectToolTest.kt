@@ -70,4 +70,78 @@ class ProjectInspectToolTest {
             temp.toFile().deleteRecursively()
         }
     }
+
+    @Test
+    fun `excludes build-logic and buildSrc directories from modules`() {
+        val temp = Files.createTempDirectory("inspect-infra")
+        try {
+            Files.writeString(temp.resolve("settings.gradle.kts"), "rootProject.name = \"infra\"\n")
+            val appDir = temp.resolve("app")
+            Files.createDirectories(appDir.resolve("src/main"))
+            Files.writeString(appDir.resolve("build.gradle.kts"), """
+                plugins {
+                    alias(libs.plugins.android.application)
+                }
+            """.trimIndent())
+            Files.writeString(appDir.resolve("src/main/AndroidManifest.xml"), "<manifest/>")
+            Files.createDirectories(temp.resolve("build-logic"))
+            Files.writeString(temp.resolve("build-logic/build.gradle.kts"), "plugins { alias(libs.plugins.android.application) }")
+            Files.createDirectories(temp.resolve("buildSrc"))
+            Files.writeString(temp.resolve("buildSrc/build.gradle.kts"), "plugins { `kotlin-dsl` }")
+
+            val result = ProjectInspectTool.execute(temp.absolutePathString())
+
+            val modules = result["modules"]!!.jsonArray
+            assertEquals(1, modules.size)
+            assertEquals("app", modules.first().jsonObject["path"]!!.jsonPrimitive.content)
+            assertEquals("application", modules.first().jsonObject["type"]!!.jsonPrimitive.content)
+        } finally {
+            temp.toFile().deleteRecursively()
+        }
+    }
+
+    @Test
+    fun `reports root single module with its own build file`() {
+        val temp = Files.createTempDirectory("inspect-root")
+        try {
+            Files.writeString(temp.resolve("settings.gradle.kts"), "rootProject.name = \"root\"\n")
+            Files.writeString(temp.resolve("build.gradle.kts"), """
+                plugins {
+                    id("com.android.application")
+                }
+            """.trimIndent())
+            Files.createDirectories(temp.resolve("src/main"))
+            Files.writeString(temp.resolve("src/main/AndroidManifest.xml"), "<manifest/>")
+
+            val result = ProjectInspectTool.execute(temp.absolutePathString())
+
+            val modules = result["modules"]!!.jsonArray
+            assertEquals(1, modules.size)
+            assertEquals(".", modules.first().jsonObject["path"]!!.jsonPrimitive.content)
+            assertEquals("application", modules.first().jsonObject["type"]!!.jsonPrimitive.content)
+            assertTrue(modules.first().jsonObject["buildFile"]!!.jsonPrimitive.content.endsWith("build.gradle.kts"))
+        } finally {
+            temp.toFile().deleteRecursively()
+        }
+    }
+
+    @Test
+    fun `ignores root build file that only declares plugins with apply false`() {
+        val temp = Files.createTempDirectory("inspect-root-false")
+        try {
+            Files.writeString(temp.resolve("settings.gradle.kts"), "rootProject.name = \"root\"\n")
+            Files.writeString(temp.resolve("build.gradle.kts"), """
+                plugins {
+                    id("com.android.application") apply false
+                    alias(libs.plugins.kotlin.android) apply false
+                }
+            """.trimIndent())
+
+            val result = ProjectInspectTool.execute(temp.absolutePathString())
+
+            assertEquals(0, result["modules"]!!.jsonArray.size)
+        } finally {
+            temp.toFile().deleteRecursively()
+        }
+    }
 }

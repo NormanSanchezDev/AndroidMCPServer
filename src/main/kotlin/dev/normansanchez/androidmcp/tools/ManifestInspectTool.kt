@@ -1,5 +1,6 @@
 package dev.normansanchez.androidmcp.tools
 
+import dev.normansanchez.androidmcp.util.resolveModuleOrNull
 import java.nio.file.Files
 import java.nio.file.Path
 import javax.xml.parsers.DocumentBuilderFactory
@@ -17,7 +18,12 @@ object ManifestInspectTool {
             .normalize()
             .toAbsolutePath()
 
-        val moduleRoot = root.resolve(modulePath).normalize()
+        val moduleRoot = root.resolveModuleOrNull(modulePath)
+            ?: return buildJsonObject {
+                put("status", "invalid_module")
+                put("projectRoot", root.toString())
+                put("module", modulePath)
+            }
         val manifestPath = moduleRoot.resolve("src/main/AndroidManifest.xml")
 
         if (!Files.isRegularFile(manifestPath)) {

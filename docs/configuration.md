@@ -84,7 +84,7 @@ command = "android-corporate-mcp"
 npx @modelcontextprotocol/inspector android-corporate-mcp
 ```
 
-opens a browser UI that performs the real MCP handshake and lists all 25 tools — use it to sanity-check a `command`/`args` pair before wiring it into a client config.
+opens a browser UI that performs the real MCP handshake and lists all 26 tools — use it to sanity-check a `command`/`args` pair before wiring it into a client config.
 
 ## No environment-variable configuration
 

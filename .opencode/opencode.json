@@ -18,6 +18,8 @@
     "external_directory": "deny",
     "bash": {
       "*": "ask",
+      "rtk *": "allow",
+      "graphify *": "allow",
       "pwd": "allow",
       "ls*": "allow",
       "pnpm *": "allow",

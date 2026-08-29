@@ -578,6 +578,40 @@ No tool in this server writes source files or deletes anything directly. `gradle
 
 ---
 
+## Flow Detection
+
+### detect_android_flow
+
+**Purpose.** Builds a canonical, evidence-tagged flow model of an Android app: what launches (`entry_points`), the screens/navigation graph, and the edges that connect them (`DECLARED` when a static call exists, `INFERRED` when it's an interpretation like a NavHost start destination). Also flags ambiguity (`ambiguities[]`) and emits a Mermaid diagram derived from the same IR.
+
+**Input**
+
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `projectRoot` | string | **yes** | Absolute path to the project root |
+| `scope` | string | no | Module scope; currently only `application` is recognized |
+| `entry_point` | string | no | Screen to root the flow from; `"auto"` uses the manifest launcher(s) |
+| `max_depth` | integer | no | BFS traversal limit per flow (default 10) |
+| `context` | object | no | `{"known_features": [string], "known_entry_points": [string]}` — hints used to seed extra flows or warn when a named feature isn't found |
+| `include_mermaid` | boolean | no | When `true`, returns a `mermaid` field rendered from the IR (default `false`) |
+
+**Output.** `status` (always `"success"`; problems surface as `warnings[]`, never a hard failure), `projectRoot`, `flowIR`:
+
+- `application`: `package_name`, `entry_points[]` (`component`, `kind`, `target_component` for activity-alias, `module`, `is_splash`, `evidence`), `application_modules[]`, `modules[]`, `module_dependencies[]`.
+- `flows[]`: one per entry point + each `context.known_entry_points` hint; `id`, `name`, `entry_node`, `nodes[]`, `edges[]`. Node `type` ∈ `SCREEN`/`ACTION`/`DECISION`/`PROCESS`/`EXTERNAL`/`UNKNOWN`; `ui_framework` ∈ `COMPOSE`/`XML`/`MIXED`. Edges carry `condition` (decision branch labels), `label`, `evidence_type` (`DECLARED`/`INFERRED`), `confidence`, and `source[]`.
+- `ambiguities[]`: `kind` (`entry_point` when multiple launchers exist, `navigation` when a target can't be resolved), `description`, `candidates[]`.
+- `warnings[]`: unresolved `context` hints, unrecognized scope, and other non-fatal findings.
+
+Unresolvable navigation targets become an `EXTERNAL` node (`external:<token>`) plus a `navigation` ambiguity rather than a guessed edge. Selectors are never invented: an action with no extractable `testTag`/`contentDescription`/label is reported with `selector_status: "MISSING"`.
+
+**Evidence.** DOM-parsed manifests (MAIN/LAUNCHER filters, `activity-alias` target resolution via `android:targetActivity`), XML navigation-graph parsing (destinations, actions, start destinations, deep links), Compose Navigation route/`startDestination`/`navigate` parsing, Kotlin intent/fragment-transaction/nav-call extraction, decision extraction (`if`/`else`, `when` over sealed states), and selector extraction from layouts and composables. Duplicate registrations merge (a DECLARED edge stays DECLARED); INFERRED edges carry sub-unity confidence.
+
+**Side effects.** read-only.
+
+**Failure modes.** None — a non-project or empty directory returns `"status": "success"` with empty `flows[]` and a warning, matching the project's warnings-not-errors philosophy.
+
+---
+
 ## Planned / Not Yet Available
 
 Nothing found during this inspection indicates in-repo evidence of additional tools planned for a specific future release (no roadmap file, no feature-flagged/disabled tool registrations in `Main.kt`). If you're looking for a capability not listed above, it does not currently exist in this codebase — open an issue rather than assuming it's coming.

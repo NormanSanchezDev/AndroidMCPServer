@@ -1,6 +1,7 @@
 package dev.normansanchez.androidmcp.tools
 
 import dev.normansanchez.androidmcp.gradle.GradlePropertiesParser
+import dev.normansanchez.androidmcp.util.resolveModuleOrNull
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject
@@ -23,7 +24,12 @@ object GradleConfigTool {
         val moduleDir = if (module.isNullOrBlank()) {
             root.resolve("app").takeIf { Files.isDirectory(it) } ?: root
         } else {
-            root.resolve(module.removePrefix(":"))
+            root.resolveModuleOrNull(module)
+                ?: return buildJsonObject {
+                    put("status", "invalid_module")
+                    put("projectRoot", root.toString())
+                    put("module", module)
+                }
         }
 
         if (!Files.isDirectory(moduleDir)) {

@@ -50,6 +50,7 @@ import dev.normansanchez.androidmcp.tools.ResourceReferencesTool
 import dev.normansanchez.androidmcp.tools.SecurityAuditTool
 import dev.normansanchez.androidmcp.tools.ManifestMergeTool
 import dev.normansanchez.androidmcp.tools.ProguardInspectTool
+import dev.normansanchez.androidmcp.tools.DetectAndroidFlowTool
 import java.io.FileDescriptor
 import java.io.FileOutputStream
 
@@ -130,6 +131,11 @@ private fun boolSchema(description: String) = buildJsonObject {
 
 private fun intSchema(description: String) = buildJsonObject {
     put("type", "integer")
+    put("description", description)
+}
+
+private fun objSchema(description: String) = buildJsonObject {
+    put("type", "object")
     put("description", description)
 }
 
@@ -526,6 +532,30 @@ fun main(): Unit = runBlocking {
         )
     ) { arguments ->
         SecurityAuditTool.execute(argString(arguments, "projectRoot").orEmpty())
+    }
+
+    // ── Phase 7: Flow Detection ──────────────────────────────────────────
+
+    mcpServer.register(
+        name = "detect_android_flow",
+        description = "Detects Android user flows from manifest entry points, XML Navigation and Compose Navigation into a structured AndroidFlowIR; optionally renders Mermaid graph derived from the IR.",
+        properties = mapOf(
+            "projectRoot" to optStr("Absolute path to the project root"),
+            "scope" to optStr("Scope of the analysis: 'application' (default)"),
+            "entry_point" to optStr("Entry point to root each flow: 'auto' (default) or a component/route name"),
+            "max_depth" to intSchema("Maximum number of hops from the entry point (default 10)"),
+            "context" to objSchema("Optional hints object with known_features[] and known_entry_points[]"),
+            "include_mermaid" to boolSchema("Render a Mermaid flowchart derived from the AndroidFlowIR (default false)")
+        )
+    ) { arguments ->
+        DetectAndroidFlowTool.execute(
+            projectRoot = argString(arguments, "projectRoot").orEmpty(),
+            scope = argString(arguments, "scope"),
+            entryPoint = argString(arguments, "entry_point"),
+            maxDepth = argInt(arguments, "max_depth"),
+            context = arguments?.get("context") as? JsonObject,
+            includeMermaid = argBool(arguments, "include_mermaid", false)
+        )
     }
 
     val transport = StdioServerTransport(

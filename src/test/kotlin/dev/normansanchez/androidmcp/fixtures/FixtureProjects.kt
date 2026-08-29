@@ -6,9 +6,17 @@ import kotlin.io.path.absolutePathString
 
 object FixtureProjects {
 
-    fun sampleAndroidProject(tempDir: Path): Path {
-        val target = tempDir.resolve("sample-android-project")
-        val source = resourceDirectory("fixtures/sample-android-project")
+    fun sampleAndroidProject(tempDir: Path): Path = copyFixture(tempDir, "sample-android-project")
+
+    fun xmlFragmentApp(tempDir: Path): Path = copyFixture(tempDir, "xml-fragment-app")
+
+    fun composeApp(tempDir: Path): Path = copyFixture(tempDir, "compose-app")
+
+    fun ambiguousEntryApp(tempDir: Path): Path = copyFixture(tempDir, "ambiguous-entry-app")
+
+    private fun copyFixture(tempDir: Path, fixture: String): Path {
+        val target = tempDir.resolve(fixture)
+        val source = resourceDirectory("fixtures/$fixture")
         source.toAbsolutePath().let { Files.walk(it).use { paths ->
             paths.forEach { path ->
                 val relative = it.relativize(path)

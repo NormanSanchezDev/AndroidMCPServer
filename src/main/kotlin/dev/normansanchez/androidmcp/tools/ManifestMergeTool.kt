@@ -1,5 +1,6 @@
 package dev.normansanchez.androidmcp.tools
 
+import dev.normansanchez.androidmcp.util.isUnderExcludedDir
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject
@@ -79,6 +80,7 @@ object ManifestMergeTool {
 
         Files.walk(root, 6).use { paths ->
             paths.filter { Files.isRegularFile(it) && it.fileName.toString() == "AndroidManifest.xml" }
+                .filter { !it.isUnderExcludedDir(root) }
                 .filter { it.toString().contains("src/main") }
                 .forEach { path ->
                     val module = extractModuleName(root, path)
@@ -101,34 +103,33 @@ object ManifestMergeTool {
     ): List<MergeConflict> {
         val conflicts = mutableListOf<MergeConflict>()
 
-        val componentMap = mutableMapOf<String, MutableMap<String, MutableMap<String, String>>>()
+        val componentMap = mutableMapOf<String, MutableMap<String, MutableMap<String, AttrValue>>>()
 
         for ((module, path) in manifests) {
             val parsed = parseManifest(path) ?: continue
 
             for ((componentType, components) in parsed) {
                 for ((componentName, attributes) in components) {
-                    componentMap.getOrPut(componentType) { mutableMapOf() }
+                    val attrs = componentMap.getOrPut(componentType) { mutableMapOf() }
                         .getOrPut(componentName) { mutableMapOf() }
-                        .also { existing ->
-                            for ((attrName, attrValue) in attributes) {
-                                val existingValue = existing[attrName]
-                                if (existingValue != null && existingValue != attrValue) {
-                                    conflicts.add(
-                                        MergeConflict(
-                                            type = componentType,
-                                            component = componentName,
-                                            attribute = attrName,
-                                            values = mapOf(
-                                                findModuleForAttr(existing, attrName, module) to existingValue,
-                                                module to attrValue
-                                            )
-                                        )
+
+                    for ((attrName, attrValue) in attributes) {
+                        val existing = attrs[attrName]
+                        if (existing != null && existing.value != attrValue) {
+                            conflicts.add(
+                                MergeConflict(
+                                    type = componentType,
+                                    component = componentName,
+                                    attribute = attrName,
+                                    values = mapOf(
+                                        existing.origin to existing.value,
+                                        module to attrValue
                                     )
-                                }
-                                existing[attrName] = attrValue
-                            }
+                                )
+                            )
                         }
+                        attrs[attrName] = AttrValue(attrValue, module)
+                    }
                 }
             }
         }
@@ -136,13 +137,10 @@ object ManifestMergeTool {
         return conflicts
     }
 
-    private fun findModuleForAttr(
-        attrs: MutableMap<String, String>,
-        targetAttr: String,
-        fallbackModule: String
-    ): String {
-        return fallbackModule
-    }
+    private data class AttrValue(
+        val value: String,
+        val origin: String
+    )
 
     private fun parseManifest(path: Path): Map<String, Map<String, Map<String, String>>>? {
         val factory = DocumentBuilderFactory.newInstance().apply {

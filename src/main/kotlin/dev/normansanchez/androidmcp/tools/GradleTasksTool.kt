@@ -4,6 +4,7 @@ import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
+import dev.normansanchez.androidmcp.gradle.GradleCommandValidator
 import dev.normansanchez.androidmcp.gradle.GradleTasksParser
 import dev.normansanchez.androidmcp.process.ProcessExecutor
 import java.nio.file.Files
@@ -26,6 +27,17 @@ object GradleTasksTool {
             }
         }
 
+        val target = module?.removePrefix(":")
+
+        if (!target.isNullOrBlank() && !GradleCommandValidator.validateTaskName(target)) {
+            return buildJsonObject {
+                put("status", "invalid_module")
+                put("projectRoot", root.toString())
+                put("module", module)
+                put("error", "Module is not a valid Gradle module path")
+            }
+        }
+
         val wrapper = dev.normansanchez.androidmcp.gradle.GradleWrapperLocator.findWrapper(root)
             ?: return buildJsonObject {
                 put("status", "gradle_not_available")
@@ -33,7 +45,6 @@ object GradleTasksTool {
                 put("error", "No gradlew wrapper found in project root")
             }
 
-        val target = module?.removePrefix(":")
         val command = buildList {
             add(wrapper.toString())
             add(if (target.isNullOrBlank()) "tasks" else ":$target:tasks")
