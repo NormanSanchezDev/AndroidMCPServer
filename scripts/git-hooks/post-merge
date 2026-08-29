@@ -1,0 +1,23 @@
+#!/bin/sh
+# graphify-post-merge-hook
+# Resyncs the knowledge graph after `git merge` / `git pull` finishes.
+# graph.json uses a union merge driver (see .gitattributes), so it never
+# conflicts; the other graphify-out/* files use merge=ours, which just keeps
+# the pre-merge copy without looking at the incoming side. Both paths leave
+# graphify-out stale relative to the just-merged code, so re-run an update
+# here (same trigger pattern as graphify's own post-checkout hook).
+#
+# Install (once per clone):
+#   cp scripts/git-hooks/post-merge .git/hooks/post-merge
+#   chmod +x .git/hooks/post-merge
+
+[ -d "graphify-out" ] || exit 0
+[ "${GRAPHIFY_SKIP_HOOK:-0}" = "1" ] && exit 0
+
+GRAPHIFY_BIN=$(command -v graphify 2>/dev/null)
+[ -z "$GRAPHIFY_BIN" ] && exit 0
+
+export PYTHONHASHSEED=0
+"$GRAPHIFY_BIN" update . >/dev/null 2>&1 &
+disown 2>/dev/null || true
+echo "[graphify] post-merge resync started in background"
