@@ -325,7 +325,7 @@
     "semantic_hash": "dcb723a9328f029866bfdc472a611ca2"
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/fixtures/FixtureProjects.kt": {
-    "mtime": 1788036196.0820758,
+    "mtime": 1788036948.9314146,
     "ast_hash": "945405b96e4b146396c58bec62781662",
     "semantic_hash": ""
   },
@@ -530,7 +530,7 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1788027278.7750287,
+    "mtime": 1788037064.8119867,
     "ast_hash": "b210efccea994a469d95727fa05b3d8e",
     "semantic_hash": ""
   },
@@ -540,8 +540,8 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787995684.175988,
-    "ast_hash": "9187fc54e1e38fb966c3fc5c45f7a464",
+    "mtime": 1788036910.0459492,
+    "ast_hash": "96f47cb45bdb44efdc67a49b362586d4",
     "semantic_hash": ""
   },
   "docs/MULTI_CLIENT.md": {
@@ -620,7 +620,7 @@
     "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/flow/FlowDetector.kt": {
-    "mtime": 1788036187.3958771,
+    "mtime": 1788036948.9311357,
     "ast_hash": "4b6909b7a5c3ae1a7f73ebc9cfe8ecdc",
     "semantic_hash": ""
   },
@@ -645,7 +645,7 @@
     "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/flow/SourceScanner.kt": {
-    "mtime": 1788036194.1840334,
+    "mtime": 1788036948.93126,
     "ast_hash": "0fb6afaa63c3b53b83e6a9233be6bfd9",
     "semantic_hash": ""
   },
@@ -740,7 +740,7 @@
     "semantic_hash": ""
   },
   "src/test/resources/fixtures/ambiguous-entry-app/settings.gradle.kts": {
-    "mtime": 1787899455.7589886,
+    "mtime": 1788037064.806232,
     "ast_hash": "9038eb623cd823ea7b14ce5930807f02",
     "semantic_hash": ""
   },
@@ -865,8 +865,8 @@
     "semantic_hash": ""
   },
   "docs/configuration.md": {
-    "mtime": 1787995692.84777,
-    "ast_hash": "77e77fe3cdfad10c1dd543253d04e1de",
+    "mtime": 1788036862.734139,
+    "ast_hash": "60ef673740ad04aeae6e122c8e21d20e",
     "semantic_hash": ""
   },
   "docs/contributing.md": {
@@ -885,23 +885,23 @@
     "semantic_hash": ""
   },
   "docs/limitations.md": {
-    "mtime": 1787995699.2025392,
-    "ast_hash": "505e5202a6e23efdf9656fbbe165d074",
+    "mtime": 1788036878.7963161,
+    "ast_hash": "0f3c2a414fc80bb49d012a56feb256c2",
     "semantic_hash": ""
   },
   "docs/security.md": {
-    "mtime": 1787995703.90918,
-    "ast_hash": "46098c59a9cf76ed3d409a6be9043515",
+    "mtime": 1788036930.5243957,
+    "ast_hash": "8747761e7252733bc9c271c33485d2b4",
     "semantic_hash": ""
   },
   "docs/tools.md": {
-    "mtime": 1787995671.7924058,
+    "mtime": 1788036940.072862,
     "ast_hash": "9b4e0b719a63fba93cc78b71fdba5031",
     "semantic_hash": ""
   },
   "docs/troubleshooting.md": {
-    "mtime": 1787995694.6715589,
-    "ast_hash": "53c656a7035cfa08e6d96492bcafbbc6",
+    "mtime": 1788036946.552519,
+    "ast_hash": "c833b8829500913c404b42c1275d94bf",
     "semantic_hash": ""
   },
   ".opencode/.mcps.json": {
