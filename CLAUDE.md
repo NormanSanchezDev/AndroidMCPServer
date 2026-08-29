@@ -1,3 +1,9 @@
+## CHANGELOG
+
+Este proyecto mantiene `CHANGELOG.md` (formato Keep a Changelog) para dar seguimiento a features a nivel de negocio por release.
+
+Regla fija: **antes de crear cualquier commit, actualizar la sección `[Unreleased]` de `CHANGELOG.md`** con una entrada legible a nivel de negocio (qué cambió y por qué importa, no el diff técnico). Al cortar un release, mover `[Unreleased]` a una sección `[x.y.z] - AAAA-MM-DD` nueva.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
