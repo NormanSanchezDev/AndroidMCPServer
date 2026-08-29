@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1359 nodes · 1931 edges · 101 communities (80 shown, 21 thin omitted)
+- 1371 nodes · 1931 edges · 116 communities (93 shown, 23 thin omitted)
 - Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 109 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f30fb831`
+- Built from commit: `9a3673cb`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,10 +30,10 @@
 - ManifestMergeTool
 - VersionCatalogParser
 - Usage Examples
-- KotlinSourceScanner
+- HierarchyBuilder.kt
 - SessionViewModel
 - ConventionPluginScanner
-- FlowGraphBuilder
+- .detect
 - android-corporate-mcp.js
 - EntryPointsFindTool
 - Android Corporate MCP — Implementation Plan
@@ -80,14 +80,24 @@
 - LintXmlParser.kt
 - LintRunTool
 - BuildValidateTool
-- StaticAnalysisTool.kt
+- ModuleGraphParser
 - gradlew
-- EntryPointsFindToolTest
-- ResourcesInspectToolTest
+- AndroidFlowIr.kt
+- FlowGraphBuilder
 - CorporateApplication.kt
+- KotlinPsiEngine
+- KotlinSourceScanner
+- SourceScanner
+- ScannedKotlinFile
+- DetectAndroidFlowTool.kt
+- TestsRunTool.kt
+- ManifestInspectTool
+- TestsRunTool
+- resolveModuleOrNull
 - SummaryFragment.kt
 - Configuration
-- SelectorExtractor
+- AndroidFlow
+- NavigationGraphTool.kt
 - ProjectInspectToolTest
 - OrderDoneFragment.kt
 - RTK Commands by Workflow
@@ -96,22 +106,27 @@
 - ComposeNavParser
 - ManifestInspectToolTest
 - ManifestMergeToolTest
+- SelectorKind
+- .loadManifestPackage
 - Herramientas de referencia obligatorias para este proyecto
 - tools.md
 - Scope & Limitations
+- .namesForFile
+- .destinationNodeId
 - TestsRunToolTest
 - ProjectPathsTest
 - CheckoutActivity.kt
+- java
 
 ## God Nodes (most connected - your core abstractions)
-1. `FlowGraphBuilder` - 26 edges
-2. `FlowDetector` - 20 edges
-3. `bash` - 19 edges
+1. `FlowDetector` - 20 edges
+2. `bash` - 19 edges
+3. `FixtureProjects` - 16 edges
 4. `SourceEvidence` - 16 edges
 5. `GradlePropertiesParser` - 16 edges
-6. `FixtureProjects` - 16 edges
+6. `DetectFlowOptions` - 14 edges
 7. `FlowNode` - 14 edges
-8. `DetectFlowOptions` - 14 edges
+8. `FlowGraphBuilder` - 13 edges
 9. `Android Corporate MCP — Implementation Plan` - 13 edges
 10. `permission` - 12 edges
 
@@ -130,15 +145,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (101 total, 21 thin omitted)
+## Communities (116 total, 23 thin omitted)
 
 ### Community 0 - "Tools Reference"
 Cohesion: 0.05
 Nodes (37): Android Deep Inspection, architecture.detect, Architecture & Symbols, build.validate, Build Validation, dependencies.inspect, detect_android_flow, entry_points.find (+29 more)
 
 ### Community 1 - "JsonArray"
-Cohesion: 0.08
-Nodes (7): JsonArray, BuildValidateToolTest, DependenciesInspectToolTest, java, LintRunToolTest, ModuleGraphToolTest, StaticAnalysisToolTest
+Cohesion: 0.09
+Nodes (6): JsonArray, BuildValidateToolTest, DependenciesInspectToolTest, ModuleGraphToolTest, ProguardInspectToolTest, StaticAnalysisToolTest
 
 ### Community 2 - "bash"
 Cohesion: 0.05
@@ -153,24 +168,24 @@ Cohesion: 0.07
 Nodes (26): author, bin, android-corporate-mcp, description, engines, node, files, keywords (+18 more)
 
 ### Community 5 - "SymbolExtractor.kt"
-Cohesion: 0.13
-Nodes (14): KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, KtClass, KtFile, KtTreeVisitorVoid (+6 more)
+Cohesion: 0.17
+Nodes (12): KtNamedFunction, KtObjectDeclaration, KtParameter, KtProperty, KtTypeAlias, KtClass, KtFile, KtTreeVisitorVoid (+4 more)
 
 ### Community 6 - "server/Main.kt"
 Cohesion: 0.09
 Nodes (28): CallToolRequest, CallToolResult, JsonElement, argBool(), argInt(), argList(), args(), argString() (+20 more)
 
 ### Community 7 - ".create"
-Cohesion: 0.14
-Nodes (3): GradleFixtureProject, GradleRunToolIntegrationTest, GradleTasksToolIntegrationTest
+Cohesion: 0.09
+Nodes (5): GradleFixtureProject, EntryPointsFindToolTest, GradleRunToolIntegrationTest, GradleTasksToolIntegrationTest, ResourcesInspectToolTest
 
 ### Community 8 - "EntryPointDetector"
-Cohesion: 0.09
-Nodes (13): FlowEntryPoint, AndroidProjectScanner, FlowModuleInfo, DeclaredActivity, EntryPointDetector, Element, org, ModuleEdge (+5 more)
+Cohesion: 0.19
+Nodes (8): FlowEntryPoint, AndroidProjectScan, AndroidProjectScanner, FlowModuleInfo, DeclaredActivity, EntryPointDetector, Element, org
 
 ### Community 9 - ".assertTrue"
 Cohesion: 0.10
-Nodes (6): EntryPointDetectorTest, NavXmlParserRegressionTest, KotlinPsiEngineTest, ConventionPluginsToolTest, DetectAndroidFlowToolTest, ProguardInspectToolTest
+Nodes (6): EntryPointDetectorTest, XmlNavigationTest, NavXmlParserRegressionTest, KotlinPsiEngineTest, ConventionPluginsToolTest, DetectAndroidFlowToolTest
 
 ### Community 10 - "Tools Reference"
 Cohesion: 0.06
@@ -192,9 +207,9 @@ Nodes (7): CatalogLibrary, CatalogPlugin, CatalogVersion, VersionCatalog, Versio
 Cohesion: 0.06
 Nodes (34): Architecture Analysis, Build & Testing, Check for merge conflicts, Check Gradle configuration, Check ProGuard rules, Check resource usage, Code Navigation, Common Workflows (+26 more)
 
-### Community 15 - "KotlinSourceScanner"
-Cohesion: 0.06
-Nodes (25): KotlinCoreEnvironment, PsiElement, PsiErrorElement, ComposeNavDetector, ComposeRoute, HierarchyBuilder, KtTreeVisitorVoid, HierarchyEntry (+17 more)
+### Community 15 - "HierarchyBuilder.kt"
+Cohesion: 0.23
+Nodes (8): HierarchyBuilder, KtTreeVisitorVoid, HierarchyEntry, HierarchyNode, KtClass, KtTreeVisitorVoid, kotlinx, SymbolHierarchyTool
 
 ### Community 16 - "SessionViewModel"
 Cohesion: 0.12
@@ -204,17 +219,17 @@ Nodes (16): Bundle, ComponentActivity, MainActivity, AppNavRoot(), Authenticated
 Cohesion: 0.27
 Nodes (4): ConventionPlugin, ConventionPluginScanner, ConventionPluginsTool, kotlinx
 
-### Community 18 - "FlowGraphBuilder"
-Cohesion: 0.05
-Nodes (33): AndroidFlow, AndroidFlowIr, EvidenceType, DECLARED, INFERRED, FlowAmbiguity, FlowApplication, FlowEdge (+25 more)
+### Community 18 - ".detect"
+Cohesion: 0.26
+Nodes (12): AndroidFlowIr, DeclaredActivity, FlowAmbiguity, FlowGraphBuilder, FlowNode, SourceEvidence, SourceLocation, FlowDetector (+4 more)
 
 ### Community 19 - "android-corporate-mcp.js"
 Cohesion: 0.18
 Nodes (9): buildDir, child, forwardedSignals, fs, jarDir, jarPath, javaCheck, path (+1 more)
 
 ### Community 20 - "EntryPointsFindTool"
-Cohesion: 0.09
-Nodes (16): JunitTestCase, JunitTestSuite, JunitXmlParser, org, EntryPointsFindTool, Element, kotlinx, Element (+8 more)
+Cohesion: 0.50
+Nodes (3): EntryPointsFindTool, Element, kotlinx
 
 ### Community 21 - "Android Corporate MCP — Implementation Plan"
 Cohesion: 0.06
@@ -245,8 +260,8 @@ Cohesion: 0.12
 Nodes (16): 1. Resumen ejecutivo, 1b. Estado de corrección (actualización 2026-08-29), 2. Metodología, 3. Detalle de bugs, 4. Deuda técnica menor (no crítico), 5. Mapa de impacto, 6. Plan de acción propuesto, BUG-01 — `manifest.merge` pierde la atribución de conflictos (+8 more)
 
 ### Community 28 - "FixtureProjects"
-Cohesion: 0.12
-Nodes (4): FixtureProjects, ComposeNavigationTest, ModuleDiscoveryTest, XmlNavigationTest
+Cohesion: 0.15
+Nodes (3): FixtureProjects, ModuleDiscoveryTest, SelectorExtractionTest
 
 ### Community 29 - "LoginViewModel.kt"
 Cohesion: 0.43
@@ -274,11 +289,11 @@ Nodes (6): Decision, DecisionExtractor, DecisionOutcome, ClickHandler, KotlinNav
 
 ### Community 42 - "DetectFlowOptions"
 Cohesion: 0.11
-Nodes (5): DetectFlowOptions, AmbiguousNavigationTest, DecisionExtractionTest, EvidenceClassificationTest, SelectorExtractionTest
+Nodes (5): DetectFlowOptions, AmbiguousNavigationTest, ComposeNavigationTest, DecisionExtractionTest, EvidenceClassificationTest
 
 ### Community 43 - "GradleCommandValidator"
-Cohesion: 0.18
-Nodes (4): GradleCommandValidator, GradleWrapperLocator, DependenciesInspectTool, kotlinx
+Cohesion: 0.14
+Nodes (7): GradleCommandValidator, GradleWrapperLocator, GradleRunTool, kotlinx, kotlinx, StaticAnalysisTool, ToolResult
 
 ### Community 44 - "Navigation.kt"
 Cohesion: 0.83
@@ -289,7 +304,7 @@ Cohesion: 0.21
 Nodes (9): Application, SessionStore, ShopApplication, AppCompatActivity, Bundle, LoginActivity, AppCompatActivity, Bundle (+1 more)
 
 ### Community 47 - "XmlNavGraphParser"
-Cohesion: 0.24
+Cohesion: 0.26
 Nodes (5): Element, NavXmlAction, NavXmlDestination, NavXmlGraph, XmlNavGraphParser
 
 ### Community 48 - "SupportFragment.kt"
@@ -317,12 +332,12 @@ Cohesion: 0.25
 Nodes (4): GradleTaskEntry, GradleTasksParser, GradleTasksTool, kotlinx
 
 ### Community 58 - "UiFramework"
-Cohesion: 0.20
-Nodes (6): UiFramework, COMPOSE, MIXED, UNKNOWN, XML, UiFrameworkDetector
+Cohesion: 0.12
+Nodes (10): Selector, UiFramework, COMPOSE, MIXED, UNKNOWN, XML, ComposeAction, LayoutAction (+2 more)
 
 ### Community 59 - "ProcessExecutor"
 Cohesion: 0.28
-Nodes (4): ProcessExecutor, ProcessResult, GradleRunTool, kotlinx
+Nodes (4): ProcessExecutor, ProcessResult, DependenciesInspectTool, kotlinx
 
 ### Community 60 - "Getting Started"
 Cohesion: 0.25
@@ -344,13 +359,57 @@ Nodes (6): Branching model, Contributing, License, Making a change, Pull request
 Cohesion: 0.47
 Nodes (3): LintIssue, LintReport, LintXmlParser
 
-### Community 67 - "StaticAnalysisTool.kt"
-Cohesion: 0.50
-Nodes (3): kotlinx, StaticAnalysisTool, ToolResult
+### Community 67 - "ModuleGraphParser"
+Cohesion: 0.14
+Nodes (6): ModuleEdge, ModuleGraph, ModuleGraphParser, kotlinx, ModuleGraphTool, ModuleGraphParserTest
 
 ### Community 68 - "gradlew"
 Cohesion: 0.83
 Nodes (3): gradlew script, die(), warn()
+
+### Community 69 - "AndroidFlowIr.kt"
+Cohesion: 0.16
+Nodes (11): EvidenceType, DECLARED, INFERRED, FlowAmbiguity, FlowApplication, FlowModule, ModuleDependency, SelectorStatus (+3 more)
+
+### Community 70 - "FlowGraphBuilder"
+Cohesion: 0.16
+Nodes (3): FlowEdge, FlowGraphBuilder, MutableEdge
+
+### Community 74 - "KotlinPsiEngine"
+Cohesion: 0.23
+Nodes (7): KotlinCoreEnvironment, PsiElement, PsiErrorElement, KotlinPsiEngine, KtTreeVisitorVoid, KtFile, KtTreeVisitorVoid
+
+### Community 75 - "KotlinSourceScanner"
+Cohesion: 0.17
+Nodes (5): KotlinSourceScanner, kotlinx, SymbolFindTool, kotlinx, SymbolReferencesTool
+
+### Community 76 - "SourceScanner"
+Cohesion: 0.23
+Nodes (3): AndroidProjectScan, NavXmlGraph, SourceScanner
+
+### Community 77 - "ScannedKotlinFile"
+Cohesion: 0.29
+Nodes (4): ComposeNavDetector, ComposeRoute, ScannedKotlinFile, ComposeNavDetectorRegressionTest
+
+### Community 78 - "DetectAndroidFlowTool.kt"
+Cohesion: 0.43
+Nodes (4): AndroidFlowIr, DetectAndroidFlowTool, JsonObject, kotlinx
+
+### Community 79 - "TestsRunTool.kt"
+Cohesion: 0.36
+Nodes (4): JunitTestCase, JunitTestSuite, JunitXmlParser, org
+
+### Community 80 - "ManifestInspectTool"
+Cohesion: 0.50
+Nodes (3): Element, JsonObject, ManifestInspectTool
+
+### Community 81 - "TestsRunTool"
+Cohesion: 0.46
+Nodes (3): dev, kotlinx, TestsRunTool
+
+### Community 86 - "resolveModuleOrNull"
+Cohesion: 0.33
+Nodes (3): kotlinx, ResourcesInspectTool, resolveModuleOrNull()
 
 ### Community 87 - "SummaryFragment.kt"
 Cohesion: 0.42
@@ -360,9 +419,9 @@ Nodes (6): Bundle, Fragment, LayoutInflater, View, ViewGroup, SummaryFragment
 Cohesion: 0.25
 Nodes (8): Claude Code, Claude Desktop, Configuration, Cursor, GitHub Copilot (VS Code), No environment-variable configuration, OpenAI Codex CLI, Verifying a configuration
 
-### Community 90 - "SelectorExtractor"
-Cohesion: 0.36
-Nodes (4): Selector, ComposeAction, LayoutAction, SelectorExtractor
+### Community 90 - "NavigationGraphTool.kt"
+Cohesion: 0.40
+Nodes (3): dev, kotlinx, NavigationGraphTool
 
 ### Community 92 - "OrderDoneFragment.kt"
 Cohesion: 0.43
@@ -384,6 +443,14 @@ Nodes (10): Architecture, Compatibility, Contributing, Documentation, License, P
 Cohesion: 0.38
 Nodes (3): ComposeNavCall, ComposeNavParser, ComposeRoute
 
+### Community 98 - "ManifestMergeToolTest"
+Cohesion: 0.17
+Nodes (4): java, LintRunToolTest, java, ManifestMergeToolTest
+
+### Community 99 - "SelectorKind"
+Cohesion: 0.40
+Nodes (5): SelectorKind, CONTENT_DESCRIPTION, RESOURCE_ID, TEST_TAG, TEXT
+
 ### Community 101 - "Herramientas de referencia obligatorias para este proyecto"
 Cohesion: 0.40
 Nodes (4): 1. graphify — índice de conocimiento del codebase, 2. RTK — filtro de salida de comandos (Rust Token Killer), 3. Este repositorio, Herramientas de referencia obligatorias para este proyecto
@@ -397,24 +464,24 @@ Cohesion: 0.60
 Nodes (3): CheckoutActivity, AppCompatActivity, Bundle
 
 ## Knowledge Gaps
-- **383 isolated node(s):** `$schema`, `model`, `small_model`, `auto`, `prune` (+378 more)
+- **384 isolated node(s):** `$schema`, `model`, `small_model`, `auto`, `prune` (+379 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **21 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `FlowDetector` connect `FlowGraphBuilder` to `DetectFlowOptions`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
-- **Why does `DetectAndroidFlowTool` connect `FlowGraphBuilder` to `server/Main.kt`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
-- **Why does `DetectFlowOptions` connect `DetectFlowOptions` to `FlowGraphBuilder`, `FixtureProjects`?**
+- **Why does `SymbolExtractor` connect `SymbolExtractor.kt` to `KotlinSourceScanner`?**
   _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Why does `DetectAndroidFlowTool` connect `DetectAndroidFlowTool.kt` to `server/Main.kt`?**
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+- **Why does `FixtureProjects` connect `FixtureProjects` to `.assertTrue`, `.sampleAndroidProject`, `DetectFlowOptions`, `JsonArray`?**
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Are the 14 inferred relationships involving `SourceEvidence` (e.g. with `.parseManifest()` and `.registerCodeClickHandlers()`) actually correct?**
   _`SourceEvidence` has 14 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `$schema`, `model`, `small_model` to the rest of the system?**
-  _383 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _384 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Tools Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `JsonArray` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._

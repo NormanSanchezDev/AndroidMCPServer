@@ -506,7 +506,7 @@
   },
   ".ai/mcp/mcp.json": {
     "mtime": 1787822381.181292,
-    "ast_hash": "",
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
@@ -902,6 +902,11 @@
   "docs/troubleshooting.md": {
     "mtime": 1787995694.6715589,
     "ast_hash": "53c656a7035cfa08e6d96492bcafbbc6",
+    "semantic_hash": ""
+  },
+  ".opencode/.mcps.json": {
+    "mtime": 1788034209.8954241,
+    "ast_hash": "41ae49b25c24f66b4b8f3980a471d0ae",
     "semantic_hash": ""
   }
 }
