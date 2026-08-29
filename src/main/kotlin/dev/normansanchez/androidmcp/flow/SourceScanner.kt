@@ -20,7 +20,7 @@ object SourceScanner {
             val src = module.path.resolve("src/main")
             if (!Files.isDirectory(src)) continue
             Files.walk(src).use { paths ->
-                paths.forEach { path ->
+                paths.sorted().forEach { path ->
                     if (Files.isRegularFile(path) && path.isSourceFile()) {
                         if (path.anyParentIn(excludedDirectories)) return@forEach
                         try {
@@ -47,7 +47,7 @@ object SourceScanner {
             val navigationDir = module.path.resolve("src/main/res/navigation")
             if (!Files.isDirectory(navigationDir)) continue
             Files.walk(navigationDir).use { paths ->
-                paths.forEach { path ->
+                paths.sorted().forEach { path ->
                     if (Files.isRegularFile(path) && path.toString().endsWith(".xml")) {
                         XmlNavGraphParser.parseFile(path, project.root)?.let { graphs.add(it) }
                     }
@@ -63,7 +63,7 @@ object SourceScanner {
             val resDir = module.path.resolve("src/main/res")
             if (!Files.isDirectory(resDir)) continue
             Files.walk(resDir).use { paths ->
-                paths.forEach { path ->
+                paths.sorted().forEach { path ->
                     if (Files.isRegularFile(path) && path.toString().endsWith(".xml")) {
                         try {
                             layouts.add(path to Files.readString(path))
