@@ -525,13 +525,13 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787822381.189172,
-    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "mtime": 1788040042.905632,
+    "ast_hash": "5616eeae081be9d7e507b7d51f0386cf",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1788037064.8119867,
-    "ast_hash": "b210efccea994a469d95727fa05b3d8e",
+    "mtime": 1788040052.823732,
+    "ast_hash": "df1b9b09a949a525db5130699c20f110",
     "semantic_hash": ""
   },
   "IMPLEMENTATION_PLAN.md": {
@@ -907,6 +907,11 @@
   ".opencode/.mcps.json": {
     "mtime": 1788034209.8954241,
     "ast_hash": "41ae49b25c24f66b4b8f3980a471d0ae",
+    "semantic_hash": ""
+  },
+  "scripts/git-hooks/post-merge": {
+    "mtime": 1788039878.7852852,
+    "ast_hash": "2a4ddbe37c94fdb9fdd3ccde224a9ded",
     "semantic_hash": ""
   }
 }

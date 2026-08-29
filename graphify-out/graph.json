@@ -4,6 +4,149 @@
   "graph": {},
   "nodes": [
     {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_changelog",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "changelog"
+    },
+    {
+      "label": "[Unreleased]",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "changelog_unreleased",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "[unreleased]"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "changelog_corregido",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "corregido"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "anadido"
+    },
+    {
+      "label": "[0.0.3] - 2026-08-29",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "changelog_0_0_3_2026_08_29",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "[0.0.3] - 2026-08-29"
+    },
+    {
+      "label": "Corregido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "changelog_corregido_21",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "corregido"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "changelog_cambiado",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "[0.0.2] - 2026-08-27",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "changelog_0_0_2_2026_08_27",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "[0.0.2] - 2026-08-27"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_32",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "anadido"
+    },
+    {
+      "label": "[0.0.1] - 2026-08-26 / 2026-08-27",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "changelog_0_0_1_2026_08_26_2026_08_27",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "[0.0.1] - 2026-08-26 / 2026-08-27"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_37",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "anadido"
+    },
+    {
+      "label": "Convenci\u00f3n de commits para este CHANGELOG",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "changelog_convenci\u00f3n_de_commits_para_este_changelog",
+      "community": 72,
+      "community_name": "Changelog",
+      "norm_label": "convencion de commits para este changelog"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -15,10 +158,21 @@
       "norm_label": "claude.md"
     },
     {
-      "label": "graphify",
+      "label": "CHANGELOG",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_changelog",
+      "community": 93,
+      "community_name": "RTK Commands by Workflow",
+      "norm_label": "changelog"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
       "_origin": "ast",
       "id": "claude_graphify",
       "community": 93,
@@ -29,7 +183,7 @@
       "label": "RTK (Rust Token Killer) - Token-Optimized Commands",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L12",
+      "source_location": "L18",
       "_origin": "ast",
       "id": "claude_rtk_rust_token_killer_token_optimized_commands",
       "community": 93,
@@ -40,7 +194,7 @@
       "label": "Golden Rule",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L14",
+      "source_location": "L20",
       "_origin": "ast",
       "id": "claude_golden_rule",
       "community": 93,
@@ -51,7 +205,7 @@
       "label": "RTK Commands by Workflow",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L27",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "claude_rtk_commands_by_workflow",
       "community": 93,
@@ -62,7 +216,7 @@
       "label": "Build & Compile (80-90% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L29",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "claude_build_compile_80_90_savings",
       "community": 93,
@@ -73,7 +227,7 @@
       "label": "Test (60-99% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L40",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "claude_test_60_99_savings",
       "community": 93,
@@ -84,7 +238,7 @@
       "label": "Git (59-80% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L53",
+      "source_location": "L59",
       "_origin": "ast",
       "id": "claude_git_59_80_savings",
       "community": 93,
@@ -95,7 +249,7 @@
       "label": "GitHub (26-87% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L71",
+      "source_location": "L77",
       "_origin": "ast",
       "id": "claude_github_26_87_savings",
       "community": 93,
@@ -106,7 +260,7 @@
       "label": "JavaScript/TypeScript Tooling (70-90% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L80",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "claude_javascript_typescript_tooling_70_90_savings",
       "community": 93,
@@ -117,7 +271,7 @@
       "label": "Files & Search (60-75% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L91",
+      "source_location": "L97",
       "_origin": "ast",
       "id": "claude_files_search_60_75_savings",
       "community": 93,
@@ -128,7 +282,7 @@
       "label": "Analysis & Debug (70-90% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L99",
+      "source_location": "L105",
       "_origin": "ast",
       "id": "claude_analysis_debug_70_90_savings",
       "community": 93,
@@ -139,7 +293,7 @@
       "label": "Infrastructure (85% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L110",
+      "source_location": "L116",
       "_origin": "ast",
       "id": "claude_infrastructure_85_savings",
       "community": 93,
@@ -150,7 +304,7 @@
       "label": "Network (65-70% savings)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L119",
+      "source_location": "L125",
       "_origin": "ast",
       "id": "claude_network_65_70_savings",
       "community": 93,
@@ -161,7 +315,7 @@
       "label": "Meta Commands",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L125",
+      "source_location": "L131",
       "_origin": "ast",
       "id": "claude_meta_commands",
       "community": 93,
@@ -172,7 +326,7 @@
       "label": "Token Savings Overview",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L135",
+      "source_location": "L141",
       "_origin": "ast",
       "id": "claude_token_savings_overview",
       "community": 93,
@@ -180,15 +334,60 @@
       "norm_label": "token savings overview"
     },
     {
+      "label": "post-merge",
+      "file_type": "code",
+      "source_file": "scripts/git-hooks/post-merge",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_git_hooks_post_merge",
+      "community": 90,
+      "community_name": "post-merge",
+      "norm_label": "post-merge"
+    },
+    {
+      "label": "post-merge script",
+      "file_type": "code",
+      "source_file": "scripts/git-hooks/post-merge",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_git_hooks_post_merge__entry",
+      "community": 90,
+      "community_name": "post-merge",
+      "norm_label": "post-merge script"
+    },
+    {
+      "label": "PYTHONHASHSEED",
+      "file_type": "code",
+      "source_file": "scripts/git-hooks/post-merge",
+      "source_location": "L20",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "_origin": "ast",
+      "id": "scripts_git_hooks_post_merge_pythonhashseed",
+      "community": 90,
+      "community_name": "post-merge",
+      "norm_label": "pythonhashseed"
+    },
+    {
       "label": "ambiguous-entry-app/settings.gradle.kts",
       "file_type": "code",
       "source_file": "src/test/resources/fixtures/ambiguous-entry-app/settings.gradle.kts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_test_resources_fixtures_ambiguous_entry_app_settings_gradle",
       "community": 112,
       "community_name": "ambiguous-entry-app/settings.gradle.kts",
-      "norm_label": "ambiguous-entry-app/settings.gradle.kts"
+      "norm_label": "ambiguous-entry-app/settings.gradle.kts",
+      "id": "src_test_resources_fixtures_ambiguous_entry_app_settings_gradle"
     },
     {
       "label": "build.gradle.kts",
@@ -293,8 +492,8 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": "securityaudittool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool"
     },
@@ -306,8 +505,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": "securityaudittool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool"
     },
@@ -319,8 +518,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": "securityissue",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityissue"
     },
@@ -331,8 +530,8 @@
       "source_location": "L22",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": ".execute()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_execute"
     },
@@ -342,8 +541,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": "kotlinx",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_kt_kotlinx"
     },
@@ -354,8 +553,8 @@
       "source_location": "L66",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": ".checkmanifest()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkmanifest"
     },
@@ -366,8 +565,8 @@
       "source_location": "L104",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": ".checkgradleproperties()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkgradleproperties"
     },
@@ -378,8 +577,8 @@
       "source_location": "L132",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": ".checkhardcodedsecrets()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_securityaudittool_securityaudittool_checkhardcodedsecrets"
     },
@@ -390,7 +589,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": "symbolreferencestool.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool"
     },
@@ -403,7 +602,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": "symbolreferencestool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool"
     },
@@ -415,7 +614,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": ".execute()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_symbolreferencestool_execute"
     },
@@ -426,7 +625,7 @@
       "source_location": "",
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": "kotlinx",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolreferencestool_kt_kotlinx"
     },
@@ -563,9 +762,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "element",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "element"
     },
     {
@@ -994,7 +1193,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kotlincoreenvironment",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "kotlincoreenvironment"
     },
     {
@@ -1027,7 +1226,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "psierrorelement",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "psierrorelement"
     },
     {
@@ -1038,7 +1237,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "psielement",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "psielement"
     },
     {
@@ -1080,7 +1279,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "ktobjectdeclaration",
       "community_name": "SymbolExtractor.kt",
       "id": "ktobjectdeclaration"
@@ -1091,7 +1290,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "ktnamedfunction",
       "community_name": "SymbolExtractor.kt",
       "id": "ktnamedfunction"
@@ -1102,7 +1301,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "ktproperty",
       "community_name": "SymbolExtractor.kt",
       "id": "ktproperty"
@@ -1113,7 +1312,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "ktparameter",
       "community_name": "SymbolExtractor.kt",
       "id": "ktparameter"
@@ -1124,7 +1323,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "kttypealias",
       "community_name": "SymbolExtractor.kt",
       "id": "kttypealias"
@@ -2778,9 +2977,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/lint/LintXmlParser.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": "lintxmlparser.kt",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser"
     },
     {
@@ -2791,9 +2990,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": "lintissue",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintissue"
     },
     {
@@ -2804,9 +3003,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": "lintreport",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintreport"
     },
     {
@@ -2816,9 +3015,9 @@
       "source_location": "L18",
       "_callable": true,
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": ".countbyseverity()",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintreport_countbyseverity"
     },
     {
@@ -2829,9 +3028,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": "lintxmlparser",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintxmlparser"
     },
     {
@@ -2841,9 +3040,9 @@
       "source_location": "L24",
       "_callable": true,
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": ".parse()",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_lint_lintxmlparser_lintxmlparser_parse"
     },
     {
@@ -2935,7 +3134,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "composenavdetector.kt",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetector"
     },
     {
@@ -2948,7 +3147,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "composeroute",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetector_composeroute"
     },
     {
@@ -2961,7 +3160,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "composenavdetector",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetector_composenavdetector"
     },
     {
@@ -2973,7 +3172,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".detect()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetector_composenavdetector_detect"
     },
     {
@@ -2985,7 +3184,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".hasnavhost()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetector_composenavdetector_hasnavhost"
     },
     {
@@ -3419,9 +3618,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/symbol/HierarchyBuilder.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "hierarchybuilder.kt",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder"
     },
     {
@@ -3432,9 +3631,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "hierarchyentry",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchyentry"
     },
     {
@@ -3445,9 +3644,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "hierarchybuilder",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder"
     },
     {
@@ -3457,9 +3656,9 @@
       "source_location": "L17",
       "_callable": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": ".build()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_build"
     },
     {
@@ -3470,9 +3669,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "kttreevisitorvoid",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_build_object_kttreevisitorvoid_l21"
     },
     {
@@ -3481,9 +3680,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "kttreevisitorvoid",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_kt_kttreevisitorvoid"
     },
     {
@@ -3493,9 +3692,9 @@
       "source_location": "L22",
       "_callable": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": ".visitclass()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_build_object_kttreevisitorvoid_l21_visitclass"
     },
     {
@@ -3506,9 +3705,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "ktclass",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_kt_ktclass"
     },
     {
@@ -3518,9 +3717,9 @@
       "source_location": "L50",
       "_callable": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": ".buildhierarchytree()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchybuilder_buildhierarchytree"
     },
     {
@@ -3530,9 +3729,9 @@
       "source_location": "L77",
       "_callable": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "hierarchynode",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "_callable_class": true,
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_hierarchybuilder_hierarchynode"
     },
@@ -3544,7 +3743,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kotlinpsiengine.kt",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine"
     },
     {
@@ -3557,7 +3756,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kotlinpsiengine",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine"
     },
     {
@@ -3570,7 +3769,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".parse()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine_parse"
     },
     {
@@ -3581,7 +3780,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "ktfile",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kt_ktfile"
     },
     {
@@ -3593,7 +3792,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".collectparseerrors()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine_collectparseerrors"
     },
     {
@@ -3605,7 +3804,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kttreevisitorvoid",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "_callable_class": true,
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine_collectparseerrors_object_kttreevisitorvoid_l46"
     },
@@ -3617,7 +3816,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kttreevisitorvoid",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kt_kttreevisitorvoid"
     },
     {
@@ -3629,7 +3828,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".visiterrorelement()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine_collectparseerrors_object_kttreevisitorvoid_l46_visiterrorelement"
     },
     {
@@ -3641,7 +3840,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".declarationname()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine_declarationname"
     },
     {
@@ -3653,7 +3852,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".lineof()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinpsiengine_kotlinpsiengine_lineof"
     },
     {
@@ -3664,7 +3863,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kotlinsourcescanner.kt",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner"
     },
     {
@@ -3677,7 +3876,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "scannedkotlinfile",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner_scannedkotlinfile"
     },
     {
@@ -3690,7 +3889,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kotlinsourcescanner",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner_kotlinsourcescanner"
     },
     {
@@ -3702,7 +3901,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".scan()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner_kotlinsourcescanner_scan"
     },
     {
@@ -3715,7 +3914,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".discoversourceroots()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner_kotlinsourcescanner_discoversourceroots"
     },
     {
@@ -3727,7 +3926,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".isexcluded()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_kotlinsourcescanner_kotlinsourcescanner_isexcluded"
     },
     {
@@ -3736,7 +3935,7 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/symbol/SymbolExtractor.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "symbolextractor.kt",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor"
@@ -3748,7 +3947,7 @@
       "source_location": "L13",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "symbolentry",
       "community_name": "SymbolExtractor.kt",
       "_callable_class": true,
@@ -3762,7 +3961,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "symbolextractor",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor"
@@ -3774,7 +3973,7 @@
       "source_location": "L30",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".extract()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract"
@@ -3785,7 +3984,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "ktfile",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_kt_ktfile"
@@ -3798,7 +3997,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "kttreevisitorvoid",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38"
@@ -3809,7 +4008,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "kttreevisitorvoid",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_kt_kttreevisitorvoid"
@@ -3821,7 +4020,7 @@
       "source_location": "L40",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".visitclass()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38_visitclass"
@@ -3832,7 +4031,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "ktclass",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_kt_ktclass"
@@ -3844,7 +4043,7 @@
       "source_location": "L58",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".visitobjectdeclaration()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38_visitobjectdeclaration"
@@ -3856,7 +4055,7 @@
       "source_location": "L78",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".visitnamedfunction()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38_visitnamedfunction"
@@ -3868,7 +4067,7 @@
       "source_location": "L98",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".visitproperty()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38_visitproperty"
@@ -3880,7 +4079,7 @@
       "source_location": "L118",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".visitparameter()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38_visitparameter"
@@ -3893,7 +4092,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".visittypealias()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_extract_object_kttreevisitorvoid_l38_visittypealias"
@@ -3905,7 +4104,7 @@
       "source_location": "L149",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".entry()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_symbolextractor_entry"
@@ -3916,7 +4115,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "org",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_symbol_symbolextractor_kt_org"
@@ -3976,9 +4175,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/BuildValidateTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 43,
+      "community": 66,
       "norm_label": "buildvalidatetool.kt",
-      "community_name": "GradleCommandValidator",
+      "community_name": "BuildValidateTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_buildvalidatetool"
     },
     {
@@ -4145,9 +4344,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/EntryPointsFindTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": "entrypointsfindtool.kt",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool"
     },
     {
@@ -4158,9 +4357,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": "entrypointsfindtool",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_entrypointsfindtool"
     },
     {
@@ -4171,9 +4370,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".execute()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_entrypointsfindtool_execute"
     },
     {
@@ -4182,9 +4381,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": "kotlinx",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_kt_kotlinx"
     },
     {
@@ -4194,9 +4393,9 @@
       "source_location": "L132",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".builddeeplink()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_entrypointsfindtool_builddeeplink"
     },
     {
@@ -4205,9 +4404,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": "element",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_kt_element"
     },
     {
@@ -4217,9 +4416,9 @@
       "source_location": "L163",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".collectandroidnames()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_entrypointsfindtool_collectandroidnames"
     },
     {
@@ -4229,9 +4428,9 @@
       "source_location": "L173",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".androidattribute()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_entrypointsfindtool_androidattribute"
     },
     {
@@ -4241,9 +4440,9 @@
       "source_location": "L176",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".exported()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_entrypointsfindtool_entrypointsfindtool_exported"
     },
     {
@@ -4299,9 +4498,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/GradleRunTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 59,
+      "community": 43,
       "norm_label": "gradleruntool.kt",
-      "community_name": "ProcessExecutor",
+      "community_name": "GradleCommandValidator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradleruntool"
     },
     {
@@ -4312,9 +4511,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 59,
+      "community": 43,
       "norm_label": "gradleruntool",
-      "community_name": "ProcessExecutor",
+      "community_name": "GradleCommandValidator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradleruntool_gradleruntool"
     },
     {
@@ -4324,9 +4523,9 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 59,
+      "community": 43,
       "norm_label": ".execute()",
-      "community_name": "ProcessExecutor",
+      "community_name": "GradleCommandValidator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradleruntool_gradleruntool_execute"
     },
     {
@@ -4335,9 +4534,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 59,
+      "community": 43,
       "norm_label": "kotlinx",
-      "community_name": "ProcessExecutor",
+      "community_name": "GradleCommandValidator",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_gradleruntool_kt_kotlinx"
     },
     {
@@ -4393,9 +4592,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/LintRunTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 64,
+      "community": 80,
       "norm_label": "lintruntool.kt",
-      "community_name": "LintRunTool.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool"
     },
     {
@@ -4406,9 +4605,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": "lintruntool",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool"
     },
     {
@@ -4418,9 +4617,9 @@
       "source_location": "L21",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".execute()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_execute"
     },
     {
@@ -4429,9 +4628,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": "kotlinx",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_kt_kotlinx"
     },
     {
@@ -4441,9 +4640,9 @@
       "source_location": "L140",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".latestlintreport()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_latestlintreport"
     },
     {
@@ -4453,9 +4652,9 @@
       "source_location": "L160",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".rungradlelint()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_rungradlelint"
     },
     {
@@ -4465,9 +4664,9 @@
       "source_location": "L197",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 80,
       "norm_label": ".defaulttaskfor()",
-      "community_name": "server/Main.kt",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_lintruntool_lintruntool_defaulttaskfor"
     },
     {
@@ -4478,7 +4677,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": "manifestinspecttool.kt",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool"
     },
     {
@@ -4491,7 +4690,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": "manifestinspecttool",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_manifestinspecttool"
     },
     {
@@ -4503,7 +4702,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": ".execute()",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_manifestinspecttool_execute"
     },
     {
@@ -4514,7 +4713,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": "jsonobject",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_kt_jsonobject"
     },
     {
@@ -4526,7 +4725,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": ".readcomponents()",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_manifestinspecttool_readcomponents"
     },
     {
@@ -4537,7 +4736,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": "element",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_kt_element"
     },
     {
@@ -4549,7 +4748,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": ".readintentfilters()",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_manifestinspecttool_readintentfilters"
     },
     {
@@ -4561,7 +4760,7 @@
       "_origin": "ast",
       "community": 80,
       "norm_label": ".androidattribute()",
-      "community_name": "ManifestInspectTool",
+      "community_name": "EntryPointsFindTool",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestinspecttool_manifestinspecttool_androidattribute"
     },
     {
@@ -4570,9 +4769,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/ManifestMergeTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "manifestmergetool.kt",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool"
     },
     {
@@ -4583,9 +4782,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "manifestmergetool",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool"
     },
     {
@@ -4595,9 +4794,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".execute()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool_execute"
     },
     {
@@ -4606,9 +4805,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "kotlinx",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_kt_kotlinx"
     },
     {
@@ -4618,9 +4817,9 @@
       "source_location": "L78",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".findmanifests()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool_findmanifests"
     },
     {
@@ -4630,9 +4829,9 @@
       "source_location": "L94",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".extractmodulename()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool_extractmodulename"
     },
     {
@@ -4642,9 +4841,9 @@
       "source_location": "L100",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".detectconflicts()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool_detectconflicts"
     },
     {
@@ -4654,9 +4853,9 @@
       "source_location": "L139",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".findmoduleforattr()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool_findmoduleforattr"
     },
     {
@@ -4666,9 +4865,9 @@
       "source_location": "L145",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".parsemanifest()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_manifestmergetool_parsemanifest"
     },
     {
@@ -4679,9 +4878,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "mergeconflict",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_mergeconflict"
     },
     {
@@ -4751,7 +4950,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "navigationgraphtool.kt",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_navigationgraphtool"
     },
     {
@@ -4764,7 +4963,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "navigationgraphtool",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_navigationgraphtool_navigationgraphtool"
     },
     {
@@ -4776,7 +4975,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".execute()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_navigationgraphtool_navigationgraphtool_execute"
     },
     {
@@ -4787,7 +4986,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "kotlinx",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_navigationgraphtool_kt_kotlinx"
     },
     {
@@ -4799,7 +4998,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".parsexmlnavigation()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_navigationgraphtool_navigationgraphtool_parsexmlnavigation"
     },
     {
@@ -4810,7 +5009,7 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "dev",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_navigationgraphtool_kt_dev"
     },
     {
@@ -4819,9 +5018,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/ProguardInspectTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": "proguardinspecttool.kt",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool"
     },
     {
@@ -4832,9 +5031,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": "proguardinspecttool",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardinspecttool"
     },
     {
@@ -4845,9 +5044,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": "proguardrule",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardrule"
     },
     {
@@ -4858,9 +5057,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": "proguardfile",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardfile"
     },
     {
@@ -4870,9 +5069,9 @@
       "source_location": "L24",
       "_callable": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": ".execute()",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardinspecttool_execute"
     },
     {
@@ -4881,9 +5080,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": "kotlinx",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_kt_kotlinx"
     },
     {
@@ -4893,9 +5092,9 @@
       "source_location": "L73",
       "_callable": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": ".findproguardfiles()",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardinspecttool_findproguardfiles"
     },
     {
@@ -4905,9 +5104,9 @@
       "source_location": "L121",
       "_callable": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": ".parserules()",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardinspecttool_parserules"
     },
     {
@@ -4917,9 +5116,9 @@
       "source_location": "L175",
       "_callable": true,
       "_origin": "ast",
-      "community": 90,
+      "community": 6,
       "norm_label": ".extractproguardconfig()",
-      "community_name": "ProguardInspectTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_proguardinspecttool_proguardinspecttool_extractproguardconfig"
     },
     {
@@ -5131,9 +5330,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/ResourcesInspectTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "resourcesinspecttool.kt",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool"
     },
     {
@@ -5144,9 +5343,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "resourcesinspecttool",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool_resourcesinspecttool"
     },
     {
@@ -5156,9 +5355,9 @@
       "source_location": "L30",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".execute()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool_resourcesinspecttool_execute"
     },
     {
@@ -5167,9 +5366,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": "kotlinx",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool_kt_kotlinx"
     },
     {
@@ -5179,9 +5378,9 @@
       "source_location": "L152",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
+      "community": 6,
       "norm_label": ".collectvaluenames()",
-      "community_name": "ManifestMergeTool",
+      "community_name": "server/Main.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_resourcesinspecttool_resourcesinspecttool_collectvaluenames"
     },
     {
@@ -5250,7 +5449,7 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolFindTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "symbolfindtool.kt",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtool"
@@ -5263,7 +5462,7 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "symbolfindtool",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtool_symbolfindtool"
@@ -5275,7 +5474,7 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": ".execute()",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtool_symbolfindtool_execute"
@@ -5286,7 +5485,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 5,
+      "community": 15,
       "norm_label": "kotlinx",
       "community_name": "SymbolExtractor.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolfindtool_kt_kotlinx"
@@ -5297,9 +5496,9 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/tools/SymbolHierarchyTool.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "symbolhierarchytool.kt",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool"
     },
     {
@@ -5310,9 +5509,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "symbolhierarchytool",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool"
     },
     {
@@ -5322,9 +5521,9 @@
       "source_location": "L15",
       "_callable": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": ".execute()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool_execute"
     },
     {
@@ -5333,9 +5532,9 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": "kotlinx",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_kt_kotlinx"
     },
     {
@@ -5345,9 +5544,9 @@
       "source_location": "L52",
       "_callable": true,
       "_origin": "ast",
-      "community": 15,
+      "community": 5,
       "norm_label": ".serializenode()",
-      "community_name": "KotlinSourceScanner",
+      "community_name": "HierarchyBuilder.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_symbolhierarchytool_symbolhierarchytool_serializenode"
     },
     {
@@ -7273,9 +7472,9 @@
       "source_file": "src/test/kotlin/dev/normansanchez/androidmcp/tools/TestsRunToolTest.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 106,
+      "community": 12,
       "norm_label": "testsruntooltest.kt",
-      "community_name": "LintRunToolTest",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest"
     },
     {
@@ -7286,9 +7485,9 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 106,
+      "community": 12,
       "norm_label": "testsruntooltest",
-      "community_name": "LintRunToolTest",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest"
     },
     {
@@ -7298,9 +7497,9 @@
       "source_location": "L16",
       "_callable": true,
       "_origin": "ast",
-      "community": 106,
+      "community": 12,
       "norm_label": ".`aggregates junit reports from build test-results`()",
-      "community_name": "LintRunToolTest",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest_aggregates_junit_reports_from_build_test_results"
     },
     {
@@ -7310,9 +7509,9 @@
       "source_location": "L48",
       "_callable": true,
       "_origin": "ast",
-      "community": 106,
+      "community": 12,
       "norm_label": ".`returns not_available when no reports exist`()",
-      "community_name": "LintRunToolTest",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest_returns_not_available_when_no_reports_exist"
     },
     {
@@ -7322,9 +7521,9 @@
       "source_location": "L63",
       "_callable": true,
       "_origin": "ast",
-      "community": 106,
+      "community": 12,
       "norm_label": ".copyresource()",
-      "community_name": "LintRunToolTest",
+      "community_name": "TestsRunToolTest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_testsruntooltest_copyresource"
     },
     {
@@ -9296,8 +9495,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 69,
-      "community_name": "AndroidFlowIr.kt",
+      "community": 8,
+      "community_name": "EntryPointDetector",
       "norm_label": "moduledependency",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_moduledependency"
     },
@@ -9493,8 +9692,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 69,
-      "community_name": "AndroidFlowIr.kt",
+      "community": 64,
+      "community_name": "SelectorKind",
       "norm_label": "selectorkind",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_selectorkind"
     },
@@ -9504,8 +9703,8 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/flow/AndroidFlowIr.kt",
       "source_location": "L94",
       "_origin": "ast",
-      "community": 69,
-      "community_name": "AndroidFlowIr.kt",
+      "community": 64,
+      "community_name": "SelectorKind",
       "norm_label": "resource_id",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_selectorkind_resource_id"
     },
@@ -9515,8 +9714,8 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/flow/AndroidFlowIr.kt",
       "source_location": "L96",
       "_origin": "ast",
-      "community": 69,
-      "community_name": "AndroidFlowIr.kt",
+      "community": 64,
+      "community_name": "SelectorKind",
       "norm_label": "test_tag",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_selectorkind_test_tag"
     },
@@ -9526,8 +9725,8 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/flow/AndroidFlowIr.kt",
       "source_location": "L98",
       "_origin": "ast",
-      "community": 69,
-      "community_name": "AndroidFlowIr.kt",
+      "community": 64,
+      "community_name": "SelectorKind",
       "norm_label": "content_description",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_selectorkind_content_description"
     },
@@ -9537,8 +9736,8 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/flow/AndroidFlowIr.kt",
       "source_location": "L100",
       "_origin": "ast",
-      "community": 69,
-      "community_name": "AndroidFlowIr.kt",
+      "community": 64,
+      "community_name": "SelectorKind",
       "norm_label": "text",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_selectorkind_text"
     },
@@ -9611,8 +9810,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 91,
-      "community_name": "SelectorExtractor",
+      "community": 69,
+      "community_name": "AndroidFlowIr.kt",
       "norm_label": "selector",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_flow_androidflowir_selector"
     },
@@ -11306,8 +11505,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 6,
+      "community_name": "server/Main.kt",
       "norm_label": "attrvalue",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_tools_manifestmergetool_attrvalue"
     },
@@ -11341,8 +11540,8 @@
       "source_file": "src/main/kotlin/dev/normansanchez/androidmcp/util/ProjectPaths.kt",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": "projectpaths.kt",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_util_projectpaths"
     },
@@ -11353,8 +11552,8 @@
       "source_location": "L9",
       "_callable": true,
       "_origin": "ast",
-      "community": 43,
-      "community_name": "GradleCommandValidator",
+      "community": 80,
+      "community_name": "EntryPointsFindTool",
       "norm_label": "resolvemoduleornull()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_util_projectpaths_resolvemoduleornull"
     },
@@ -11365,8 +11564,8 @@
       "source_location": "L18",
       "_callable": true,
       "_origin": "ast",
-      "community": 12,
-      "community_name": "ManifestMergeTool",
+      "community": 20,
+      "community_name": "ProjectInspectTool",
       "norm_label": "isunderexcludeddir()",
       "id": "src_main_kotlin_dev_normansanchez_androidmcp_util_projectpaths_isunderexcludeddir"
     },
@@ -11941,7 +12140,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": "composenavdetectorregressiontest.kt",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetectorregressiontest"
     },
@@ -11954,7 +12153,7 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": "composenavdetectorregressiontest",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetectorregressiontest_composenavdetectorregressiontest"
     },
@@ -11966,7 +12165,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": ".scanned()",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetectorregressiontest_composenavdetectorregressiontest_scanned"
     },
@@ -11978,7 +12177,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": ".`detects named-argument multiline and plain composable routes`()",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetectorregressiontest_composenavdetectorregressiontest_detects_named_argument_multiline_and_plain_composable_routes"
     },
@@ -11990,7 +12189,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 15,
-      "community_name": "KotlinSourceScanner",
+      "community_name": "SymbolExtractor.kt",
       "norm_label": ".`detects navigate calls with and without named argument`()",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_navigation_composenavdetectorregressiontest_composenavdetectorregressiontest_detects_navigate_calls_with_and_without_named_argument"
     },
@@ -12285,8 +12484,8 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "community": 106,
-      "community_name": "LintRunToolTest",
+      "community": 12,
+      "community_name": "TestsRunToolTest",
       "norm_label": "java",
       "id": "src_test_kotlin_dev_normansanchez_androidmcp_tools_testsruntooltest_kt_java"
     },
@@ -13813,17 +14012,6 @@
       "community_name": "3. Detalle de bugs",
       "norm_label": "6. plan de accion propuesto",
       "id": "bug_report_6_plan_de_acci\u00f3n_propuesto"
-    },
-    {
-      "label": "CHANGELOG.md",
-      "file_type": "document",
-      "source_file": "CHANGELOG.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 72,
-      "community_name": "CHANGELOG.md",
-      "norm_label": "changelog.md",
-      "id": "changelog"
     },
     {
       "label": "IMPLEMENTATION_PLAN.md",
@@ -16371,8 +16559,151 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_1_2026_08_26_2026_08_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_2_2026_08_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_3_2026_08_29",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_changelog",
+      "target": "changelog_convenci\u00f3n_de_commits_para_este_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_changelog",
+      "target": "changelog_unreleased",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_unreleased",
+      "target": "changelog_a\u00f1adido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_unreleased",
+      "target": "changelog_corregido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_0_0_3_2026_08_29",
+      "target": "changelog_cambiado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_0_0_3_2026_08_29",
+      "target": "changelog_corregido_21",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_0_0_2_2026_08_27",
+      "target": "changelog_a\u00f1adido_32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "changelog_0_0_1_2026_08_26_2026_08_27",
+      "target": "changelog_a\u00f1adido_37",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "claude",
+      "target": "claude_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude",
@@ -16383,7 +16714,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L12",
+      "source_location": "L18",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude",
@@ -16394,7 +16725,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L14",
+      "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_rust_token_killer_token_optimized_commands",
@@ -16405,7 +16736,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L27",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_rust_token_killer_token_optimized_commands",
@@ -16416,7 +16747,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L135",
+      "source_location": "L141",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_rust_token_killer_token_optimized_commands",
@@ -16427,7 +16758,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L99",
+      "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16438,7 +16769,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L29",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16449,7 +16780,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L91",
+      "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16460,7 +16791,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L53",
+      "source_location": "L59",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16471,7 +16802,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L71",
+      "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16482,7 +16813,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L110",
+      "source_location": "L116",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16493,7 +16824,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L80",
+      "source_location": "L86",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16504,7 +16835,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L125",
+      "source_location": "L131",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16515,7 +16846,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L119",
+      "source_location": "L125",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
@@ -16526,11 +16857,33 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
-      "source_location": "L40",
+      "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast",
       "source": "claude_rtk_commands_by_workflow",
       "target": "claude_test_60_99_savings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git-hooks/post-merge",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_git_hooks_post_merge",
+      "target": "scripts_git_hooks_post_merge__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/git-hooks/post-merge",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_git_hooks_post_merge",
+      "target": "scripts_git_hooks_post_merge_pythonhashseed",
       "confidence_score": 1.0
     },
     {
@@ -39701,5 +40054,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "050d87dafc39f431a69fc245bb01990ef8474290"
+  "built_at_commit": "87d5b383a8eed0d9f18b113bbaaf44f43671bf41"
 }
