@@ -64,10 +64,12 @@ object FlowDetector {
 
         for (ref in sources) {
             val screen = screenByFile[ref.relativePath] ?: continue
-            val content = ref.content
-            val framework = UiFrameworkDetector.detect(content)
+            registerSourceScreen(builder, screen, ref, UiFrameworkDetector.detect(ref.content))
+        }
 
-            registerSourceScreen(builder, screen, ref, framework)
+        for (ref in sources) {
+            val screen = screenByFile[ref.relativePath] ?: continue
+            val content = ref.content
             registerComposeRoutes(builder, screen, content, ref)
             registerStartDestination(builder, screen, content, ref)
         }

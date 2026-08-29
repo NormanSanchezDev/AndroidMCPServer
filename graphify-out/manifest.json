@@ -1,8 +1,8 @@
 {
   ".opencode/opencode.json": {
-    "mtime": 1787822381.1888635,
-    "ast_hash": "ec01d488487bb26241078216dc1a84f0",
-    "semantic_hash": "ec01d488487bb26241078216dc1a84f0"
+    "mtime": 1788027676.9969301,
+    "ast_hash": "36f05e6d232400f437eb257110b117d0",
+    "semantic_hash": ""
   },
   ".opencode/plugins/graphify.js": {
     "mtime": 1787822381.189043,
@@ -60,9 +60,9 @@
     "semantic_hash": "44fa60ee4352ff25b5c88305f60c000a"
   },
   "bin/android-corporate-mcp.js": {
-    "mtime": 1787822381.1897426,
-    "ast_hash": "be414c06ffdafb535e4be118ed3f034d",
-    "semantic_hash": "be414c06ffdafb535e4be118ed3f034d"
+    "mtime": 1787826009.6570797,
+    "ast_hash": "f9f04612b774f1232dd0ae9fff98b2b1",
+    "semantic_hash": ""
   },
   "bin/postinstall.js": {
     "mtime": 1787822381.1898754,
@@ -145,14 +145,14 @@
     "semantic_hash": "ce6b223450098d5201315632ad064901"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/navigation/ComposeNavDetector.kt": {
-    "mtime": 1787822381.4396195,
-    "ast_hash": "27cd25923940212b61ab991084a1aa90",
-    "semantic_hash": "27cd25923940212b61ab991084a1aa90"
+    "mtime": 1788032704.3900652,
+    "ast_hash": "1a90000004ee14c253a66b0efb674b72",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/navigation/NavXmlParser.kt": {
-    "mtime": 1787822381.4396758,
-    "ast_hash": "d1a45c71daf62e304227d0b4b4baeac8",
-    "semantic_hash": "d1a45c71daf62e304227d0b4b4baeac8"
+    "mtime": 1788032477.4168315,
+    "ast_hash": "d6c01d56c5a6e1fe6f10f593141d1b74",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/process/ProcessExecutor.kt": {
     "mtime": 1787822381.4397564,
@@ -160,9 +160,9 @@
     "semantic_hash": "5fd51eecd3187de2c33313280ff08051"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/server/Main.kt": {
-    "mtime": 1787822381.439844,
-    "ast_hash": "c9e2e67f1373d52d69595e237d4043c6",
-    "semantic_hash": "c9e2e67f1373d52d69595e237d4043c6"
+    "mtime": 1787899967.8294904,
+    "ast_hash": "5a2bd6fb3158a2b665abfd60ce534dfc",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/staticanalysis/DetektParser.kt": {
     "mtime": 1787822381.4399319,
@@ -215,14 +215,14 @@
     "semantic_hash": "b7ab8b490a1b2c97a3a7822217e8764e"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/EntryPointsFindTool.kt": {
-    "mtime": 1787822381.4408498,
-    "ast_hash": "6f51cb3a5e0ded5a76b82f164e5d14f1",
-    "semantic_hash": "6f51cb3a5e0ded5a76b82f164e5d14f1"
+    "mtime": 1788032410.3268597,
+    "ast_hash": "17c2f9f1bde140fbea9b3dfdc7f40b1a",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/GradleConfigTool.kt": {
-    "mtime": 1787822381.4409068,
-    "ast_hash": "2b9dfbbc11731a652e6770a611f8d2e4",
-    "semantic_hash": "2b9dfbbc11731a652e6770a611f8d2e4"
+    "mtime": 1788032437.1490993,
+    "ast_hash": "5977f40490ba8de463d56adacb96e7f4",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/GradleRunTool.kt": {
     "mtime": 1787822381.4409788,
@@ -230,24 +230,24 @@
     "semantic_hash": "ea266ee6472c316ee467cd490a401650"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/GradleTasksTool.kt": {
-    "mtime": 1787822381.4410918,
-    "ast_hash": "91c0ab1fafbc94b5d6ba56afc1d77097",
-    "semantic_hash": "91c0ab1fafbc94b5d6ba56afc1d77097"
+    "mtime": 1788032629.9541771,
+    "ast_hash": "252818154625bd7434e993c364e8ce72",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/LintRunTool.kt": {
-    "mtime": 1787822381.441157,
-    "ast_hash": "dd2c112af1b41bb979dce529406776a1",
-    "semantic_hash": "dd2c112af1b41bb979dce529406776a1"
+    "mtime": 1788032430.762725,
+    "ast_hash": "e056fd2e88339df9746864b116820b46",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/ManifestInspectTool.kt": {
-    "mtime": 1787822381.4412096,
-    "ast_hash": "4c8e8f90a03e62095214ed86d2b98563",
-    "semantic_hash": "4c8e8f90a03e62095214ed86d2b98563"
+    "mtime": 1788032352.7439995,
+    "ast_hash": "4a7d6569f0dc6aac684d7c934a4dea58",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/ManifestMergeTool.kt": {
-    "mtime": 1787822381.4412732,
-    "ast_hash": "d872d3086fddfc2120cf47394b00e5ae",
-    "semantic_hash": "d872d3086fddfc2120cf47394b00e5ae"
+    "mtime": 1788032461.703619,
+    "ast_hash": "a42e2ee130279be17b5d0f5afa1f1789",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/ModuleGraphTool.kt": {
     "mtime": 1787822381.4413269,
@@ -265,9 +265,9 @@
     "semantic_hash": "19e7a8b2310870f1488c9ea160a114c8"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/ProjectInspectTool.kt": {
-    "mtime": 1787822381.4415329,
-    "ast_hash": "6401aef54448cb393229a6e546ce6b50",
-    "semantic_hash": "6401aef54448cb393229a6e546ce6b50"
+    "mtime": 1788032512.5903964,
+    "ast_hash": "e8c205cfdef954be2e0b2b7cc0db560e",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/ResourceReferencesTool.kt": {
     "mtime": 1787822381.441593,
@@ -275,14 +275,14 @@
     "semantic_hash": "9868bb9bf993c82498355890d3e5d24c"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/ResourcesInspectTool.kt": {
-    "mtime": 1787822381.4416478,
-    "ast_hash": "f0e65edd81ffa044c5cdfb3bfc980ee5",
-    "semantic_hash": "f0e65edd81ffa044c5cdfb3bfc980ee5"
+    "mtime": 1788032416.036848,
+    "ast_hash": "80c4481f1c7e72681e555d47e1f429d2",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditTool.kt": {
-    "mtime": 1787823602.6733348,
-    "ast_hash": "de9bed5d1c48c039cb7dcd4b3ee040be",
-    "semantic_hash": "de9bed5d1c48c039cb7dcd4b3ee040be"
+    "mtime": 1788032500.5806823,
+    "ast_hash": "4871dc03f3eadd95ed57ed2954f88d27",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/StaticAnalysisTool.kt": {
     "mtime": 1787822381.4418502,
@@ -310,9 +310,9 @@
     "semantic_hash": "f20cf285710230c61bcbb13c97ad4096"
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/TestsRunTool.kt": {
-    "mtime": 1787822381.4429622,
-    "ast_hash": "e1acac8fe6ae77a56dc7c09e5599c0f8",
-    "semantic_hash": "e1acac8fe6ae77a56dc7c09e5599c0f8"
+    "mtime": 1788032425.0312915,
+    "ast_hash": "a2a8acb9670b1f9e82274328ae8f58e5",
+    "semantic_hash": ""
   },
   "src/main/kotlin/dev/normansanchez/androidmcp/tools/VersionCatalogTool.kt": {
     "mtime": 1787822381.4430401,
@@ -325,9 +325,9 @@
     "semantic_hash": "dcb723a9328f029866bfdc472a611ca2"
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/fixtures/FixtureProjects.kt": {
-    "mtime": 1787822381.443357,
-    "ast_hash": "72274ad127216e85dc8d7ba6cd7f7401",
-    "semantic_hash": "72274ad127216e85dc8d7ba6cd7f7401"
+    "mtime": 1788036196.0820758,
+    "ast_hash": "945405b96e4b146396c58bec62781662",
+    "semantic_hash": ""
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/fixtures/GradleFixtureProject.kt": {
     "mtime": 1787822381.4434104,
@@ -400,9 +400,9 @@
     "semantic_hash": "4798b0156924cd32cf28d1859dcaf5fa"
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/GradleTasksToolIntegrationTest.kt": {
-    "mtime": 1787822381.4443977,
-    "ast_hash": "3c37b535108a88f95cff4abe63867de8",
-    "semantic_hash": "3c37b535108a88f95cff4abe63867de8"
+    "mtime": 1788032773.1096926,
+    "ast_hash": "7fb593f32ab5647f5160fd95e47304cc",
+    "semantic_hash": ""
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/LintRunToolTest.kt": {
     "mtime": 1787822381.4444811,
@@ -410,14 +410,14 @@
     "semantic_hash": "332caa389b10d2d863808ccae42e9295"
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/ManifestInspectToolTest.kt": {
-    "mtime": 1787822381.4445333,
-    "ast_hash": "6a9c267261159b7b35a83d272fdc977f",
-    "semantic_hash": "6a9c267261159b7b35a83d272fdc977f"
+    "mtime": 1788032823.9417932,
+    "ast_hash": "fd9298f8c0bc5d0e31c9e9de3390bca1",
+    "semantic_hash": ""
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/ManifestMergeToolTest.kt": {
-    "mtime": 1787822381.4445877,
-    "ast_hash": "3589277cdf88eb768b3e31a48aeeed5a",
-    "semantic_hash": "3589277cdf88eb768b3e31a48aeeed5a"
+    "mtime": 1788032741.709956,
+    "ast_hash": "16ccddd91c9ea8ed859dd9c9074b4b98",
+    "semantic_hash": ""
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/ModuleGraphToolTest.kt": {
     "mtime": 1787822381.4446514,
@@ -435,9 +435,9 @@
     "semantic_hash": "1e3a6d96fcb0bf158e9b800d652f0325"
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/ProjectInspectToolTest.kt": {
-    "mtime": 1787822381.4447978,
-    "ast_hash": "d7377f53e2284495ecca026b3c5fa192",
-    "semantic_hash": "d7377f53e2284495ecca026b3c5fa192"
+    "mtime": 1788032768.602443,
+    "ast_hash": "0f9ff0dc984c87751a7dec2f2205b1ee",
+    "semantic_hash": ""
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/ResourceReferencesToolTest.kt": {
     "mtime": 1787822381.4448423,
@@ -450,9 +450,9 @@
     "semantic_hash": "4636732ca71a034705e9c4b493dadb6d"
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/SecurityAuditToolTest.kt": {
-    "mtime": 1787822381.4449372,
-    "ast_hash": "c109da70c75e754fd30b8e08a644b85c",
-    "semantic_hash": "c109da70c75e754fd30b8e08a644b85c"
+    "mtime": 1788032933.4178078,
+    "ast_hash": "d0ef9012d9b99ded513588f2c850f086",
+    "semantic_hash": ""
   },
   "src/test/kotlin/dev/normansanchez/androidmcp/tools/StaticAnalysisToolTest.kt": {
     "mtime": 1787822381.4449847,
@@ -510,8 +510,8 @@
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1787822947.5329483,
-    "ast_hash": "3ac126b00756d9a70afb32b7a67cfa63",
+    "mtime": 1787826095.455799,
+    "ast_hash": "520b82ef09124508282ccbe7e7321811",
     "semantic_hash": ""
   },
   ".github/workflows/release.yml": {
@@ -530,8 +530,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1787823463.8008509,
-    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "mtime": 1788027278.7750287,
+    "ast_hash": "b210efccea994a469d95727fa05b3d8e",
     "semantic_hash": ""
   },
   "IMPLEMENTATION_PLAN.md": {
@@ -540,13 +540,13 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1787822381.189598,
-    "ast_hash": "fffbb0f737de181fcd49c086054fcd31",
+    "mtime": 1787995684.175988,
+    "ast_hash": "9187fc54e1e38fb966c3fc5c45f7a464",
     "semantic_hash": ""
   },
   "docs/MULTI_CLIENT.md": {
-    "mtime": 1787822381.4311743,
-    "ast_hash": "4a7bcd078a57f9cb9638b91e207191db",
+    "mtime": 1787827202.5510118,
+    "ast_hash": "c02dc14e825eafb1798f5e7519a54f84",
     "semantic_hash": ""
   },
   "src/test/resources/fixtures/gradle-deps/dependencies-root.txt": {
@@ -592,6 +592,321 @@
   "wiki/Troubleshooting.md": {
     "mtime": 1787822385.0110905,
     "ast_hash": "7c1eac336f36d97395d93f655f742f47",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/AndroidFlowIr.kt": {
+    "mtime": 1787899587.2469244,
+    "ast_hash": "55aad74392d88583e7b7da7049f992cd",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/AndroidProjectScanner.kt": {
+    "mtime": 1787899595.454058,
+    "ast_hash": "6eea2533d25b08ea5983654b4418b57c",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/ComposeNavParser.kt": {
+    "mtime": 1787900864.0243938,
+    "ast_hash": "ca24de9d14dc610a0bb6a16ab21766bd",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/DecisionExtractor.kt": {
+    "mtime": 1787900552.2708068,
+    "ast_hash": "89ce763ae2eeee1a190c9918b3426294",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/EntryPointDetector.kt": {
+    "mtime": 1787900558.843809,
+    "ast_hash": "19ef111db7577774aff837837a7940c0",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/FlowDetector.kt": {
+    "mtime": 1788036187.3958771,
+    "ast_hash": "4b6909b7a5c3ae1a7f73ebc9cfe8ecdc",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/FlowGraphBuilder.kt": {
+    "mtime": 1787899788.986297,
+    "ast_hash": "c98c9225c15c03cea8c4339bc1f2fbe3",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/KotlinNavExtractor.kt": {
+    "mtime": 1787899694.9998338,
+    "ast_hash": "d4140baa2dbe2492dc5fd86de3bb3d1e",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/MermaidRenderer.kt": {
+    "mtime": 1787899918.4008307,
+    "ast_hash": "fbbe3fe81745eb96cede87b33486f5b8",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/SelectorExtractor.kt": {
+    "mtime": 1787900856.3826494,
+    "ast_hash": "e308cd7d5cbaee2feb2cdcee4534646c",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/SourceScanner.kt": {
+    "mtime": 1788036194.1840334,
+    "ast_hash": "0fb6afaa63c3b53b83e6a9233be6bfd9",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/UiFrameworkDetector.kt": {
+    "mtime": 1787899665.9973614,
+    "ast_hash": "890044bd221c7ef266dc42babf4c4af9",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/flow/XmlNavGraphParser.kt": {
+    "mtime": 1787899635.612983,
+    "ast_hash": "dccad6c8ef2852923e8edcd3f0b0b6d2",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/tools/DetectAndroidFlowTool.kt": {
+    "mtime": 1787899931.1663613,
+    "ast_hash": "41b210bc6b69dcaeb4eeb962ecfb472f",
+    "semantic_hash": ""
+  },
+  "src/main/kotlin/dev/normansanchez/androidmcp/util/ProjectPaths.kt": {
+    "mtime": 1788032343.1185017,
+    "ast_hash": "c011b99c8112795f96b44f27273b9bb8",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/AmbiguousNavigationTest.kt": {
+    "mtime": 1787901005.5342772,
+    "ast_hash": "8df84b7c1aca9a79ccada6b50fd0a483",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/AndroidFlowIrSerializationTest.kt": {
+    "mtime": 1787995633.988975,
+    "ast_hash": "b9e8eb0ebd3f444053df79a1b82edb92",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/ComposeNavigationTest.kt": {
+    "mtime": 1787900146.5259063,
+    "ast_hash": "cc0e70a647f34085d0d8ed088f1ac5f3",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/DecisionExtractionTest.kt": {
+    "mtime": 1787900166.0014262,
+    "ast_hash": "4026fc2ecbce2a729592945d171fbded",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/EntryPointDetectorTest.kt": {
+    "mtime": 1787900072.4265447,
+    "ast_hash": "44d3ba45793cb258cf6ba540499ec3f8",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/EvidenceClassificationTest.kt": {
+    "mtime": 1787900173.5385716,
+    "ast_hash": "83500833f86d1ef5f55e66abe48f1877",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/ModuleDiscoveryTest.kt": {
+    "mtime": 1787900625.1880422,
+    "ast_hash": "e5006fbfc8e22e8d977b9009c7aca32e",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/SelectorExtractionTest.kt": {
+    "mtime": 1787900155.5635605,
+    "ast_hash": "3a3422020207108a8b6292110c69c057",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/flow/XmlNavigationTest.kt": {
+    "mtime": 1787900136.6783178,
+    "ast_hash": "dc11719cbd47735ae8af8f52326ed28f",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/navigation/ComposeNavDetectorRegressionTest.kt": {
+    "mtime": 1788032721.9857173,
+    "ast_hash": "6d1e2b13e3862b930051647801932b3e",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/navigation/NavXmlParserRegressionTest.kt": {
+    "mtime": 1788032717.4528592,
+    "ast_hash": "cb4ef543b421dbd741eca7f91a433455",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/tools/DetectAndroidFlowToolTest.kt": {
+    "mtime": 1787900924.965074,
+    "ast_hash": "61b9d4c0aa4dc7e4c29054b9a483193f",
+    "semantic_hash": ""
+  },
+  "src/test/kotlin/dev/normansanchez/androidmcp/util/ProjectPathsTest.kt": {
+    "mtime": 1788032785.745683,
+    "ast_hash": "1cfc99faa9616a7c0e369da0f29b0103",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/ambiguous-entry-app/app/build.gradle.kts": {
+    "mtime": 1787899456.7493014,
+    "ast_hash": "eb5b1e34f25106e7de68bde7b0ae0c7a",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/ambiguous-entry-app/settings.gradle.kts": {
+    "mtime": 1787899455.7589886,
+    "ast_hash": "9038eb623cd823ea7b14ce5930807f02",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/build.gradle.kts": {
+    "mtime": 1787899443.8168104,
+    "ast_hash": "3dfbba225c15aa774f8e5db0aa36eaf7",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/src/main/java/com/acme/auth/MainActivity.kt": {
+    "mtime": 1787899446.5245175,
+    "ast_hash": "c6db26c000222e0099d956600b109ca8",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/src/main/java/com/acme/auth/navigation/AppNavHost.kt": {
+    "mtime": 1787899447.5896919,
+    "ast_hash": "331392222dac424b42802b2a91bf3fa0",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/src/main/java/com/acme/auth/session/SessionViewModel.kt": {
+    "mtime": 1787899455.3471131,
+    "ast_hash": "354ea90c8fd6e520b9a2a92fed7c0874",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/src/main/java/com/acme/auth/ui/HomeScreen.kt": {
+    "mtime": 1787899453.9108114,
+    "ast_hash": "3bc28aedbfd206341992c49e7fba4a3d",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/src/main/java/com/acme/auth/ui/LoginScreen.kt": {
+    "mtime": 1787899720.456467,
+    "ast_hash": "300aadfab7851162ab8d7053b35912ac",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/app/src/main/java/com/acme/auth/ui/SplashScreen.kt": {
+    "mtime": 1787899448.8532624,
+    "ast_hash": "4b33b09f1ef6093855d0f7816b511212",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/compose-app/settings.gradle.kts": {
+    "mtime": 1787899438.3144186,
+    "ast_hash": "9038eb623cd823ea7b14ce5930807f02",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/build.gradle.kts": {
+    "mtime": 1787899384.276825,
+    "ast_hash": "c4f1344533acb9fda230c2255002813d",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/ShopApplication.kt": {
+    "mtime": 1787899388.4564452,
+    "ast_hash": "360ea392b19052d61602bca8fc9fafa6",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/cart/CartFragment.kt": {
+    "mtime": 1787899413.1769328,
+    "ast_hash": "9e59a7be9263d1bc6d7069f022392e68",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/cart/CheckoutViewModel.kt": {
+    "mtime": 1787899408.7236652,
+    "ast_hash": "f7314cf9e6a6156f648f949aa8a7858c",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/checkout/OrderDoneFragment.kt": {
+    "mtime": 1787899416.1593504,
+    "ast_hash": "fbc358c013bcd25ce8cbd409a2866ec7",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/checkout/SummaryFragment.kt": {
+    "mtime": 1787899415.1964488,
+    "ast_hash": "384758e4d2b72ead94b5370a43b395a5",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/ui/CheckoutActivity.kt": {
+    "mtime": 1787899406.6729789,
+    "ast_hash": "d9960b618bbfd26cd6bf661a3aca88ed",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/ui/LoginActivity.kt": {
+    "mtime": 1787899564.8380888,
+    "ast_hash": "e69fcfb0a77ffcd5e27f42a50bb855c1",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/ui/MainActivity.kt": {
+    "mtime": 1787900987.2035809,
+    "ast_hash": "3d9786fa77fe0af6cd894d5944215d1f",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/ui/SplashActivity.kt": {
+    "mtime": 1787899402.407309,
+    "ast_hash": "b9915cac277bbe9b7f69927d2eade3b5",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/app/src/main/java/com/acme/shop/ui/SupportFragment.kt": {
+    "mtime": 1787899437.2173982,
+    "ast_hash": "a1da3e3a78b4725da8716858ce799580",
+    "semantic_hash": ""
+  },
+  "src/test/resources/fixtures/xml-fragment-app/settings.gradle.kts": {
+    "mtime": 1787899382.796578,
+    "ast_hash": "9038eb623cd823ea7b14ce5930807f02",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1788027670.2281542,
+    "ast_hash": "ef89a29a060f68dcf8c96035cfc42ebb",
+    "semantic_hash": ""
+  },
+  "BUG_REPORT.md": {
+    "mtime": 1788032962.3380854,
+    "ast_hash": "76e2ae2b3574d1c622fd4b42d98bc10c",
+    "semantic_hash": ""
+  },
+  "docs/architecture.md": {
+    "mtime": 1787826453.0889916,
+    "ast_hash": "2a88a4d57740dc07f4d302fa00719d16",
+    "semantic_hash": ""
+  },
+  "docs/compatibility.md": {
+    "mtime": 1787826680.7585316,
+    "ast_hash": "3c15d69de23491b026710e79b7d47605",
+    "semantic_hash": ""
+  },
+  "docs/configuration.md": {
+    "mtime": 1787995692.84777,
+    "ast_hash": "77e77fe3cdfad10c1dd543253d04e1de",
+    "semantic_hash": ""
+  },
+  "docs/contributing.md": {
+    "mtime": 1787827115.7096004,
+    "ast_hash": "d58fad556714850bbec4aecff2b8f0dd",
+    "semantic_hash": ""
+  },
+  "docs/development.md": {
+    "mtime": 1787827084.4129686,
+    "ast_hash": "bc6760c0fb0914f604a5c4a027939a9b",
+    "semantic_hash": ""
+  },
+  "docs/getting-started.md": {
+    "mtime": 1787826973.959809,
+    "ast_hash": "d5457ae1fc14a4aa111b62e33b23a8e5",
+    "semantic_hash": ""
+  },
+  "docs/limitations.md": {
+    "mtime": 1787995699.2025392,
+    "ast_hash": "505e5202a6e23efdf9656fbbe165d074",
+    "semantic_hash": ""
+  },
+  "docs/security.md": {
+    "mtime": 1787995703.90918,
+    "ast_hash": "46098c59a9cf76ed3d409a6be9043515",
+    "semantic_hash": ""
+  },
+  "docs/tools.md": {
+    "mtime": 1787995671.7924058,
+    "ast_hash": "9b4e0b719a63fba93cc78b71fdba5031",
+    "semantic_hash": ""
+  },
+  "docs/troubleshooting.md": {
+    "mtime": 1787995694.6715589,
+    "ast_hash": "53c656a7035cfa08e6d96492bcafbbc6",
+    "semantic_hash": ""
+  },
+  ".opencode/.mcps.json": {
+    "mtime": 1788034209.8954241,
+    "ast_hash": "41ae49b25c24f66b4b8f3980a471d0ae",
     "semantic_hash": ""
   }
 }

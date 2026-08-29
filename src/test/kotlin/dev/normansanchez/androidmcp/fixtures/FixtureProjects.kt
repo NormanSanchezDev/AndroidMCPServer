@@ -18,7 +18,7 @@ object FixtureProjects {
         val target = tempDir.resolve(fixture)
         val source = resourceDirectory("fixtures/$fixture")
         source.toAbsolutePath().let { Files.walk(it).use { paths ->
-            paths.forEach { path ->
+            paths.sorted().forEach { path ->
                 val relative = it.relativize(path)
                 val destination = target.resolve(relative)
                 if (Files.isDirectory(path)) {

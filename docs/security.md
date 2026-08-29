@@ -19,7 +19,7 @@ The server runs with exactly the filesystem and process-execution permissions of
 
 ## Network access
 
-**No outbound network call was found in any of the 26 registered tools.** Every tool's implementation (`src/main/kotlin/dev/normansanchez/androidmcp/tools/`) does one of two things: read/parse local files, or spawn `./gradlew <task>` as a local subprocess. Neither path makes an HTTP request, opens a socket, or reaches any external service.
+**No outbound network call was found in any of the 25 registered tools.** Every tool's implementation (`src/main/kotlin/dev/normansanchez/androidmcp/tools/`) does one of two things: read/parse local files, or spawn `./gradlew <task>` as a local subprocess. Neither path makes an HTTP request, opens a socket, or reaches any external service.
 
 The project does depend on `io.ktor:ktor-client-cio` and `io.ktor:ktor-server-netty` (declared in `build.gradle.kts`), but these are transitive requirements of the MCP Kotlin SDK's client/server abstractions — this server only ever constructs a `StdioServerTransport`. Nothing in this codebase starts a Ktor HTTP server or issues a Ktor HTTP client request. If a future version of this server adds an HTTP/SSE transport or a tool that calls a remote service, that would be a real, separately-documented change to this section — it does not describe the current code.
 
@@ -31,7 +31,7 @@ Whatever `projectRoot` (and the process's OS-user permissions) allow, which in p
 
 ## What the server processes but does not persist
 
-Everything. There is no database, cache file, or write-back anywhere in the 26 tools. Every response is computed fresh from the filesystem/process output on each call and returned directly in the MCP response; nothing is written to disk by the server itself, and nothing is retained in memory between calls (there's no session-level state object holding prior results). Gradle itself may write build outputs (`build/` directories, caches) as a normal side effect of the tasks `gradle.run`/`build.validate`/etc. execute — that's Gradle's behavior in the target project, not state kept by this server.
+Everything. There is no database, cache file, or write-back anywhere in the 25 tools. Every response is computed fresh from the filesystem/process output on each call and returned directly in the MCP response; nothing is written to disk by the server itself, and nothing is retained in memory between calls (there's no session-level state object holding prior results). Gradle itself may write build outputs (`build/` directories, caches) as a normal side effect of the tasks `gradle.run`/`build.validate`/etc. execute — that's Gradle's behavior in the target project, not state kept by this server.
 
 ## What never leaves the machine
 
