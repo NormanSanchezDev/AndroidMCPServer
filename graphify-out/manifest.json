@@ -10,9 +10,9 @@
     "semantic_hash": "3ea725724bc8ebe483c9f13d6aa1124f"
   },
   "build.gradle.kts": {
-    "mtime": 1787823259.5589373,
-    "ast_hash": "8b7b20d987d5977d180327d8b745da02",
-    "semantic_hash": "8b7b20d987d5977d180327d8b745da02"
+    "mtime": 1788038343.6404173,
+    "ast_hash": "51dded79264168757634b935b56c4019",
+    "semantic_hash": ""
   },
   "gradlew": {
     "mtime": 1787822381.431541,
