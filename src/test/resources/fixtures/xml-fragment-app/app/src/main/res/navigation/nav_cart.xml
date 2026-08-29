@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_cart"
+    app:startDestination="@id/cartFragment">
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.acme.shop.cart.CartFragment"
+        android:label="@string/cart_title">
+
+        <action
+            android:id="@+id/action_cartToSummary"
+            app:destination="@id/summaryFragment" />
+
+        <deepLink app:uri="acme://shop/cart" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.acme.shop.checkout.SummaryFragment"
+        android:label="@string/summary_title">
+
+        <action
+            android:id="@+id/action_summaryToDone"
+            app:destination="@id/orderDoneFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderDoneFragment"
+        android:name="com.acme.shop.checkout.OrderDoneFragment"
+        android:label="@string/order_done_title">
+
+        <deepLink app:uri="acme://shop/orders/done" />
+    </fragment>
+</navigation>

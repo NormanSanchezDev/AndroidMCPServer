@@ -1,5 +1,6 @@
 package dev.normansanchez.androidmcp.tools
 
+import dev.normansanchez.androidmcp.util.resolveModuleOrNull
 import java.io.StringReader
 import java.nio.file.Files
 import java.nio.file.Path
@@ -30,8 +31,14 @@ object EntryPointsFindTool {
             }
         }
 
-        val manifestPath = root
-            .resolve(module.removePrefix(":"))
+        val moduleDir = root.resolveModuleOrNull(module)
+            ?: return buildJsonObject {
+                put("status", "invalid_module")
+                put("projectRoot", root.toString())
+                put("module", module)
+            }
+
+        val manifestPath = moduleDir
             .resolve("src/main/AndroidManifest.xml")
 
         if (!Files.isRegularFile(manifestPath)) {

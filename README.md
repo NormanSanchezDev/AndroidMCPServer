@@ -24,7 +24,7 @@ Deterministic [Model Context Protocol](https://modelcontextprotocol.io/) server 
 
 ## The problem
 
-An agent may know what a `ViewModel` or a Gradle convention plugin generally *is*, but it can't safely assume which architecture *this* repository actually uses, which plugins are applied, or whether a proposed change compiles — without either reading the whole repo itself or guessing. This server closes that gap: 25 tools inspect the real project (source, manifests, Gradle output, compiler-parsed symbols) and return what was actually found — never an inferred opinion.
+An agent may know what a `ViewModel` or a Gradle convention plugin generally *is*, but it can't safely assume which architecture *this* repository actually uses, which plugins are applied, or whether a proposed change compiles — without either reading the whole repo itself or guessing. This server closes that gap: 26 tools inspect the real project (source, manifests, Gradle output, compiler-parsed symbols) and return what was actually found — never an inferred opinion.
 
 ## Philosophy
 
@@ -63,7 +63,7 @@ Full walkthrough: [docs/getting-started.md](docs/getting-started.md).
 
 ## What it can do
 
-25 tools across project discovery, Kotlin symbol analysis, Gradle execution, build validation, and security auditing — full contract for each in [docs/tools.md](docs/tools.md).
+26 tools across project discovery, Kotlin symbol analysis, Gradle execution, build validation, security auditing, and flow detection — full contract for each in [docs/tools.md](docs/tools.md).
 
 | Category | Examples |
 |---|---|
@@ -97,7 +97,7 @@ One process, local stdio transport, no daemon, no persisted state between calls.
 
 ## Security & local-first
 
-The server runs with the same filesystem and process permissions as the user who launches it, and makes no outbound network call in any of its 25 tools — everything stays on your machine, over local stdio. `gradle.run` executes Gradle tasks the caller names (validated only for syntax, not restricted to a curated safe list), which is the one tool worth restricting if you connect this server to an agent you don't fully trust. Full breakdown, with no unverifiable "100% secure" claims: [docs/security.md](docs/security.md).
+The server runs with the same filesystem and process permissions as the user who launches it, and makes no outbound network call in any of its 26 tools — everything stays on your machine, over local stdio. `gradle.run` executes Gradle tasks the caller names (validated only for syntax, not restricted to a curated safe list), which is the one tool worth restricting if you connect this server to an agent you don't fully trust. Full breakdown, with no unverifiable "100% secure" claims: [docs/security.md](docs/security.md).
 
 ## Documentation
 

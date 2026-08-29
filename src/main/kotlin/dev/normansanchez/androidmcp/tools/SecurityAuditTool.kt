@@ -1,5 +1,6 @@
 package dev.normansanchez.androidmcp.tools
 
+import dev.normansanchez.androidmcp.util.isUnderExcludedDir
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.buildJsonArray
 import kotlinx.serialization.json.buildJsonObject
@@ -67,6 +68,7 @@ object SecurityAuditTool {
 
         Files.walk(root, 8).use { paths ->
             paths.filter { Files.isRegularFile(it) && it.name == "AndroidManifest.xml" }
+                .filter { !it.isUnderExcludedDir(root) }
                 .forEach { file ->
                     val content = try { Files.readString(file) } catch (_: Exception) { return@forEach }
                     val lines = content.lines()
@@ -131,13 +133,14 @@ object SecurityAuditTool {
         val issues = mutableListOf<SecurityIssue>()
 
         val secretPatterns = listOf(
-            Regex("""(?:api[_-]?key|secret|password|token)\s*=\s*"[A-Za-z0-9+/=]{8,}"""", RegexOption.IGNORE_CASE),
+            Regex("""(?:api[_-]?key|secret|password|token)\s*=\s*["'][A-Za-z0-9+/=._:-]{8,}["']""", RegexOption.IGNORE_CASE),
             Regex("""(?:AWS|AKIA)[A-Z0-9]{16}""")
         )
 
         Files.walk(root, 8).use { paths ->
             paths.filter { Files.isRegularFile(it) }
                 .filter { it.name.endsWith(".kt") || it.name.endsWith(".java") || it.name.endsWith(".xml") }
+                .filter { !it.isUnderExcludedDir(root) }
                 .forEach { file ->
                     val content = try { Files.readString(file) } catch (_: Exception) { return@forEach }
                     val fileStr = root.relativize(file).toString()

@@ -1,6 +1,5 @@
 package dev.normansanchez.androidmcp.navigation
 
-import dev.normansanchez.androidmcp.symbol.KotlinSourceScanner
 import dev.normansanchez.androidmcp.symbol.ScannedKotlinFile
 
 data class ComposeRoute(
@@ -17,22 +16,36 @@ object ComposeNavDetector {
         "rememberNavController()"
     )
 
-    private val COMPOSABLE_PATTERN = Regex("""composable\(\s*"([^"]+)"""")
+    private val COMPOSABLE_PATTERN = Regex(
+        """\bcomposable\s*\(\s*(?:route\s*=\s*)?["']([^"']+)["']""",
+        RegexOption.DOT_MATCHES_ALL
+    )
+
+    private val NAVIGATE_PATTERN = Regex(
+        """\.navigate\s*\(\s*(?:route\s*=\s*)?["']([^"']+)["']""",
+        RegexOption.DOT_MATCHES_ALL
+    )
 
     fun detect(sourceFiles: List<ScannedKotlinFile>): List<ComposeRoute> {
         val routes = mutableListOf<ComposeRoute>()
+        val seen = mutableSetOf<Triple<String, String, Int>>()
 
         for (file in sourceFiles) {
-            val lines = file.content.lines()
-            for ((index, line) in lines.withIndex()) {
-                COMPOSABLE_PATTERN.findAll(line).forEach { match ->
-                    routes.add(
-                        ComposeRoute(
-                            route = match.groupValues[1],
-                            file = file.relativePath,
-                            line = index + 1
+            for (pattern in listOf(COMPOSABLE_PATTERN, NAVIGATE_PATTERN)) {
+                for (match in pattern.findAll(file.content)) {
+                    val route = match.groupValues[1]
+                    val line = file.content
+                        .substring(0, match.range.first.coerceAtMost(file.content.length))
+                        .count { it == '\n' } + 1
+                    if (seen.add(Triple(route, file.relativePath, line))) {
+                        routes.add(
+                            ComposeRoute(
+                                route = route,
+                                file = file.relativePath,
+                                line = line
+                            )
                         )
-                    )
+                    }
                 }
             }
         }

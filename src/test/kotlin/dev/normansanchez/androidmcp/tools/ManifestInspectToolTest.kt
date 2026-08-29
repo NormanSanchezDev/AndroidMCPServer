@@ -70,6 +70,23 @@ class ManifestInspectToolTest {
     }
 
     @Test
+    fun `rejects module paths that escape the project root`() {
+        val temp = Files.createTempDirectory("manifest-traversal")
+        try {
+            Files.createDirectories(temp.resolve("project/app/src/main"))
+
+            val json = ManifestInspectTool.execute(temp.resolve("project").absolutePathString(), "../..")
+
+            assertEquals("invalid_module", json["status"]!!.jsonPrimitive.content)
+
+            val inside = ManifestInspectTool.execute(temp.resolve("project").absolutePathString(), "app")
+            assertEquals("not_found", inside["status"]!!.jsonPrimitive.content)
+        } finally {
+            temp.toFile().deleteRecursively()
+        }
+    }
+
+    @Test
     fun `parses library manifest without permissions`() {
         val root = fixtureRoot()
 

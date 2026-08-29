@@ -48,4 +48,16 @@ class GradleTasksToolIntegrationTest {
 
         assertEquals("invalid_project", json["status"]!!.jsonPrimitive.content)
     }
+
+    @Test
+    fun `reports invalid_module before looking for a wrapper`() {
+        val temp = Files.createTempDirectory("invalid-module")
+        try {
+            val json = GradleTasksTool.execute(temp.absolutePathString(), module = "a b")
+
+            assertEquals("invalid_module", json["status"]!!.jsonPrimitive.content)
+        } finally {
+            temp.toFile().deleteRecursively()
+        }
+    }
 }

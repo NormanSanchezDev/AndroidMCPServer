@@ -28,7 +28,7 @@ Only problems that actually apply to this codebase, each traced to real source. 
 
 **Cause:** Usually a config-shape mismatch (see [configuration.md](configuration.md) — note GitHub Copilot/VS Code uses `"servers"` with `"type": "stdio"`, not `"mcpServers"` like the others), or a `command` that isn't actually on `PATH` in the environment the client launches from (GUI apps like Claude Desktop may have a different `PATH` than your shell).
 
-**How to diagnose:** Run `npx @modelcontextprotocol/inspector <command>` with the exact same command your client config uses — if the Inspector connects and lists 25 tools, the server itself is fine and the issue is client-side configuration.
+**How to diagnose:** Run `npx @modelcontextprotocol/inspector <command>` with the exact same command your client config uses — if the Inspector connects and lists 26 tools, the server itself is fine and the issue is client-side configuration.
 
 **Solution:** Match the config shape exactly to [configuration.md](configuration.md) for your client, or use an absolute path to the `android-corporate-mcp` binary / JAR if `PATH` resolution is the problem.
 
