@@ -39,3 +39,7 @@ kotlin {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.shadowJar {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+}
